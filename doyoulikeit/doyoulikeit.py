@@ -18,6 +18,11 @@ mimerender = mimerender.BottleMimeRender()
 
 class DoYouLikeIt(Kule):
     def get_detail(self, collection, pk):
+        """
+        Despatches to a method in the form get_XXX_detail because
+        simply creating a magic method of that form doesn't seem
+        to work with Kule as it currently stands.
+        """
         return getattr(self, 'get_%s_detail' % collection)(pk)
 
     @mimerender(
@@ -26,6 +31,11 @@ class DoYouLikeIt(Kule):
         json=render_json,
         )
     def get_things_detail(self, pk):
+        """
+        Fetches a thing from the local store, falling back to
+        a remote fetch if that fails. Lastly returns 404 if
+        both fail.
+        """
         cursor = self.get_collection('things')
         data = cursor.find_one({"thing_id": pk}
             ) or self.fetch_remote(pk) or abort(404)
@@ -34,6 +44,10 @@ class DoYouLikeIt(Kule):
         return data
 
     def fetch_remote(self, thing_id):
+        """
+        Gets a thing from DBpedia. Useful for fetching something that
+        does't exist in the local store.
+        """
         sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setQuery("""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 SELECT ?label
@@ -62,7 +76,9 @@ WHERE {
         return new_thing
 
     def after_request(self):
-        """A bottle hook for json responses."""
+        """
+        Overridden from Kule because that was hard-coding JSON Content-Type
+        """
         methods = 'PUT, PATCH, GET, POST, DELETE, OPTIONS'
         headers = 'Origin, Accept, Content-Type'
         response.headers['Access-Control-Allow-Origin'] = '*'
