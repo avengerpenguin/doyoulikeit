@@ -1,11 +1,14 @@
 from kule import Kule, jsonify
-from bottle import abort, response
+from bottle import abort, response, route, post, redirect
 from SPARQLWrapper import SPARQLWrapper, JSON
 import json
 from bottle.ext.pystache import view
 import mimerender
 import pystache
 import os
+from cork import Cork
+from cork.backends import MongoDBBackend
+from beaker.middleware import SessionMiddleware
 
 
 render_html = lambda **args: pystache.render(
@@ -15,15 +18,30 @@ render_json = lambda **args: json.dumps(args)
 
 mimerender = mimerender.BottleMimeRender()
 
+session_opts = {
+    'session.cookie_expires': True,
+    'session.encrypt_key': 'please use a random key and keep it secret!',
+    'session.httponly': True,
+    'session.timeout': 3600 * 24,  # 1 day
+    'session.type': 'cookie',
+    'session.validate_key': True,
+}
+
 
 class DoYouLikeIt(Kule):
-    def get_detail(self, collection, pk):
+
+    def __init__(self, database='doyoulikeit', host='localhost', port=27017,
+                 collections=None):
         """
-        Despatches to a method in the form get_XXX_detail because
-        simply creating a magic method of that form doesn't seem
-        to work with Kule as it currently stands.
+        Overridden from Kule so as to initialise Cork straight after
+        MongoDB is set up.
         """
-        return getattr(self, 'get_%s_detail' % collection)(pk)
+        super(DoYouLikeIt, self).__init__(
+            database=database, host=host, port=port, collections=collections)
+
+        self.aaa = Cork(
+            backend=MongoDBBackend(
+                db_name=database, hostname=host, port=port, initialize=True))
 
     @mimerender(
         default='html',
@@ -66,7 +84,8 @@ WHERE {
             new_thing = {
                 'thing_id': thing_id,
                 'title': result['title']['value'],
-                'description': result['description']['value']
+                'description': result['description']['value'],
+                'popularity': 0.0
                 }
             break
 
@@ -78,6 +97,31 @@ WHERE {
 
         return new_thing
 
+    def like_thing(self, thing_id):
+        things = self.get_collection('things')
+        thing = things.find_one({"thing_id": thing_id}
+            ) or self.fetch_remote(pk) or abort(404)
+
+        things.update(
+            {"_id": thing['_id']},
+            {"$inc": {'likes': 1}}
+            )
+
+        redirect('/things/%s' % thing_id, code=302)
+
+    def login():
+        """Authenticate users"""
+        username = post_get('username')
+        password = post_get('password')
+        aaa.login(username, password, success_redirect='/',
+                  fail_redirect='/login')
+
+    def dispatch_views(self):
+        super(DoYouLikeIt, self).dispatch_views()
+        self.app.route(
+            '/things/:thing_id/like', method='post')(self.like_thing)
+        self.app.route('/login', method='post')(self.login)
+
     def after_request(self):
         """
         Overridden from Kule because that was hard-coding JSON Content-Type
@@ -87,6 +131,18 @@ WHERE {
         response.headers['Access-Control-Allow-Origin'] = '*'
         response.headers['Access-Control-Allow-Methods'] = methods
         response.headers['Access-Control-Allow-Headers'] = headers
+
+    def get_detail(self, collection, pk):
+        """
+        Despatches to a method in the form get_XXX_detail because
+        simply creating a magic method of that form doesn't seem
+        to work with Kule as it currently stands.
+        """
+        return getattr(self, 'get_%s_detail' % collection)(pk)
+
+    def get_bottle_app(self):
+        app = super(DoYouLikeIt, self).get_bottle_app()
+        return SessionMiddleware(app, session_opts)
 
 if __name__ == "__main__":
     DoYouLikeIt(database="doyoulikeit").run()
