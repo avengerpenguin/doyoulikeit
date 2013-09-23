@@ -50,20 +50,23 @@ class DoYouLikeIt(Kule):
         """
         sparql = SPARQLWrapper("http://dbpedia.org/sparql")
         sparql.setQuery("""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-SELECT ?label
+SELECT ?title ?description
 WHERE {
-  <http://dbpedia.org/resource/%s> rdfs:label ?label
-  FILTER (lang(?label) = "en")
+  <http://dbpedia.org/resource/%(thing_id)s> rdfs:label ?title .
+  <http://dbpedia.org/resource/%(thing_id)s> rdfs:comment ?description
+  FILTER (lang(?title) = "en")
+  FILTER (lang(?description) = "en")
 }
-""" % thing_id)
+""" % {'thing_id': thing_id})
 
         sparql.setReturnFormat(JSON)
         results = sparql.query().convert()
 
-        for result in results["results"]["bindings"]:
+        for result in results['results']['bindings']:
             new_thing = {
                 'thing_id': thing_id,
-                'title': result['label']['value']
+                'title': result['title']['value'],
+                'description': result['description']['value']
                 }
             break
 
