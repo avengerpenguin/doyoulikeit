@@ -8,5 +8,6 @@ urlpatterns = patterns('',
     # url(r'^$', 'doyoulikeit.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
+    url(r'^things/', include('things.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
