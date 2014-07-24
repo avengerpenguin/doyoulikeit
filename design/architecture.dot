@@ -1,0 +1,22 @@
+digraph architecture {
+	graph [rankdir=TB,splines=true,nodesep=1.0,overlap=scale];
+	
+	node [shape=hexagon,regular=true,width=1.5];
+	
+	DBPedia [shape=ellipse];
+	
+	WWW -> Things [label="GET\nthing data"]
+	Updater -> Things [label="GET\nstale URIs"]
+	Updater -> Ingest [label="POST\nURIs"]
+	Ingest -> Inference [label="POST\nRDF Graph"]
+	Ingest -> DBPedia [label="GET\nRDF Graph"]
+	Inference -> Things [label="POST\nRDF Graph"]
+	WWW -> Likes [label=""]
+	WWW -> Lists
+	Lists -> Likes
+	Likes -> Users
+	WWW -> Profiles
+	Profiles -> Likes
+	Profiles -> Users
+	
+}
