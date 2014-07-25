@@ -93,3 +93,7 @@ chars = 'abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*(-_=+)'
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', get_random_string(50, chars))
 
 TEST_RUNNER = 'django_behave.runner.DjangoBehaveTestSuiteRunner'
+
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates'),
+)
