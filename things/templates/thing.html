@@ -1,5 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1>{{ thing.rdfs_label }}</h1>
+<article itemscope itemtype="http://schema.org/Thing" itemid="{{ thing.pk }}">
+  <h1 itemprop="http://schema.org/name">{{ thing.rdfs_label }}</h1>
+  <p itemprop="http://schema.org/description">{{ thing.rdfs_comment }}</p>
+</article>
 {% endblock %}

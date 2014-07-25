@@ -25,5 +25,9 @@ class Thing(object):
         self._entity = factory('dbpedia_' + thing_id)
 
     @property
-    def rdfs_label(self):
-        return [label for label in self._entity.rdfs_label if label.language == 'en'][0]
+    def pk(self):
+        return self._entity._id
+
+    def __getattr__(self, item):
+        return [label for label in getattr(self._entity, item) if label.language == 'en'][0]
+
