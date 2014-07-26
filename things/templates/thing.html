@@ -2,7 +2,7 @@
 
 {% block content %}
 <article itemscope itemtype="http://schema.org/Thing" itemid="{{ thing.pk }}">
-  <h1 itemprop="http://schema.org/name">{{ thing.rdfs_label }}</h1>
+  <h1 itemprop="http://schema.org/name" class="ui header">{{ thing.rdfs_label }}</h1>
   <p itemprop="http://schema.org/description">{{ thing.rdfs_comment }}</p>
 </article>
 {% endblock %}
