@@ -12,22 +12,62 @@ graph.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
 
 DBPEDIA = Namespace('http://dbpedia.org/resource/')
 
-#factory = laconia.ThingFactory(graph)
+factory = laconia.ThingFactory(graph)
 
-class Thing(object):
-    @staticmethod
-    def get(pk=None):
-        return Thing(pk)
 
-    def __init__(self, thing_id):
-        graph.parse('http://dbpedia.org/resource/' + thing_id)
-        factory = laconia.ThingFactory(graph)
-        self._entity = factory('dbpedia_' + thing_id)
+class LaconicModel(object):
+    """
+    A layer over Laconia that gives (a subset of) the API one would expect from
+    a Django model.
+    """
+
+    @classmethod
+    def get(cls, pk=None):
+        """
+        Allows fetching a single instance of a model by its ID/primary key
+        as a Django model would allow. Here, however, the ID is in the
+        form namespace_ident, e.g. dbpedia_Kevin_Bacon. This is currently just
+        a wrapper around the constructor as there is no distinction between
+        creating a new object and creating a model for an existing entity.
+        """
+        return cls(pk)
+
+    def __init__(self, ident):
+        """
+        Takes an indent in the form namespace_ident, e.g. dbpedia_Kevin_Bacon,
+        and creates a model instance representing the respective entity. This
+        is done by creating not only a laconia "thing" instance (that this
+        class or a subclass then wraps), but pre-populates the global graph
+        with whatever information can be found by dereferencing the full URI.
+        """
+        self._entity = factory(ident)
+        graph.parse(self._entity._id)
 
     @property
     def pk(self):
+        """
+        Returns the URI of the entity this model represents. This can be used
+        in "itemid" properties in HTML microdata, for example.
+        """
         return self._entity._id
 
     def __getattr__(self, item):
-        return [label for label in getattr(self._entity, item) if label.language == 'en'][0]
+        """
+        The wrapped entity will likely return a ResourceSet of many matches
+        for a simple attribute lookup. This is due to the multilingual nature
+        of the RDF model, especially on DBPedia. This wrapper allows the full
+        expressivity of being able to fetch any predicate as an object property,
+        but ensures we get exactly one match each time in the desired language.
+        """
+        return [value for value in getattr(self._entity, item) if value.language == 'en'][0]
 
+
+class Thing(LaconicModel):
+    """Placeholder for any specific logic for the "Do You Like It?" Thing model.
+    Currently empty as it only serves as syntactic sugar for the views to be
+    able to talk about distinct models."""
+    pass
+
+
+class User(LaconicModel):
+    pass
