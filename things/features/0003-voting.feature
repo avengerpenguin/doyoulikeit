@@ -17,4 +17,3 @@ Scenario: Unregistered visitors can still vote temporarily
   When I visit the page for "Cleopatra"
   And I click the "Yes" button
   Then the site should register my like for "Saturnalia"
-
