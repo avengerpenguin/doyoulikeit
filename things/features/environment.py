@@ -2,6 +2,7 @@ import urlparse
 import doyoulikeit
 from splinter.browser import Browser
 from urlparse import urljoin
+from splinter.request_handler.status_code import HttpResponseError
 
 
 def visit_wrapper(context):
@@ -10,7 +11,11 @@ def visit_wrapper(context):
 
     def new_visit(url):
         full_url = urljoin(server_url, url)
-        original_visit(full_url)
+        try:
+            original_visit(full_url)
+        except HttpResponseError, http_error:
+            print context.browser.html
+            raise http_error
 
     return new_visit
 

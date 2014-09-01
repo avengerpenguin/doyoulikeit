@@ -1,6 +1,9 @@
 import laconia
 from rdflib import Graph, URIRef, Namespace
 from rdflib.plugins.stores.sparqlstore import SPARQLStore
+from django.db import models
+from django.contrib.auth.models import User
+
 
 #store = SPARQLStore("http://dbpedia.org/sparql", context_aware=False)
 
@@ -34,12 +37,13 @@ class LaconicModel(object):
 
     def __init__(self, ident):
         """
-        Takes an indent in the form namespace_ident, e.g. dbpedia_Kevin_Bacon,
+        Takes an ident in the form namespace_ident, e.g. dbpedia_Kevin_Bacon,
         and creates a model instance representing the respective entity. This
         is done by creating not only a laconia "thing" instance (that this
         class or a subclass then wraps), but pre-populates the global graph
         with whatever information can be found by dereferencing the full URI.
         """
+        self._ident = ident
         self._entity = factory(ident)
         graph.parse(self._entity._id)
 
@@ -50,6 +54,10 @@ class LaconicModel(object):
         in "itemid" properties in HTML microdata, for example.
         """
         return self._entity._id
+
+    @property
+    def ident(self):
+        return self._ident
 
     def __getattr__(self, item):
         """
@@ -66,8 +74,31 @@ class Thing(LaconicModel):
     """Placeholder for any specific logic for the "Do You Like It?" Thing model.
     Currently empty as it only serves as syntactic sugar for the views to be
     able to talk about distinct models."""
-    pass
+    def get_absolute_url(self):
+        return '/things/' + self.ident
 
 
-class User(LaconicModel):
-    pass
+class LaconicField(models.CharField):
+    description = "A link to an RDF model class."
+    __metaclass__ = models.SubfieldBase
+
+    def __init__(self, model_class, *args, **kwargs):
+        self.model_class = model_class
+        kwargs['max_length'] = 200
+        super(LaconicField, self).__init__(*args, **kwargs)
+
+    def get_prep_value(self, value):
+        return value.ident
+
+    def to_python(self, value):
+        return self.model_class(value)
+
+
+class Vote(models.Model):
+    user = models.ForeignKey(User)
+    thing = LaconicField(Thing)
+    sentiment = models.CharField(max_length=1, choices=(
+        ('L', 'like'),
+        ('D', 'dislike'),
+        ('M', 'meh'),
+    ))

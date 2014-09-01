@@ -14,7 +14,6 @@ def impl(context):
     br.visit('/things/Errol_Brown')
 
 
-@when(u'I visit the page for "{title}')
+@when(u'I visit the page for "{title}"')
 def impl(context, title):
-    print '/things/' + title
     context.browser.visit('/things/' + title)

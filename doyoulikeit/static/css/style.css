@@ -25,3 +25,9 @@ p {
     font-size: 0.8rem;
 }
 
+form {
+    max-width: 40em;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
