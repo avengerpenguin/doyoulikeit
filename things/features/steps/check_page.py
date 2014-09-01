@@ -2,6 +2,7 @@ from behave import *
 from rdflib import Graph, URIRef, Literal
 
 
+
 @then(u'the page should have the title "{title}"')
 def impl(context, title):
     # For humans
@@ -21,3 +22,4 @@ def impl(context):
     g.parse(data=context.browser.html, format='microdata')
 
     assert (URIRef('http://dbpedia.org/resource/Errol_Brown'), URIRef('http://schema.org/description'), None) in g
+
