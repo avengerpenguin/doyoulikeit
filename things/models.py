@@ -75,7 +75,13 @@ class Thing(LaconicModel):
     Currently empty as it only serves as syntactic sugar for the views to be
     able to talk about distinct models."""
     def get_absolute_url(self):
-        return '/things/' + self.ident
+        return '/things/' + self.ident.split('_', 1)[1]
+
+    def __unicode__(self):
+        return self.rdfs_label
+
+    def __str__(self):
+        return unicode(self)
 
 
 class LaconicField(models.CharField):
@@ -91,14 +97,22 @@ class LaconicField(models.CharField):
         return value.ident
 
     def to_python(self, value):
+        if isinstance(value, self.model_class):
+            return value
         return self.model_class(value)
 
 
 class Vote(models.Model):
+    LIKE = 'L'
+    DISLIKE = 'D'
+    MEH = 'M'
+
+    class Meta:
+        unique_together = (("user", "thing", "sentiment"),)
     user = models.ForeignKey(User)
     thing = LaconicField(Thing)
     sentiment = models.CharField(max_length=1, choices=(
-        ('L', 'like'),
-        ('D', 'dislike'),
-        ('M', 'meh'),
+        (LIKE, 'like'),
+        (DISLIKE, 'dislike'),
+        (MEH, 'meh'),
     ))
