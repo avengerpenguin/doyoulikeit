@@ -2,7 +2,6 @@ from behave import *
 from rdflib import Graph, URIRef, Literal
 
 
-
 @then(u'the page should have the title "{title}"')
 def impl(context, title):
     # For humans

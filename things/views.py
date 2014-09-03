@@ -7,7 +7,13 @@ from things.models import Thing, Vote, User
 @allow_lazy_user
 def thing_view(request, thing_id):
     thing = Thing.get('dbpedia_' + thing_id)
-    return render(request, "thing.html", {'thing': thing, 'user_id': request.user.id})
+    already_voted = not (0 == Vote.objects.filter(
+        thing=thing, sentiment='L', user=request.user).count())
+    return render(request, "thing.html", {
+        'thing': thing,
+        'user': request.user,
+        'already_voted': already_voted
+    })
 
 
 @allow_lazy_user
@@ -15,8 +21,11 @@ def likes(request, thing_id, user_id):
     thing = Thing.get('dbpedia_' + thing_id)
     user = User.objects.get(id=user_id)
 
+    if request.user != user:
+        return HttpResponse(status=403)
+
     already_voted = not (0 == Vote.objects.filter(
-        thing=thing, sentiment='L', user=user).count())
+        thing=thing, user=user).count())
 
     if already_voted:
         return HttpResponse(status=409)

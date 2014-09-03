@@ -4,10 +4,14 @@
 
 <article itemscope itemtype="http://schema.org/Thing" itemid="{{ thing.pk }}">
 
-    <form action="{{ request.get_full_path }}/likes/{{user_id}}" method="post">
+    {% if already_voted %}
+        <p>You like it.</p>
+    {% else %}
+    <form action="{{ request.get_full_path }}/likes/{{user.id}}" method="post">
         {% csrf_token %}
         <input type="submit" value="Yes" class="ui animated fade button"/>
     </form>
+    {% endif %}
 
     <h1 itemprop="http://schema.org/name" class="ui header">{{ thing.rdfs_label}}</h1>
 
