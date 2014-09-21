@@ -1,4 +1,5 @@
 from behave import *
+from hamcrest import *
 from things.models import Thing, User, Vote
 
 
@@ -6,12 +7,12 @@ from things.models import Thing, User, Vote
 def impl(context, title):
     thing = Thing.get('dbpedia_' + title.replace(' ', '_'))
     assert 1 == Vote.objects.filter(
-        thing=thing, sentiment=Vote.LIKE, user=context.user).count()
+        thing=thing, sentiment=Vote.LIKE).count()
 
 
 @then(u'there should be no "Yes" button')
 def impl(context):
-    assert len(context.browser.find_by_value('Yes')) == 0
+    assert_that(context.browser.find_by_value('Yes'), has_length(0))
 
 
 @when(u'I click the "Yes" button')

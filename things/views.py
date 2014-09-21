@@ -6,9 +6,12 @@ from things.models import Thing, Vote, User
 
 @allow_lazy_user
 def thing_view(request, thing_id):
+
     thing = Thing.get('dbpedia_' + thing_id)
+
     already_voted = not (0 == Vote.objects.filter(
-        thing=thing, sentiment='L', user=request.user).count())
+        thing=thing, sentiment=Vote.LIKE, user=request.user).count())
+
     return render(request, "thing.html", {
         'thing': thing,
         'user': request.user,
