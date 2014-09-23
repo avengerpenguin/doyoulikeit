@@ -5,3 +5,4 @@ laconia==0.0.0
 django-behave==0.1.2
 django-lazysignup==0.12.2
 splinter==0.6.0
+httpretty==0.8.3

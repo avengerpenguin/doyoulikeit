@@ -22,3 +22,6 @@ def impl(context):
 
     assert (URIRef('http://dbpedia.org/resource/Errol_Brown'), URIRef('http://schema.org/description'), None) in g
 
+@then(u'I should be taken back to my original page')
+def impl(context):
+    assert_that(context.browser.url, equal_to(context.url))
