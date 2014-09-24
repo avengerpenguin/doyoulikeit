@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:dbpprop="http://dbpedia.org/property/" 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    version="XHTML+RDFa 1.0" xml:lang="en">
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <title>About: Errol Brown</title>
+    <link rel="alternate" type="application/rdf+xml" href="http://dbpedia.org/data/Errol_Brown.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/rdf+n3" href="http://dbpedia.org/data/Errol_Brown.n3" title="Structured Descriptor Document (N3/Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" href="http://dbpedia.org/data/Errol_Brown.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" href="http://dbpedia.org/data/Errol_Brown.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" href="http://dbpedia.org/data/Errol_Brown.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" href="http://dbpedia.org/data/Errol_Brown.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Errol_Brown&gt;&amp;format=text%2Fcsv" type="text/csv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Errol_Brown&gt;&amp;output=application%2Fmicrodata%2Bjson" type="application/microdata+json" 	title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Errol_Brown&gt;&amp;output=text%2Fhtml" 		     type="text/html" 			title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Errol_Brown&gt;&amp;output=application%2Fld%2Bjson"      type="application/ld+json" 	title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="timegate" type="text/html" href="http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/page/Errol_Brown" title="Time Machine" />
+    <link rel="stylesheet" type="text/css" href="/statics/style.css" />
+    <link href="/statics/highlighter.css" type="text/css" rel="stylesheet" charset="utf-8" />
+    <link rel="foaf:primarytopic" href="http://dbpedia.org/resource/Errol_Brown"/>
+    <link rev="describedby" href="http://dbpedia.org/resource/Errol_Brown"/>
+    <script type="text/javascript" src="/statics/script.js"></script>
+</head>
+<body onload="init();" about="http://dbpedia.org/resource/Errol_Brown">
+    <div id="header">
+      <div id="hd_l">
+	  <h1 id="title">About: <a href="http://dbpedia.org/resource/Errol_Brown">Errol Brown</a></h1>
+        <div id="homelink">
+          <!--?vsp if (white_page = 0) http (txt); ?-->
+        </div>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/ontology/MusicalArtist">musical artist</a>, 
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>, 
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+        </div>
+      </div> <!-- hd_l -->
+      <div id="hd_r">
+	  <a href="http://wiki.dbpedia.org/Imprint" title="About DBpedia">
+	      <img src="/statics/dbpedia_logo.png" height="64" alt="About DBpedia"/>
+        </a>
+      </div> <!-- hd_r -->
+    </div> <!-- header -->
+    <div id="content">
+
+      <p>Errol Brown MBE (born Lester Errol Brown, 12 November 1948) is a singer and songwriter, best known as the frontman of Hot Chocolate. He has British citizenship by marriage to Ginette and they live in The Bahamas. Hot Chocolate's hits included "You Sexy Thing", "So You Win Again" and "Brother Louie".In 2003 Brown was appointed a Member of the Order of the British Empire for services to popular music for the United Kingdom.</p>
+<!-- proptable -->
+      <table class="description"><tr><th>Property</th><th>Value</th></tr>
+
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbpedia-owl:</small>abstract</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="de">Errol Brown, MBE (* 12. November 1948 in Kingston, Jamaika) ist ein jamaikanischer Popsänger.Errol Brown war 1969 in London einer der Begründer von Hot Chocolate. Dort blieb er bis Mitte der 80er Jahre als Sänger und Songwriter. Nachdem er die Band 1985 verlassen hatte, trat er solo auf und ist an Musikprojekten mit verschiedenen Künstlern beteiligt. Er arbeitete unter anderem auch mit Dieter Bohlen zusammen. Er wurde von der Queen 2003 mit dem MBE geehrt.Sein Debütalbum als Solist hieß That&#39;s How Love Is. Produziert wurde es von Tony Swain und Steve Jolley, die auch schon für Spandau Ballet, Bananarama und Alison Moyet tätig waren. Zu den Erfolgen von Hot Chocolate gehören u.a. You Sexy Thing, Don’t Stop It Now und Emma.</span></span></li>
+	<li><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="en">Errol Brown MBE (born Lester Errol Brown, 12 November 1948) is a singer and songwriter, best known as the frontman of Hot Chocolate. He has British citizenship by marriage to Ginette and they live in The Bahamas. Hot Chocolate&#39;s hits included &quot;You Sexy Thing&quot;, &quot;So You Win Again&quot; and &quot;Brother Louie&quot;.In 2003 Brown was appointed a Member of the Order of the British Empire for services to popular music for the United Kingdom. In 2004 he received an Ivor Novello Award for outstanding contributions to British music.</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/activeYearsStartYear"><small>dbpedia-owl:</small>activeYearsStartYear</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:activeYearsStartYear" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">1969-01-01</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/background"><small>dbpedia-owl:</small>background</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:background" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">solo_singer</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthDate"><small>dbpedia-owl:</small>birthDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:birthDate" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">1948-11-12</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthPlace"><small>dbpedia-owl:</small>birthPlace</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:birthPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kingston,_Jamaica"><small>dbpedia</small>:Kingston,_Jamaica</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:birthPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Jamaica"><small>dbpedia</small>:Jamaica</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthYear"><small>dbpedia-owl:</small>birthYear</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:birthYear" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">1948-01-01</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/genre"><small>dbpedia-owl:</small>genre</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:genre" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Pop_music"><small>dbpedia</small>:Pop_music</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/instrument"><small>dbpedia-owl:</small>instrument</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:instrument" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Human_voice"><small>dbpedia</small>:Human_voice</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/occupation"><small>dbpedia-owl:</small>occupation</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:occupation" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Songwriter"><small>dbpedia</small>:Songwriter</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:occupation" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Singing"><small>dbpedia</small>:Singing</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/recordLabel"><small>dbpedia-owl:</small>recordLabel</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:recordLabel" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Warner_Music_Group"><small>dbpedia</small>:Warner_Music_Group</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:recordLabel" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Apple_Corps"><small>dbpedia</small>:Apple_Corps</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:recordLabel" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/EMI_Records"><small>dbpedia</small>:EMI_Records</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:recordLabel" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Rak_Records"><small>dbpedia</small>:Rak_Records</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/thumbnail"><small>dbpedia-owl:</small>thumbnail</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:thumbnail nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://commons.wikimedia.org/wiki/Special:FilePath/1998_hot_chocolate_cologne.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/1998_hot_chocolate_cologne.jpg?width=300</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/viafId"><small>dbpedia-owl:</small>viafId</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:viafId" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">58290032</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageExternalLink"><small>dbpedia-owl:</small>wikiPageExternalLink</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.errolbrown.com/">http://www.errolbrown.com/</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.bluesandsoul.com/feature/377/errol_brown_a_fondent_farewell/">http://www.bluesandsoul.com/feature/377/errol_brown_a_fondent_farewell/</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.errolbrown.com">http://www.errolbrown.com</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbpedia-owl:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:wikiPageID" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">2911176</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbpedia-owl:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:wikiPageRevisionID" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">606683935</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/background"><small>dbpprop:</small>background</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:background" xml:lang="en">solo_singer</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/birthDate"><small>dbpprop:</small>birthDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:birthDate">1948-11-12</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/birthName"><small>dbpprop:</small>birthName</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:birthName" xml:lang="en">Lester Errol Brown</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/birthPlace"><small>dbpprop:</small>birthPlace</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:birthPlace" href="http://dbpedia.org/resource/Kingston,_Jamaica"><small>dbpedia</small>:Kingston,_Jamaica</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:birthPlace" href="http://dbpedia.org/resource/Jamaica"><small>dbpedia</small>:Jamaica</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/dateOfBirth"><small>dbpprop:</small>dateOfBirth</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:dateOfBirth">1948-11-12</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/genre"><small>dbpprop:</small>genre</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:genre" href="http://dbpedia.org/resource/Pop_music"><small>dbpedia</small>:Pop_music</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/hasPhotoCollection"><small>dbpprop:</small>hasPhotoCollection</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:hasPhotoCollection nofollow" href="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Errol_Brown">http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Errol_Brown</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/instrument"><small>dbpprop:</small>instrument</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:instrument" href="http://dbpedia.org/resource/Human_voice"><small>dbpedia</small>:Human_voice</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/label"><small>dbpprop:</small>label</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:label" href="http://dbpedia.org/resource/Warner_Music_Group"><small>dbpedia</small>:Warner_Music_Group</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:label" href="http://dbpedia.org/resource/Apple_Corps"><small>dbpedia</small>:Apple_Corps</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:label" href="http://dbpedia.org/resource/EMI_Records"><small>dbpedia</small>:EMI_Records</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:label" href="http://dbpedia.org/resource/Rak_Records"><small>dbpedia</small>:Rak_Records</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/name"><small>dbpprop:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">MBE</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">Brown, Errol</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">Errol Brown</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/occupation"><small>dbpprop:</small>occupation</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:occupation" href="http://dbpedia.org/resource/Songwriter"><small>dbpedia</small>:Songwriter</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:occupation" href="http://dbpedia.org/resource/Singing"><small>dbpedia</small>:Singing</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/placeOfBirth"><small>dbpprop:</small>placeOfBirth</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:placeOfBirth" href="http://dbpedia.org/resource/Kingston,_Jamaica"><small>dbpedia</small>:Kingston,_Jamaica</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:placeOfBirth" href="http://dbpedia.org/resource/Jamaica"><small>dbpedia</small>:Jamaica</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/shortDescription"><small>dbpprop:</small>shortDescription</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:shortDescription" xml:lang="en">Singer and songwriter</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/website"><small>dbpprop:</small>website</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:website nofollow" href="http://www.errolbrown.com/">http://www.errolbrown.com/</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/yearsActive"><small>dbpprop:</small>yearsActive</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:yearsActive">1969</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://purl.org/dc/elements/1.1/description"><small>dc:</small>description</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dc:description" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Singer and songwriter</span></span></li>
+	<li><span class="literal"><span property="dc:description" xmlns:dc="http://purl.org/dc/elements/1.1/">Singer and songwriter</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dcterms:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:1948_births"><small>category</small>:1948_births</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Black_British_musicians"><small>category</small>:Black_British_musicians</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:British_male_singers"><small>category</small>:British_male_singers</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:British_racehorse_owners_and_breeders"><small>category</small>:British_racehorse_owners_and_breeders</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:British_songwriters"><small>category</small>:British_songwriters</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:EMI_Records_artists"><small>category</small>:EMI_Records_artists</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:English_people_of_Jamaican_descent"><small>category</small>:English_people_of_Jamaican_descent</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Ivor_Novello_Award_winners"><small>category</small>:Ivor_Novello_Award_winners</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Living_people"><small>category</small>:Living_people</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Members_of_the_Order_of_the_British_Empire"><small>category</small>:Members_of_the_Order_of_the_British_Empire</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Warner_Bros._Records_artists"><small>category</small>:Warner_Bros._Records_artists</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:People_from_Kingston,_Jamaica"><small>category</small>:People_from_Kingston,_Jamaica</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://xmlns.com/foaf/0.1/Person"><small>foaf</small>:Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Person">http://schema.org/Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://wikidata.dbpedia.org/resource/Q215627">http://wikidata.dbpedia.org/resource/Q215627</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/MusicGroup">http://schema.org/MusicGroup</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://wikidata.dbpedia.org/resource/Q5">http://wikidata.dbpedia.org/resource/Q5</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"><small>dul</small>:Agent</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson"><small>dul</small>:NaturalPerson</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Agent"><small>dbpedia-owl</small>:Agent</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Artist"><small>dbpedia-owl</small>:Artist</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/MusicalArtist"><small>dbpedia-owl</small>:MusicalArtist</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Person"><small>dbpedia-owl</small>:Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Artist109812338"><small>yago</small>:Artist109812338</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/BlackBritishMusicians"><small>yago</small>:BlackBritishMusicians</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/BritishSongwriters"><small>yago</small>:BritishSongwriters</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Businessman109882007"><small>yago</small>:Businessman109882007</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Businessperson109882716"><small>yago</small>:Businessperson109882716</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Capitalist109609232"><small>yago</small>:Capitalist109609232</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/CausalAgent100007347"><small>yago</small>:CausalAgent100007347</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Composer109947232"><small>yago</small>:Composer109947232</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Creator109614315"><small>yago</small>:Creator109614315</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/LivingThing100004258"><small>yago</small>:LivingThing100004258</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Musician110339966"><small>yago</small>:Musician110339966</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Object100002684"><small>yago</small>:Object100002684</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Organism100004475"><small>yago</small>:Organism100004475</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Owner110388924"><small>yago</small>:Owner110388924</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Person100007846"><small>yago</small>:Person100007846</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Songwriter110624540"><small>yago</small>:Songwriter110624540</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Whole100003553"><small>yago</small>:Whole100003553</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoLegalActorGeo"><small>yago</small>:YagoLegalActorGeo</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PeopleFromKingston,Jamaica"><small>yago</small>:PeopleFromKingston,Jamaica</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoLegalActor"><small>yago</small>:YagoLegalActor</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/EnglishPeopleOfJamaicanDescent"><small>yago</small>:EnglishPeopleOfJamaicanDescent</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PhysicalEntity100001930"><small>yago</small>:PhysicalEntity100001930</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/RacehorseOwnersAndBreeders"><small>yago</small>:RacehorseOwnersAndBreeders</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/JamaicanSongwriters"><small>yago</small>:JamaicanSongwriters</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/LivingPeople"><small>yago</small>:LivingPeople</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Errol Brown, MBE (* 12. November 1948 in Kingston, Jamaika) ist ein jamaikanischer Popsänger.Errol Brown war 1969 in London einer der Begründer von Hot Chocolate. Dort blieb er bis Mitte der 80er Jahre als Sänger und Songwriter. Nachdem er die Band 1985 verlassen hatte, trat er solo auf und ist an Musikprojekten mit verschiedenen Künstlern beteiligt. Er arbeitete unter anderem auch mit Dieter Bohlen zusammen.</span></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Errol Brown MBE (born Lester Errol Brown, 12 November 1948) is a singer and songwriter, best known as the frontman of Hot Chocolate. He has British citizenship by marriage to Ginette and they live in The Bahamas. Hot Chocolate&#39;s hits included &quot;You Sexy Thing&quot;, &quot;So You Win Again&quot; and &quot;Brother Louie&quot;.In 2003 Brown was appointed a Member of the Order of the British Empire for services to popular music for the United Kingdom.</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Errol Brown</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Errol Brown</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://de.dbpedia.org/resource/Errol_Brown">http://de.dbpedia.org/resource/Errol_Brown</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q1361609">http://wikidata.dbpedia.org/resource/Q1361609</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.org/entity/Q1361609">http://wikidata.org/entity/Q1361609</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.01tnrm8"><small>fbase</small>:Errol Brown</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yago-knowledge.org/resource/Errol_Brown">http://yago-knowledge.org/resource/Errol_Brown</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom nofollow" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Errol_Brown?oldid=606683935">http://en.wikipedia.org/wiki/Errol_Brown?oldid=606683935</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/depiction"><small>foaf:</small>depiction</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:depiction nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://commons.wikimedia.org/wiki/Special:FilePath/1998_hot_chocolate_cologne.jpg">http://commons.wikimedia.org/wiki/Special:FilePath/1998_hot_chocolate_cologne.jpg</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/givenName"><small>foaf:</small>givenName</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:givenName" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Errol</span></span></li>
+	<li><span class="literal"><span property="foaf:givenName" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Lester Errol Brown</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/homepage"><small>foaf:</small>homepage</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:homepage nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://www.errolbrown.com/">http://www.errolbrown.com/</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Errol_Brown">http://en.wikipedia.org/wiki/Errol_Brown</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/name"><small>foaf:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">MBE</span></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Brown, Errol</span></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Errol Brown</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/surname"><small>foaf:</small>surname</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:surname" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Brown</span></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/associatedBand"><small>dbpedia-owl:</small>associatedBand</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:associatedBand" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Hot_Chocolate_(band)"><small>dbpedia</small>:Hot_Chocolate_(band)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:associatedBand" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Dieter_Bohlen"><small>dbpedia</small>:Dieter_Bohlen</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/associatedMusicalArtist"><small>dbpedia-owl:</small>associatedMusicalArtist</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:associatedMusicalArtist" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Hot_Chocolate_(band)"><small>dbpedia</small>:Hot_Chocolate_(band)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:associatedMusicalArtist" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Dieter_Bohlen"><small>dbpedia</small>:Dieter_Bohlen</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/formerBandMember"><small>dbpedia-owl:</small>formerBandMember</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:formerBandMember" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Hot_Chocolate_(band)"><small>dbpedia</small>:Hot_Chocolate_(band)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/producer"><small>dbpedia-owl:</small>producer</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:producer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Rock_Steady_with_Flo_&amp;_Eddie"><small>dbpedia</small>:Rock_Steady_with_Flo_&amp;_Eddie</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageDisambiguates"><small>dbpedia-owl:</small>wikiPageDisambiguates</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageDisambiguates" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Errol"><small>dbpedia</small>:Errol</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/writer"><small>dbpedia-owl:</small>writer</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:writer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Brother_Louie_(Hot_Chocolate_song)"><small>dbpedia</small>:Brother_Louie_(Hot_Chocolate_song)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:writer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Emma_(song)"><small>dbpedia</small>:Emma_(song)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:writer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Rolling_Stone_(Suzi_Quatro_song)"><small>dbpedia</small>:Rolling_Stone_(Suzi_Quatro_song)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:writer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/You_Sexy_Thing"><small>dbpedia</small>:You_Sexy_Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:writer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Get_Lucky_(Jermaine_Stewart_song)"><small>dbpedia</small>:Get_Lucky_(Jermaine_Stewart_song)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:writer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Love_Is_Life"><small>dbpedia</small>:Love_Is_Life</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/associatedActs"><small>dbpprop:</small>associatedActs</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:associatedActs" href="http://dbpedia.org/resource/Hot_Chocolate_(band)"><small>dbpedia</small>:Hot_Chocolate_(band)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/music"><small>dbpprop:</small>music</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:music" href="http://dbpedia.org/resource/Floodland"><small>dbpedia</small>:Floodland</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/pastMembers"><small>dbpprop:</small>pastMembers</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:pastMembers" href="http://dbpedia.org/resource/Hot_Chocolate_(band)"><small>dbpedia</small>:Hot_Chocolate_(band)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/producer"><small>dbpprop:</small>producer</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:producer" href="http://dbpedia.org/resource/Rock_Steady_with_Flo_&amp;_Eddie"><small>dbpedia</small>:Rock_Steady_with_Flo_&amp;_Eddie</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/writer"><small>dbpprop:</small>writer</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:writer" href="http://dbpedia.org/resource/Slick_Idiot"><small>dbpedia</small>:Slick_Idiot</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:writer" href="http://dbpedia.org/resource/Get_Lucky_(Jermaine_Stewart_song)"><small>dbpedia</small>:Get_Lucky_(Jermaine_Stewart_song)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://de.dbpedia.org/resource/Errol_Brown">http://de.dbpedia.org/resource/Errol_Brown</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q1361609">http://wikidata.dbpedia.org/resource/Q1361609</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Errol_Brown">http://en.wikipedia.org/wiki/Errol_Brown</a></span></li>
+</ul></td></tr>
+      </table>
+    </div> <!--  #content -->
+<!-- footer -->
+    <div id="footer">
+      <div id="ft_t">
+        Browse using:
+	<a href="http://linkeddata.uriburner.com/ode/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FErrol_Brown">OpenLink Data Explorer</a> |
+	<a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FErrol_Brown">OpenLink Faceted Browser</a>
+        <!--a href="http://dataviewer.zitgist.com/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FErrol_Brown">Zitgist Data Viewer</a> |
+        <a href="http://beckr.org/marbles?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FErrol_Brown">Marbles</a> |
+        <a href="http://www4.wiwiss.fu-berlin.de/rdf_browser/?browse_uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FErrol_Brown">DISCO</a> |
+        <a href="http://dig.csail.mit.edu/2005/ajar/release/tabulator/0.8/tab.html?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FErrol_Brown" >Tabulator</a-->
+        &nbsp; &nbsp; Raw Data in:
+	
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Errol_Brown&gt;&amp;format=text%2Fcsv">CSV</a> | RDF (
+        <a href="http://dbpedia.org/data/Errol_Brown.ntriples">N-Triples</a> 
+        <a href="http://dbpedia.org/data/Errol_Brown.n3">N3/Turtle</a> 
+	<a href="http://dbpedia.org/data/Errol_Brown.json">JSON</a> 
+        <a href="http://dbpedia.org/data/Errol_Brown.rdf">XML</a> ) | OData (
+	<a href="http://dbpedia.org/data/Errol_Brown.atom">Atom</a> 
+	<a href="http://dbpedia.org/data/Errol_Brown.jsod">JSON</a> )| Microdata (
+	<a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Errol_Brown&gt;&amp;output=application%2Fmicrodata%2Bjson">JSON</a>
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Errol_Brown&gt;&amp;output=text%2Fhtml">HTML</a>) |  
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Errol_Brown&gt;&amp;output=application%2Fld%2Bjson">JSON-LD</a> 
+
+        &nbsp; &nbsp;<a href="http://wiki.dbpedia.org/Imprint">About</a>&nbsp; &nbsp;
+      </div> <!-- #ft_t -->
+      <div id="ft_b">
+        <a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>
+        <a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/LoDLogo.gif"/></a> &nbsp;
+        <a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+        <a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/od_80x15_red_green.png"/></a>
+	<span about=""
+	resource="http://www.w3.org/TR/rdfa-syntax"
+	rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	<a href="http://validator.w3.org/check?uri=referer"><img
+	    src="http://www.w3.org/Icons/valid-xhtml-rdfa"
+	    alt="Valid XHTML + RDFa" height="27" /></a>
+	</span>
+      </div> <!-- #ft_b -->
+      <div id="ft_ccbysa">
+	This content was extracted from <a href="http://en.wikipedia.org/wiki/Errol_Brown">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+      </div> <!-- #ft_ccbysa -->
+    </div> <!-- #footer -->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts 
+    </script-->
+    
+ </body>
+</html>
+

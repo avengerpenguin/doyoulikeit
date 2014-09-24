@@ -67,7 +67,8 @@ class LaconicModel(object):
         expressivity of being able to fetch any predicate as an object property,
         but ensures we get exactly one match each time in the desired language.
         """
-        return [value for value in getattr(self._entity, item) if not value.language or value.language == 'en'][0]
+        return [value for value in getattr(self._entity, item)
+                if not value.language or value.language == 'en'][0]
 
 
 class Thing(LaconicModel):

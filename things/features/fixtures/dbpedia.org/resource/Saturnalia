@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:dbpprop="http://dbpedia.org/property/" 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    version="XHTML+RDFa 1.0" xml:lang="en">
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <title>About: Saturnalia</title>
+    <link rel="alternate" type="application/rdf+xml" href="http://dbpedia.org/data/Saturnalia.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/rdf+n3" href="http://dbpedia.org/data/Saturnalia.n3" title="Structured Descriptor Document (N3/Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" href="http://dbpedia.org/data/Saturnalia.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" href="http://dbpedia.org/data/Saturnalia.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" href="http://dbpedia.org/data/Saturnalia.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" href="http://dbpedia.org/data/Saturnalia.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Saturnalia&gt;&amp;format=text%2Fcsv" type="text/csv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Saturnalia&gt;&amp;output=application%2Fmicrodata%2Bjson" type="application/microdata+json" 	title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Saturnalia&gt;&amp;output=text%2Fhtml" 		     type="text/html" 			title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Saturnalia&gt;&amp;output=application%2Fld%2Bjson"      type="application/ld+json" 	title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="timegate" type="text/html" href="http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/page/Saturnalia" title="Time Machine" />
+    <link rel="stylesheet" type="text/css" href="/statics/style.css" />
+    <link href="/statics/highlighter.css" type="text/css" rel="stylesheet" charset="utf-8" />
+    <link rel="foaf:primarytopic" href="http://dbpedia.org/resource/Saturnalia"/>
+    <link rev="describedby" href="http://dbpedia.org/resource/Saturnalia"/>
+    <script type="text/javascript" src="/statics/script.js"></script>
+</head>
+<body onload="init();" about="http://dbpedia.org/resource/Saturnalia">
+    <div id="header">
+      <div id="hd_l">
+	  <h1 id="title">About: <a href="http://dbpedia.org/resource/Saturnalia">Saturnalia</a></h1>
+        <div id="homelink">
+          <!--?vsp if (white_page = 0) http (txt); ?-->
+        </div>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/resource/Religion">Religion</a>, 
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>, 
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+        </div>
+      </div> <!-- hd_l -->
+      <div id="hd_r">
+	  <a href="http://wiki.dbpedia.org/Imprint" title="About DBpedia">
+	      <img src="/statics/dbpedia_logo.png" height="64" alt="About DBpedia"/>
+        </a>
+      </div> <!-- hd_r -->
+    </div> <!-- header -->
+    <div id="content">
+
+      <p>Saturnalia was an ancient Roman festival in honor of the deity Saturn, held on the 17th of December of the Julian calendar and later expanded with festivities through to the 23rd of December. The holiday was celebrated with a sacrifice at the Temple of Saturn, in the Roman Forum, and a public banquet, followed by private gift-giving, continual partying, and a carnival atmosphere that overturned Roman social norms: gambling was permitted, and masters provided table service for their slaves.</p>
+<!-- proptable -->
+      <table class="description"><tr><th>Property</th><th>Value</th></tr>
+
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbpedia-owl:</small>abstract</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="en">Saturnalia was an ancient Roman festival in honor of the deity Saturn, held on the 17th of December of the Julian calendar and later expanded with festivities through to the 23rd of December. The holiday was celebrated with a sacrifice at the Temple of Saturn, in the Roman Forum, and a public banquet, followed by private gift-giving, continual partying, and a carnival atmosphere that overturned Roman social norms: gambling was permitted, and masters provided table service for their slaves. The poet Catullus called it &quot;the best of days.&quot;In Roman mythology, Saturn was an agricultural deity who was said to have reigned over the world in the Golden Age, when humans enjoyed the spontaneous bounty of the earth without labor in a state of social egalitarianism. The revelries of Saturnalia were supposed to reflect the conditions of the lost mythical age, not all of them desirable. The Greek equivalent was the Kronia.Although probably the best-known Roman holiday, Saturnalia as a whole is not described from beginning to end in any single ancient source. Modern understanding of the festival is pieced together from several accounts dealing with various aspects. The Saturnalia was the dramatic setting of the multivolume work of that name by Macrobius, a Latin writer from late antiquity who is the major source for information about the holiday. In one of the interpretations in Macrobius&#39;s work, Saturnalia is a festival of light leading to the winter solstice, with the abundant presence of candles symbolizing the quest for knowledge and truth. The renewal of light and the coming of the new year was celebrated in the later Roman Empire at the Dies Natalis of Sol Invictus, the &quot;Birthday of the Unconquerable Sun,&quot; on December 25.The popularity of Saturnalia continued into the third and fourth centuries AD, and as the Roman Empire came under Christian rule, some of its customs may have influenced the seasonal celebrations surrounding Christmas and the New Year.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ar">عيد ساتورن في الأساطير الرومانية احتفالات قديمة كانت تُقام سنويًا للإله ساتورن إله الحصاد. وكانت الاحتفالات تبدأ في يوم 17 ديسمبر وتستمر يومين، ولكنها أصبحت تمتد إلى أسبوع فيما بعد. وربما نشأت أصلاً عن كلمات شكر كانت تُرَدَّد في الاحتفال بذكرى الزراعة الشتوية. وبمرور السنوات فقدت أهميتها الزراعية وأصبحت مناسبة للاحتفالات العامة. حتى أن العبيد كانوا يُمنحون حرية مؤقتة ليفعلوا ما يحلو لهم في فترة العيد. وكانت تقام في عيد الإله ساتورن الولائم والزِّيارات، وتُمنح الهدايا والعطايا. ومن الهدايا المعروفة في هذه المناسبة الشموع وتماثيل الطين الصغيرة.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="de">Die Saturnalien waren zunächst nur ein römischer Festtag zu Ehren des Gottes Saturn, der als Herrscher des urzeitlichen goldenen Zeitalters galt. Er wurde ursprünglich als EN-Tag am 17. Dezember gefeiert und wechselte nach der julianischen Kalenderreform den Tagescharakter auf einen NP-Status. Die Saturnalien fanden erst nach 45 v. Chr. als mehrtägiges Fest zwischen dem 17. und 23. Dezember Anwendung, das später allerdings bis zum 30. Dezember ausgedehnt wurde.Das Datum geht auf das Gründungsdatum des Saturntempels auf dem Forum Romanum zurück.Die Feiern begannen mit einem Opfer vor dem Tempel des Saturn und einem öffentlichen Mahl. Öffentliche Einrichtungen waren während der Saturnalien geschlossen. Die Tempel veranstalteten öffentliche Speisungen. Es war üblich, sich zu den Saturnalien zu beschenken.Wichtigster Aspekt der Saturnalien war die Aufhebung der Standesunterschiede, auch Sklaven wurden an diesem Tag von ihren Herren wie Gleichgestellte behandelt, teilweise wurden die Rollen sogar (scherzhaft) umgekehrt, so dass die Herren ihre Sklaven bedienten. Es wurde ein Saturnalienfürst (Saturnalicus princeps) gewählt, teilweise wurde dieser auch rex bibendi („König des Trinkens“) genannt. Dieser Name deutet auch auf den stark gesteigerten Weinkonsum während der Festtage hin. Nicht nur der Wein wurde während der Festtage in großem Maße getrunken, es war auch offiziell das Würfelspiel um Geld erlaubt. Auch sonst lockerte sich die Moral während der Feiertage erheblich.An einigen deutschen Hochschulen (zum Beispiel Köln und Kiel) werden heute traditionell „Saturnalien“ als studentisches Fest veranstaltet, bei dem man in der Vorweihnachtszeit mit den Dozenten „abrechnet“.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="es">Las Saturnales (en latín Saturnalia) eran unas importantes festividades romanas. Se las llegó a denominar «fiestas de los esclavos», ya que en ellas los esclavos recibían raciones extras, tiempo libre y otras prebendas; eran Navidad y Carnaval a un mismo tiempo y el cristianismo de la antigüedad tardía tuvo fuertes problemas para acabar con esta fiesta pagana, intentando sustituirla.[cita requerida]Las Saturnales se celebraban por dos motivos: En honor a Saturno, dios de la agricultura. Como homenaje al triunfo de un victorioso general (fiesta del triunfo). Las primeras se celebraban del 17 al 23 de diciembre, a la luz de velas y antorchas, por el fin del período más oscuro del año y el nacimiento del nuevo período de luz, o nacimiento del Sol Invictus, 25 de diciembre, coincidiendo con la entrada del Sol en el signo de Capricornio (solsticio de invierno). Probablemente las Saturnales fueran las fiestas de la finalización de los trabajos del campo, celebrada tras la conclusión de la siembra de invierno, cuando el ritmo de las estaciones dejaba a toda la familia campesina, incluidos los esclavos domésticos, tiempo para descansar del esfuerzo cotidiano.Eran siete días de bulliciosas diversiones, banquetes e intercambio de regalos. Las fiestas comenzaban con un sacrificio en el templo de Saturno (en principio el dios más importante para los romanos hasta Júpiter), al pie de la colina del Capitolio, la zona más sagrada de Roma, seguido de un banquete público al que estaba invitado todo el mundo. Los romanos asociaban a Saturno, dios agrícola protector de sembrados y garante de cosechas con el dios prehelénico Crono, que estuvo en activo durante la mítica edad de oro de la tierra, cuando los hombres vivían felices, sin separaciones sociales. Durante las Saturnales, los esclavos eran frecuentemente liberados de sus obligaciones y sus papeles, en algunos casos, cambiados con los de sus dueños. Posteriormente, el nacimiento del Sol y su nuevo período de luz fueron sustituidos por la Iglesia, quien hizo coincidir en esas fechas el nacimiento de Jesús de Nazaret con el objetivo de acabar con las antiguas celebraciones. Gradualmente las costumbres paganas pasaron al Día de Año Nuevo, siendo asimiladas finalmente por la fiesta cristiana que hoy en día se conoce universalmente como el Día de Navidad.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="fr">Les Saturnales (en latin Saturnalia) sont durant l&#39;antiquité romaine des fêtes se déroulant durant la période proche du solstice d&#39;hiver, qui célèbrent le dieu Saturne et sont accompagnées de grandes réjouissances populaires.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="it">I Saturnali sono un ciclo di festività della religione romana, dedicate all&#39;insediamento nel tempio del dio Saturno e alla mitica età dell&#39;oro; si svolgevano dal 17 al 23 dicembre (periodo fissato in epoca imperiale da Domiziano). I saturnali avevano inizio con grandi banchetti, sacrifici, in un crescendo che poteva anche assumere talvolta caratteri orgiastici; i partecipanti usavano scambiarsi l&#39;augurio io Saturnalia, accompagnato da piccoli doni simbolici, detti strenne.Durante questi festeggiamenti era sovvertito l&#39;ordine sociale: gli schiavi potevano considerarsi temporaneamente degli uomini liberi, e come questi potevano comportarsi; veniva eletto, tramite estrazione a sorte, un princeps -una sorta di caricatura della classe nobile- a cui veniva assegnato ogni potere. In realtà la connotazione religiosa della festa prevaleva su quella sociale e di &quot;classe&quot;. Il &quot;princeps&quot; era in genere vestito con una buffa maschera e colori sgargianti tra i quali spiccava il rosso (colore degli dèi).Era la personificazione di una divinità infera, da identificare di volta in volta con Saturno o Plutone, preposta alla custodia delle anime dei defunti, ma anche protettrice delle campagne e dei raccolti.In epoca romana si credeva che tali divinità, uscite dalle profondità del suolo, vagassero in corteo per tutto il periodo invernale, quando cioè la terra riposava ed era incolta a causa delle condizioni atmosferiche.Dovevano quindi essere placate con l&#39;offerta di doni e di feste in loro onore nonché indotte a ritornare nell&#39;aldilà, dove avrebbero favorito i raccolti della stagione estiva. Si trattava insomma di una sorta di lunga &quot;sfilata di carnevale&quot;. L&#39;equivalente greco del dio romano Saturno era Kρόνος, Krono, il padre di Zeus. Quando i Romani sovrapposero Saturno a Kronos, la divinità ellenica era già da tempo assimilata a Xρόνος, Chrònos, il tempo che scorre. Tale associazione ha generato la figura di Saturno come sovrano di una mitica Età dell&#39;Oro.Esiliato da Zeus e dagli Olimpi suoi figli al termine della Titanomachia, si diceva che Krono avesse spostato il suo regno in un luogo che, Greci prima e Romani poi, chiamavano &quot;Isole Beate&quot;.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="nl">De saturnaliën (Latijn: Saturnalia) was de naam die de Romeinen gaven aan de feestdag op de zonnewende van 21 december ieder jaar.Tijdens de late koningstijd werd in Rome een feest ingericht ter ere van de god Saturnus: de saturnaliën. De Romeinen hadden wel enkele goede redenen om deze god te eren. De mythologische verhalen vertelden ons dat Saturnus ooit koning geweest was in Italië. Hij kwam per schip aan en zette voet aan wal in het koninkrijk van Janus. Van Janus werd verteld dat hij twee gezichten had, dat hij met de ene kant naar het verleden keek en met de andere kant naar de toekomst. Dit was een eigenschap die elke goede koning zou moeten bezitten, want men moet vooruitziend zijn, maar altijd rekening houden met het verleden. Janus werd ook de god van de deur genoemd. Wanneer men zich in een gebed richtte tot om het even welke god, moest men eerst Janus aanroepen, want hij stond symbool voor de deur waarlangs alle andere goden te bereiken waren.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ja">サートゥルナーリア祭はサートゥルヌス神を祝した古代ローマの祭である。農神祭とも。12月17日から12月23日までを開催期間としていた。</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="pl">Saturnalia – doroczne święto ku czci boga rolnictwa Saturna obchodzone w starożytnym Rzymie od 17 do 23 grudnia.Początkowo święto trwało jeden dzień – czternasty przed kalendami styczniowymi, czyli 19 grudnia. W połowie I w. p.n.e. obchody obejmowały już tydzień (17 – 23 grudnia). Oktawian August nakazał skrócić je do trzech dni, aby sądy nie musiały być zamknięte zbyt długo, ale niemal wszyscy i tak świętowali przez tydzień. Było to święto pojednania i równości. Zawieszano wówczas prowadzenie wszelkiej działalności gospodarczej, niewolnicy świętowali na równi z wolnymi. Saturnowi składano ofiary, a orszaki weselących się ludzi zmierzały przez całe miasto na uczty i zabawy. Ojców rodzin obdarzano podarkami - głównie woskowymi świecami i glinianymi figurkami (jako symbol ofiar z ludzi składanych Saturnowi we wcześniejszych czasach).Bliskim Saturnaliom świętem były Brumalia (od jednego z imion boga Bachusa, Brumus lub od łac. bruma – najkrótszy dzień), obchodzone dwa razy w roku, w związku z równonocą jesienną i wiosenną (Saturnalia obchodzono w okresie przesilenia zimowego; istnieje także interpretacja, według której Brumalia odbywały się w innych okresach); wydarzenia te z czasem zaczęto mylić i utożsamiać.== Uwagi ==== Przypisy ==</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="pt">A Saturnália era um festival romano em honra ao deus Saturno que ocorria no mês de dezembro, no solstício de inverno (era celebrada no dia 17 de dezembro, mas ao longo dos tempos foi alargada à semana completa, terminando a 23 de dezembro).As Saturnálias tinham início com grandes banquetes e sacrifícios; os participantes tinham o hábito de saudar-se com io Saturnalia, acompanhado por doações simbólicas. Durante estes festejamentos subvertia-se a ordem social: os escravos se comportavam temporariamente como homens livres; elegia-se, à sorte, um &quot;princeps&quot; - uma espécie de caricatura da classe nobre - a quem se entregava todo o poder. Na verdade a conotação religiosa da festa prevalecia sobre aquela social e de &quot;classe&quot;. O &quot;princeps&quot; vinha geralmente vestido com uma máscara engraçada e com cores chamativas, dentre as quais prevalecia o vermelho (a cor dos deuses)[carece de fontes?]&lt;/sup&gt;.Segundo Pierre Grimal, Saturno é um deus itálico e seu culto foi importado da Grécia para Roma, como ocorreu com diversos outros deuses. Ele teria sido expulso do monte Olimpo por Zeus e se instalado no Capitólio, onde fundou um povo chamado Saturnia. Acredita-se também que foi acolhido por Jano, igualmente oriundo da Grécia. Seu reinado na região do Lácio ficou conhecido como a &quot;Idade do Ouro&quot;, pela paz e prosperidade alcançadas. Segundo os relatos lendários, nesse período Saturno teria continuado a obra civilizadora de Jano e ensinou à população a prática da agricultura.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="pt">A Saturnália era um festival romano em honra ao deus Saturno que ocorria no mês de dezembro, no solstício de inverno (era celebrada no dia 17 de dezembro, mas ao longo dos tempos foi alargada à semana completa, terminando a 23 de dezembro).As Saturnálias tinham início com grandes banquetes e sacrifícios; os participantes tinham o hábito de saudar-se com io Saturnalia, acompanhado por doações simbólicas. Durante estes festejamentos subvertia-se a ordem social: os escravos se comportavam temporariamente como homens livres; elegia-se, à sorte, um &quot;princeps&quot; - uma espécie de caricatura da classe nobre - a quem se entregava todo o poder. Na verdade a conotação religiosa da festa prevalecia sobre aquela social e de &quot;classe&quot;. O &quot;princeps&quot; vinha geralmente vestido com uma máscara engraçada e com cores chamativas, dentre as quais prevalecia o vermelho (a cor dos deuses)[carece de fontes?].Segundo Pierre Grimal, Saturno é um deus itálico e seu culto foi importado da Grécia para Roma, como ocorreu com diversos outros deuses. Ele teria sido expulso do monte Olimpo por Zeus e se instalado no Capitólio, onde fundou um povo chamado Saturnia. Acredita-se também que foi acolhido por Jano, igualmente oriundo da Grécia. Seu reinado na região do Lácio ficou conhecido como a &quot;Idade do Ouro&quot;, pela paz e prosperidade alcançadas. Segundo os relatos lendários, nesse período Saturno teria continuado a obra civilizadora de Jano e ensinou à população a prática da agricultura.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ru">Сатурна́лии (лат. Saturnalia) — у древних римлян праздник в честь Сатурна, с именем которого жители Лацио связывали ведение земледелия и первые успехи культуры.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="zh">农神节或萨图尔纳利亚（拉丁语：Saturnalia）是古罗马在年底为祭祀农神的大型节日，一般在每年的12月17日至12月24日间召开。古羅馬廣場农神庙内有由罗马皇帝主持的隆重的祭祀活动，祭祀罗马农神萨图尔努斯（Saturnus）。一些历史学家认为罗马帝国被基督化后，农神节的许多习俗被转用于圣诞节。例如圣诞树来自于农神节的丰收树。节日期间的活动包括农神庙的兽祭，广场上的大型公共宴会以及欢会，和礼物的馈赠。农神节类似于中国的庙会。</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/country"><small>dbpedia-owl:</small>country</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:country" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Roman_Empire"><small>dbpedia</small>:Roman_Empire</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:country" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Roman_Republic"><small>dbpedia</small>:Roman_Republic</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/thumbnail"><small>dbpedia-owl:</small>thumbnail</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:thumbnail nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Escultura_Saturnalia_de_Ernesto_Biondi.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Escultura_Saturnalia_de_Ernesto_Biondi.jpg?width=300</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/type"><small>dbpedia-owl:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:type" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Religion"><small>dbpedia</small>:Religion</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageExternalLink"><small>dbpedia-owl:</small>wikiPageExternalLink</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://penelope.uchicago.edu/~grout/encyclopaedia_romana/calendar/saturnalia.html">http://penelope.uchicago.edu/~grout/encyclopaedia_romana/calendar/saturnalia.html</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbpedia-owl:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:wikiPageID" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">157592</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbpedia-owl:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:wikiPageRevisionID" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">604846165</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/align"><small>dbpprop:</small>align</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:align" xml:lang="en">right</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/caption"><small>dbpprop:</small>caption</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:caption" xml:lang="en">Saturnalia by Ernesto Biondi ,</span></span></li>
+	<li><span class="literal"><span property="dbpprop:caption" xml:lang="en">in the Buenos Aires Botanical Gardens</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/celebrations"><small>dbpprop:</small>celebrations</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:celebrations" xml:lang="en">Feasting, role reversals, gift-giving, gambling</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/date"><small>dbpprop:</small>date</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:date">0001-12-17</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/hasPhotoCollection"><small>dbpprop:</small>hasPhotoCollection</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:hasPhotoCollection nofollow" href="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Saturnalia">http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Saturnalia</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/holidayName"><small>dbpprop:</small>holidayName</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:holidayName" xml:lang="en">Saturnalia</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/imageSize"><small>dbpprop:</small>imageSize</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:imageSize">325</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/longtype"><small>dbpprop:</small>longtype</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:longtype" href="http://dbpedia.org/resource/Religion_in_ancient_Rome"><small>dbpedia</small>:Religion_in_ancient_Rome</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/observances"><small>dbpprop:</small>observances</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:observances" xml:lang="en">Public sacrifice and banquet for the god Saturn; universal wearing of the Phrygian cap</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/observedby"><small>dbpprop:</small>observedby</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:observedby" href="http://dbpedia.org/resource/Roman_Empire"><small>dbpedia</small>:Roman_Empire</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:observedby" href="http://dbpedia.org/resource/Roman_Republic"><small>dbpedia</small>:Roman_Republic</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/quote"><small>dbpprop:</small>quote</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:quote" xml:lang="en">&quot;Meanwhile the head of the slave household, whose responsibility it was to offer sacrifice to the Penates, to manage the provisions and to direct the activities of the domestic servants, came to tell his master that the household had feasted according to the annual ritual custom. For at this festival, in houses that keep to proper religious usage, they first of all honor the slaves with a dinner prepared as if for the master; and only afterwards is the table set again for the head of the household. So, then, the chief slave came in to announce the time of dinner and to summon the masters to the table.&quot;</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/source"><small>dbpprop:</small>source</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:source" xml:lang="en">Macrobius, Saturnalia 1.24.22–23</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/type"><small>dbpprop:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:type" href="http://dbpedia.org/resource/Religion"><small>dbpedia</small>:Religion</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/width"><small>dbpprop:</small>width</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:width">30.0</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dcterms:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Ancient_Roman_festivals"><small>category</small>:Ancient_Roman_festivals</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:December_observances"><small>category</small>:December_observances</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Winter_holidays"><small>category</small>:Winter_holidays</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Cronus-Saturn"><small>category</small>:Cronus-Saturn</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Winter_festivals"><small>category</small>:Winter_festivals</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WinterFestivals"><small>yago</small>:WinterFestivals</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/WinterHolidays"><small>yago</small>:WinterHolidays</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"><small>dul</small>:TimeInterval</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Holiday"><small>dbpedia-owl</small>:Holiday</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Abstraction100002137"><small>yago</small>:Abstraction100002137</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Act100030358"><small>yago</small>:Act100030358</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Activity100407535"><small>yago</small>:Activity100407535</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/AncientRomanFestivals"><small>yago</small>:AncientRomanFestivals</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Event100029378"><small>yago</small>:Event100029378</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Festival115162388"><small>yago</small>:Festival115162388</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Observation100879759"><small>yago</small>:Observation100879759</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/TimePeriod115113229"><small>yago</small>:TimePeriod115113229</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Vacation115137890"><small>yago</small>:Vacation115137890</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/DecemberObservances"><small>yago</small>:DecemberObservances</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Leisure115137676"><small>yago</small>:Leisure115137676</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Look100877127"><small>yago</small>:Look100877127</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Measure100033615"><small>yago</small>:Measure100033615</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PsychologicalFeature100023100"><small>yago</small>:PsychologicalFeature100023100</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/TimeOff115118453"><small>yago</small>:TimeOff115118453</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity"><small>yago</small>:YagoPermanentlyLocatedEntity</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/SensoryActivity100876737"><small>yago</small>:SensoryActivity100876737</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/FundamentalQuantity113575869"><small>yago</small>:FundamentalQuantity113575869</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Sensing100876874"><small>yago</small>:Sensing100876874</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Les Saturnales (en latin Saturnalia) sont durant l&#39;antiquité romaine des fêtes se déroulant durant la période proche du solstice d&#39;hiver, qui célèbrent le dieu Saturne et sont accompagnées de grandes réjouissances populaires.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">サートゥルナーリア祭はサートゥルヌス神を祝した古代ローマの祭である。農神祭とも。12月17日から12月23日までを開催期間としていた。</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Сатурна́лии (лат. Saturnalia) — у древних римлян праздник в честь Сатурна, с именем которого жители Лацио связывали ведение земледелия и первые успехи культуры.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">农神节或萨图尔纳利亚（拉丁语：Saturnalia）是古罗马在年底为祭祀农神的大型节日，一般在每年的12月17日至12月24日间召开。古羅馬廣場农神庙内有由罗马皇帝主持的隆重的祭祀活动，祭祀罗马农神萨图尔努斯（Saturnus）。一些历史学家认为罗马帝国被基督化后，农神节的许多习俗被转用于圣诞节。例如圣诞树来自于农神节的丰收树。节日期间的活动包括农神庙的兽祭，广场上的大型公共宴会以及欢会，和礼物的馈赠。农神节类似于中国的庙会。</span></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Saturnalia was an ancient Roman festival in honor of the deity Saturn, held on the 17th of December of the Julian calendar and later expanded with festivities through to the 23rd of December. The holiday was celebrated with a sacrifice at the Temple of Saturn, in the Roman Forum, and a public banquet, followed by private gift-giving, continual partying, and a carnival atmosphere that overturned Roman social norms: gambling was permitted, and masters provided table service for their slaves.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ar">عيد ساتورن في الأساطير الرومانية احتفالات قديمة كانت تُقام سنويًا للإله ساتورن إله الحصاد. وكانت الاحتفالات تبدأ في يوم 17 ديسمبر وتستمر يومين، ولكنها أصبحت تمتد إلى أسبوع فيما بعد. وربما نشأت أصلاً عن كلمات شكر كانت تُرَدَّد في الاحتفال بذكرى الزراعة الشتوية. وبمرور السنوات فقدت أهميتها الزراعية وأصبحت مناسبة للاحتفالات العامة. حتى أن العبيد كانوا يُمنحون حرية مؤقتة ليفعلوا ما يحلو لهم في فترة العيد. وكانت تقام في عيد الإله ساتورن الولائم والزِّيارات، وتُمنح الهدايا والعطايا.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Die Saturnalien waren zunächst nur ein römischer Festtag zu Ehren des Gottes Saturn, der als Herrscher des urzeitlichen goldenen Zeitalters galt. Er wurde ursprünglich als EN-Tag am 17. Dezember gefeiert und wechselte nach der julianischen Kalenderreform den Tagescharakter auf einen NP-Status. Die Saturnalien fanden erst nach 45 v. Chr. als mehrtägiges Fest zwischen dem 17. und 23. Dezember Anwendung, das später allerdings bis zum 30.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Las Saturnales (en latín Saturnalia) eran unas importantes festividades romanas. Se las llegó a denominar «fiestas de los esclavos», ya que en ellas los esclavos recibían raciones extras, tiempo libre y otras prebendas; eran Navidad y Carnaval a un mismo tiempo y el cristianismo de la antigüedad tardía tuvo fuertes problemas para acabar con esta fiesta pagana, intentando sustituirla.[cita requerida]Las Saturnales se celebraban por dos motivos: En honor a Saturno, dios de la agricultura.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">I Saturnali sono un ciclo di festività della religione romana, dedicate all&#39;insediamento nel tempio del dio Saturno e alla mitica età dell&#39;oro; si svolgevano dal 17 al 23 dicembre (periodo fissato in epoca imperiale da Domiziano).</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">De saturnaliën (Latijn: Saturnalia) was de naam die de Romeinen gaven aan de feestdag op de zonnewende van 21 december ieder jaar.Tijdens de late koningstijd werd in Rome een feest ingericht ter ere van de god Saturnus: de saturnaliën. De Romeinen hadden wel enkele goede redenen om deze god te eren. De mythologische verhalen vertelden ons dat Saturnus ooit koning geweest was in Italië. Hij kwam per schip aan en zette voet aan wal in het koninkrijk van Janus.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Saturnalia – doroczne święto ku czci boga rolnictwa Saturna obchodzone w starożytnym Rzymie od 17 do 23 grudnia.Początkowo święto trwało jeden dzień – czternasty przed kalendami styczniowymi, czyli 19 grudnia. W połowie I w. p.n.e. obchody obejmowały już tydzień (17 – 23 grudnia). Oktawian August nakazał skrócić je do trzech dni, aby sądy nie musiały być zamknięte zbyt długo, ale niemal wszyscy i tak świętowali przez tydzień. Było to święto pojednania i równości.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">A Saturnália era um festival romano em honra ao deus Saturno que ocorria no mês de dezembro, no solstício de inverno (era celebrada no dia 17 de dezembro, mas ao longo dos tempos foi alargada à semana completa, terminando a 23 de dezembro).As Saturnálias tinham início com grandes banquetes e sacrifícios; os participantes tinham o hábito de saudar-se com io Saturnalia, acompanhado por doações simbólicas.</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Saturnalia</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ar">ساتورن (عيد)</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Saturnalien</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Saturnales</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Saturnales</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Saturnali</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Saturnaliën</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">サートゥルナーリア祭</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Saturnalia</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Сатурналии</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Saturnália</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">农神节</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.014qw0"><small>fbase</small>:Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fr.dbpedia.org/resource/Saturnales">http://fr.dbpedia.org/resource/Saturnales</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://de.dbpedia.org/resource/Saturnalien">http://de.dbpedia.org/resource/Saturnalien</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q207213">http://wikidata.dbpedia.org/resource/Q207213</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://cs.dbpedia.org/resource/Saturnálie">http://cs.dbpedia.org/resource/Saturnálie</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://el.dbpedia.org/resource/Σατουρνάλια">http://el.dbpedia.org/resource/Σατουρνάλια</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://es.dbpedia.org/resource/Saturnales">http://es.dbpedia.org/resource/Saturnales</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://it.dbpedia.org/resource/Saturnali">http://it.dbpedia.org/resource/Saturnali</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ja.dbpedia.org/resource/サートゥルナーリア祭">http://ja.dbpedia.org/resource/サートゥルナーリア祭</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nl.dbpedia.org/resource/Saturnaliën">http://nl.dbpedia.org/resource/Saturnaliën</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pl.dbpedia.org/resource/Saturnalia">http://pl.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pt.dbpedia.org/resource/Saturnália">http://pt.dbpedia.org/resource/Saturnália</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.org/entity/Q207213">http://wikidata.org/entity/Q207213</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yago-knowledge.org/resource/Saturnalia">http://yago-knowledge.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ar.dbpedia.org/resource/ساتورن_(عيد)">http://ar.dbpedia.org/resource/ساتورن_(عيد)</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://bg.dbpedia.org/resource/Сатурналии">http://bg.dbpedia.org/resource/Сатурналии</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ca.dbpedia.org/resource/Saturnals">http://ca.dbpedia.org/resource/Saturnals</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://da.dbpedia.org/resource/Saturnalia">http://da.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://eo.dbpedia.org/resource/Saturnalioj">http://eo.dbpedia.org/resource/Saturnalioj</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fa.dbpedia.org/resource/ساتورنالیا">http://fa.dbpedia.org/resource/ساتورنالیا</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fi.dbpedia.org/resource/Saturnalia">http://fi.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ga.dbpedia.org/resource/Saturnalia">http://ga.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://gl.dbpedia.org/resource/Saturnais">http://gl.dbpedia.org/resource/Saturnais</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://hu.dbpedia.org/resource/Saturnalia">http://hu.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://io.dbpedia.org/resource/Saturnali">http://io.dbpedia.org/resource/Saturnali</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://la.dbpedia.org/resource/Saturnalia">http://la.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://lt.dbpedia.org/resource/Saturnalijos">http://lt.dbpedia.org/resource/Saturnalijos</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nn.dbpedia.org/resource/Saturnalia">http://nn.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://no.dbpedia.org/resource/Saturnalia">http://no.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ro.dbpedia.org/resource/Saturnalia">http://ro.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ru.dbpedia.org/resource/Сатурналии">http://ru.dbpedia.org/resource/Сатурналии</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sh.dbpedia.org/resource/Saturnalije">http://sh.dbpedia.org/resource/Saturnalije</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sk.dbpedia.org/resource/Saturnálie">http://sk.dbpedia.org/resource/Saturnálie</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sl.dbpedia.org/resource/Saturnalije">http://sl.dbpedia.org/resource/Saturnalije</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sr.dbpedia.org/resource/Сатурналије">http://sr.dbpedia.org/resource/Сатурналије</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sv.dbpedia.org/resource/Saturnalia">http://sv.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://uk.dbpedia.org/resource/Сатурналії">http://uk.dbpedia.org/resource/Сатурналії</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://zh.dbpedia.org/resource/农神节">http://zh.dbpedia.org/resource/农神节</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom nofollow" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Saturnalia?oldid=604846165">http://en.wikipedia.org/wiki/Saturnalia?oldid=604846165</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/depiction"><small>foaf:</small>depiction</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:depiction nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Escultura_Saturnalia_de_Ernesto_Biondi.jpg">http://commons.wikimedia.org/wiki/Special:FilePath/Escultura_Saturnalia_de_Ernesto_Biondi.jpg</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Saturnalia">http://en.wikipedia.org/wiki/Saturnalia</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/name"><small>foaf:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Saturnalia</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageDisambiguates"><small>dbpedia-owl:</small>wikiPageDisambiguates</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageDisambiguates" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kalenda"><small>dbpedia</small>:Kalenda</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageDisambiguates" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturnalia_(disambiguation)"><small>dbpedia</small>:Saturnalia_(disambiguation)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageDisambiguates" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturn_(disambiguation)"><small>dbpedia</small>:Saturn_(disambiguation)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageDisambiguates" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturna"><small>dbpedia</small>:Saturna</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageRedirects"><small>dbpedia-owl:</small>wikiPageRedirects</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Feast_of_Saturnalia"><small>dbpedia</small>:Feast_of_Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturnale"><small>dbpedia</small>:Saturnale</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturnalia_Gifts"><small>dbpedia</small>:Saturnalia_Gifts</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturnalia_and_christmas"><small>dbpedia</small>:Saturnalia_and_christmas</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturnalian"><small>dbpedia</small>:Saturnalian</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturnalicius"><small>dbpedia</small>:Saturnalicius</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kalenda_(festival)"><small>dbpedia</small>:Kalenda_(festival)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Saturna_(festival)"><small>dbpedia</small>:Saturna_(festival)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fr.dbpedia.org/resource/Saturnales">http://fr.dbpedia.org/resource/Saturnales</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://de.dbpedia.org/resource/Saturnalien">http://de.dbpedia.org/resource/Saturnalien</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q207213">http://wikidata.dbpedia.org/resource/Q207213</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://cs.dbpedia.org/resource/Saturnálie">http://cs.dbpedia.org/resource/Saturnálie</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://el.dbpedia.org/resource/Σατουρνάλια">http://el.dbpedia.org/resource/Σατουρνάλια</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://es.dbpedia.org/resource/Saturnales">http://es.dbpedia.org/resource/Saturnales</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://it.dbpedia.org/resource/Saturnali">http://it.dbpedia.org/resource/Saturnali</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ja.dbpedia.org/resource/サートゥルナーリア祭">http://ja.dbpedia.org/resource/サートゥルナーリア祭</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://nl.dbpedia.org/resource/Saturnaliën">http://nl.dbpedia.org/resource/Saturnaliën</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://pl.dbpedia.org/resource/Saturnalia">http://pl.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://pt.dbpedia.org/resource/Saturnália">http://pt.dbpedia.org/resource/Saturnália</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ar.dbpedia.org/resource/ساتورن_(عيد)">http://ar.dbpedia.org/resource/ساتورن_(عيد)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://bg.dbpedia.org/resource/Сатурналии">http://bg.dbpedia.org/resource/Сатурналии</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ca.dbpedia.org/resource/Saturnals">http://ca.dbpedia.org/resource/Saturnals</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://da.dbpedia.org/resource/Saturnalia">http://da.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://eo.dbpedia.org/resource/Saturnalioj">http://eo.dbpedia.org/resource/Saturnalioj</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fa.dbpedia.org/resource/ساتورنالیا">http://fa.dbpedia.org/resource/ساتورنالیا</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fi.dbpedia.org/resource/Saturnalia">http://fi.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ga.dbpedia.org/resource/Saturnalia">http://ga.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://gl.dbpedia.org/resource/Saturnais">http://gl.dbpedia.org/resource/Saturnais</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://hu.dbpedia.org/resource/Saturnalia">http://hu.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://io.dbpedia.org/resource/Saturnali">http://io.dbpedia.org/resource/Saturnali</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://la.dbpedia.org/resource/Saturnalia">http://la.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://lt.dbpedia.org/resource/Saturnalijos">http://lt.dbpedia.org/resource/Saturnalijos</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://nn.dbpedia.org/resource/Saturnalia">http://nn.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://no.dbpedia.org/resource/Saturnalia">http://no.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ro.dbpedia.org/resource/Saturnalia">http://ro.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ru.dbpedia.org/resource/Сатурналии">http://ru.dbpedia.org/resource/Сатурналии</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sh.dbpedia.org/resource/Saturnalije">http://sh.dbpedia.org/resource/Saturnalije</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sk.dbpedia.org/resource/Saturnálie">http://sk.dbpedia.org/resource/Saturnálie</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sl.dbpedia.org/resource/Saturnalije">http://sl.dbpedia.org/resource/Saturnalije</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sr.dbpedia.org/resource/Сатурналије">http://sr.dbpedia.org/resource/Сатурналије</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sv.dbpedia.org/resource/Saturnalia">http://sv.dbpedia.org/resource/Saturnalia</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://uk.dbpedia.org/resource/Сатурналії">http://uk.dbpedia.org/resource/Сатурналії</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://zh.dbpedia.org/resource/农神节">http://zh.dbpedia.org/resource/农神节</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Saturnalia">http://en.wikipedia.org/wiki/Saturnalia</a></span></li>
+</ul></td></tr>
+      </table>
+    </div> <!--  #content -->
+<!-- footer -->
+    <div id="footer">
+      <div id="ft_t">
+        Browse using:
+	<a href="http://linkeddata.uriburner.com/ode/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FSaturnalia">OpenLink Data Explorer</a> |
+	<a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FSaturnalia">OpenLink Faceted Browser</a>
+        <!--a href="http://dataviewer.zitgist.com/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FSaturnalia">Zitgist Data Viewer</a> |
+        <a href="http://beckr.org/marbles?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FSaturnalia">Marbles</a> |
+        <a href="http://www4.wiwiss.fu-berlin.de/rdf_browser/?browse_uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FSaturnalia">DISCO</a> |
+        <a href="http://dig.csail.mit.edu/2005/ajar/release/tabulator/0.8/tab.html?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FSaturnalia" >Tabulator</a-->
+        &nbsp; &nbsp; Raw Data in:
+	
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Saturnalia&gt;&amp;format=text%2Fcsv">CSV</a> | RDF (
+        <a href="http://dbpedia.org/data/Saturnalia.ntriples">N-Triples</a> 
+        <a href="http://dbpedia.org/data/Saturnalia.n3">N3/Turtle</a> 
+	<a href="http://dbpedia.org/data/Saturnalia.json">JSON</a> 
+        <a href="http://dbpedia.org/data/Saturnalia.rdf">XML</a> ) | OData (
+	<a href="http://dbpedia.org/data/Saturnalia.atom">Atom</a> 
+	<a href="http://dbpedia.org/data/Saturnalia.jsod">JSON</a> )| Microdata (
+	<a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Saturnalia&gt;&amp;output=application%2Fmicrodata%2Bjson">JSON</a>
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Saturnalia&gt;&amp;output=text%2Fhtml">HTML</a>) |  
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Saturnalia&gt;&amp;output=application%2Fld%2Bjson">JSON-LD</a> 
+
+        &nbsp; &nbsp;<a href="http://wiki.dbpedia.org/Imprint">About</a>&nbsp; &nbsp;
+      </div> <!-- #ft_t -->
+      <div id="ft_b">
+        <a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>
+        <a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/LoDLogo.gif"/></a> &nbsp;
+        <a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+        <a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/od_80x15_red_green.png"/></a>
+	<span about=""
+	resource="http://www.w3.org/TR/rdfa-syntax"
+	rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	<a href="http://validator.w3.org/check?uri=referer"><img
+	    src="http://www.w3.org/Icons/valid-xhtml-rdfa"
+	    alt="Valid XHTML + RDFa" height="27" /></a>
+	</span>
+      </div> <!-- #ft_b -->
+      <div id="ft_ccbysa">
+	This content was extracted from <a href="http://en.wikipedia.org/wiki/Saturnalia">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+      </div> <!-- #ft_ccbysa -->
+    </div> <!-- #footer -->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts 
+    </script-->
+    
+ </body>
+</html>
+

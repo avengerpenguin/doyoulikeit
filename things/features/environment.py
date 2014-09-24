@@ -33,6 +33,10 @@ def visit_wrapper(context):
 
 
 def before_all(context):
+    context.browser = Browser(driver_name='firefox')
+
+    context.browser.visit = visit_wrapper(context)
+
     httpretty.enable()
     s = requests.Session()
 
@@ -40,7 +44,7 @@ def before_all(context):
         local_path = os.path.join('things/features/fixtures', url.lstrip('http://'))
 
         if not os.path.exists(local_path):
-
+            print "Need to acquire fixture for: " + url
             parent = os.path.dirname(local_path)
             if not os.path.exists(parent):
                 os.makedirs(parent)
@@ -49,15 +53,13 @@ def before_all(context):
                 new_fixture.write(s.get(url).content)
 
         with open(local_path, 'rb') as fixture:
-            httpretty.register_uri(httpretty.GET, url, body=fixture.read(), status=200)
-
-    context.browser = Browser(driver_name='phantomjs')
-
-    context.browser.visit = visit_wrapper(context)
+            print "Mocking: " + url
+            httpretty.register_uri(httpretty.GET, url, body=fixture.read(), status=200, content_type='text/turtle')
 
 
 def after_all(context):
-    context.browser.quit()
-    context.browser = None
     httpretty.disable()
     httpretty.reset()
+
+    context.browser.quit()
+    context.browser = None

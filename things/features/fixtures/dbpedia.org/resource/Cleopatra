@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:dbpprop="http://dbpedia.org/property/" 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    version="XHTML+RDFa 1.0" xml:lang="en">
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <title>About: Cleopatra</title>
+    <link rel="alternate" type="application/rdf+xml" href="http://dbpedia.org/data/Cleopatra.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/rdf+n3" href="http://dbpedia.org/data/Cleopatra.n3" title="Structured Descriptor Document (N3/Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" href="http://dbpedia.org/data/Cleopatra.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" href="http://dbpedia.org/data/Cleopatra.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" href="http://dbpedia.org/data/Cleopatra.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" href="http://dbpedia.org/data/Cleopatra.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Cleopatra&gt;&amp;format=text%2Fcsv" type="text/csv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Cleopatra&gt;&amp;output=application%2Fmicrodata%2Bjson" type="application/microdata+json" 	title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Cleopatra&gt;&amp;output=text%2Fhtml" 		     type="text/html" 			title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Cleopatra&gt;&amp;output=application%2Fld%2Bjson"      type="application/ld+json" 	title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="timegate" type="text/html" href="http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/page/Cleopatra" title="Time Machine" />
+    <link rel="stylesheet" type="text/css" href="/statics/style.css" />
+    <link href="/statics/highlighter.css" type="text/css" rel="stylesheet" charset="utf-8" />
+    <link rel="foaf:primarytopic" href="http://dbpedia.org/resource/Cleopatra"/>
+    <link rev="describedby" href="http://dbpedia.org/resource/Cleopatra"/>
+    <script type="text/javascript" src="/statics/script.js"></script>
+</head>
+<body onload="init();" about="http://dbpedia.org/resource/Cleopatra">
+    <div id="header">
+      <div id="hd_l">
+	  <h1 id="title">About: <a href="http://dbpedia.org/resource/Cleopatra">Cleopatra</a></h1>
+        <div id="homelink">
+          <!--?vsp if (white_page = 0) http (txt); ?-->
+        </div>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/ontology/BritishRoyalty">British royalty</a>, 
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>, 
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+        </div>
+      </div> <!-- hd_l -->
+      <div id="hd_r">
+	  <a href="http://wiki.dbpedia.org/Imprint" title="About DBpedia">
+	      <img src="/statics/dbpedia_logo.png" height="64" alt="About DBpedia"/>
+        </a>
+      </div> <!-- hd_r -->
+    </div> <!-- header -->
+    <div id="content">
+
+      <p>Cleopatra VII Philopator (Greek: Κλεοπάτρα Φιλοπάτωρ; Late 69 BC – August 12, 30 BC), known to history as Cleopatra, was the last active pharaoh of Ancient Egypt, only shortly survived by her son, Caesarion as pharaoh.</p>
+<!-- proptable -->
+      <table class="description"><tr><th>Property</th><th>Value</th></tr>
+
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbpedia-owl:</small>abstract</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="en">Cleopatra VII Philopator (Greek: Κλεοπάτρα Φιλοπάτωρ; Late 69 BC – August 12, 30 BC), known to history as Cleopatra, was the last active pharaoh of Ancient Egypt, only shortly survived by her son, Caesarion as pharaoh. The name Cleopatra is derived from the Greek name Κλεοπατρα (Kleopatra) which meant &quot;glory of the father&quot; in the feminine form, derived from κλεος (kleos) &quot;glory&quot; combined with πατρος (patros) &quot;of the father&quot; (the masculine form would be Kleopatros Κλεοπατρος).Cleopatra was a member of the Ptolemaic dynasty, a family of Greekorigin that ruled Egypt after Alexander the Great&#39;s death during the Hellenistic period. The Ptolemies, throughout their dynasty, spoke Greek and refused to speak Egyptian, which is the reason that Greek as well as Egyptian languages were used on official court documents such as the Rosetta Stone. By contrast, Cleopatra did learn to speak Egyptian and represented herself as the reincarnation of an Egyptian goddess, Isis.Cleopatra originally ruled jointly with her father, Ptolemy XII Auletes, and later with her brothers, Ptolemy XIII and Ptolemy XIV, whom she married as per Egyptian custom, but eventually she became sole ruler. As pharaoh, she consummated a liaison with Julius Caesar that solidified her grip on the throne. She later elevated her son with Caesar, Caesarion, to co-ruler in name.After Caesar&#39;s assassination in 44 BC, she aligned with Mark Antony in opposition to Caesar&#39;s legal heir, Gaius Julius Caesar Octavianus (later known as Augustus). With Antony, she bore the twins Cleopatra Selene II and Alexander Helios, and another son, Ptolemy Philadelphus (her unions with her brothers had produced no children). After losing the Battle of Actium to Octavian&#39;s forces, Antony committed suicide. Cleopatra followed suit, according to tradition killing herself by means of an asp bite on August 12, 30 BC. She was briefly outlived by Caesarion, who was declared pharaoh by his supporters but soon killed on Octavian&#39;s orders. Egypt became the Roman province of Aegyptus.To this day, Cleopatra remains a popular figure in Western culture. Her legacy survives in numerous works of art and the many dramatizations of her story in literature and other media, including William Shakespeare&#39;s tragedy Antony and Cleopatra, Jules Massenet&#39;s opera Cléopâtre and the 1963 film Cleopatra. In most depictions, Cleopatra is portrayed as a great beauty, and her successive conquests of the world&#39;s most powerful men are taken as proof of her aesthetic and sexual appeal.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ar">كليوباترا ( 69 ق.م - 30 ق.م ) . ملكة مصر الشهيـره ( 51 ق.م - 30 ق.م ). كانت كليوباترا ابنة بطليموس الثاني عشر المصري . وقد خلفته كملكة سنة 51 ق.م مشاطرة العرش أخاها بطليموس الثالث عشر . وقد وصُفـت بأنها كانت جميلة وساحرة . على نقيض ماتبرزها الصور التي وصلت إلينا . أما الرجال الذين وقعوا في غرامها فقد أسرتهم بشخصيتها القويةالظريفة وبذكائها ودهائها .وكانت دائمة النزاع مع شقيقها الذي انتهى بطردها من مصر . وكانت هذه البلاد في ذلك الوقت مملكة تحت الحماية الرومانية , والمصدر الرئيسي للقمح بالنسبة للشعب الروماني , وأقبل قيصر إلى مصر عقب هزيمة بومبايي في فرسالوس سنة 48 ق.م ، فوجد الحـرب الاهلية ماتزال قائمة فيها . وكانت كليوباتره تحاول العودة إلى مصـر ، فعمدت إلى الظهور فجأة أمام قيصر ملفوفة في سجادة - كما يزعمون -بحيث تستطيع التوسل إليه لمساعدتها في تحقيق غايتها . وقد أسرته ، من يدري ، أما بمفاتنها ، أو بالمنطق الجلي بأنها ستكون حاكماً أفضل من شقيقها . وساعدها قيصر على التغلب على بطليموس الذي أغرق في نهاية المعركة . وحكمت كليوباترا بضع سنوات . وفي سنة 40 ق . م كانت مملكتها جزءاً من نصيب الأمبراطوري الذي أصاب ماركوس انطونيوس عندما أقتسـم العالم الروماني مع كل من اوكتافيوس وليبيدوس بعد مصـرع يوليوس قيصر . وقد أحب انطونيوس كليوباتره , وكلّفته علاقته الغرامية هذه فقدان حظوته في روما .وأنتهى أمر انطونيوس بالانتحار أثر الهزيمة التي انزلها به اوكتافيوس في معركة أكتيوم سنة 31 ق .م . فلما سمعت كليوباتره بالنبأ انتحـرت هى الأخرى</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="de">Kleopatra VII. Philopator (griechisch Κλεοπάτρα Θεά Φιλοπάτωρ; * 69 v. Chr.; † 12. August 30 v. Chr. in Alexandria) herrschte als letzte Königin des ägyptischen Ptolemäerreiches und zugleich als letzter weiblicher Pharao von 51 v. Chr. bis 30 v. Chr. In den ersten vier Jahren regierte sie zunächst gemeinsam mit ihrem Bruder Ptolemaios XIII., der 47 v. Chr. im Alter von 14 Jahren starb, später mit anderen männlichen Mitregenten, da unter der Garantie Roms gesetzliche Regelungen eine Doppelbesetzung des Thrones vorsahen.Sie wollte ihr Reich konsolidieren und ausbauen, konnte dieses Ziel aber nicht gegen die Weltmacht Rom durchsetzen. Daher gewann sie die beiden mächtigsten Römer ihrer Zeit, zuerst Gaius Iulius Caesar und nach dessen Ermordung Marcus Antonius, zu Geliebten und konnte mit deren Hilfe für einige Zeit die Machtstellung des Ptolemäerreichs deutlich erhöhen. Antonius’ Niederlage gegen den späteren Kaiser Augustus bedeutete das Ende ihrer Herrschaft. Kleopatra und Antonius vollzogen Suizid, und Ägypten wurde zur römischen Provinz Aegyptus.Das Liebesdrama von Antonius und Kleopatra, das Verhältnis der ägyptischen Königin zu Caesar sowie die mysteriösen Umstände ihres Todes beflügelten die Fantasie der Menschen seit der Antike und inspirierten zahlreiche bedeutende Schriftsteller, Komponisten, Maler und seit dem 20. Jahrhundert auch Filmproduzenten. Als literarisches Hauptwerk zu diesem Thema gilt die Tragödie Antonius und Cleopatra (um 1606/07) von William Shakespeare.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="es">Cleopatra Filopator Nea Thea, o Cleopatra VII (en griego: Κλεοπάτρα Φιλοπάτωρ), fue la última reina del Antiguo Egipto y de la dinastía ptolemaica, también llamada Lágida, fundada por Ptolomeo I Sóter, un general de Alejandro Magno. Fue la última del llamado Periodo helenístico de Egipto.Cleopatra nació hacia el año 69 a. C. y murió en el 30 a. C. Era hija de Cleopatra V Trifena y de Ptolomeo XII Auletes, de quien heredó el trono en el año 51 a. C., cuando tenía 18 años, junto con su hermano Ptolomeo XIII, de sólo 12, quien sería además su esposo (hecho frecuente en los matrimonios regios ptolemaicos).</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="fr">Cléopâtre VII Théa Philopator (en grec, Κλεοπάτρα Φιλοπάτωρ) (v. -69 / 12 août 30 av. J.-C.) est une reine d&#39;Égypte antique de la famille des Ptolémées qui gouverne son pays entre -51 et -30, successivement avec ses frères et époux Ptolémée XIII et Ptolémée XIV puis avec le général romain Marc Antoine. Elle est connue pour ses relations avec Jules César et Marc Antoine.Cléopâtre est un personnage dont la légende s&#39;est emparée, de son vivant même, et le tragique de sa mort n&#39;a fait que renforcer la tendance au romanesque qui entoure le personnage et qui parfois gêne l&#39;historien dans une approche objective de cette reine d&#39;Égypte, sans doute la femme la plus célèbre de l&#39;Antiquité.Nous disposons de peu de sources et les principales, Plutarque, Suétone et Appien, n&#39;évoquent Cléopâtre que pour sa place dans l&#39;histoire romaine. C&#39;est pourquoi nous ne savons pratiquement rien de ce qu&#39;elle fait à Rome aux lendemains de l&#39;assassinat de César, ni à Alexandrie durant l&#39;absence de Marc Antoine entre -40 et -37.De plus, l&#39;historiographie antique lui est globalement défavorable car inspirée par le vainqueur de Cléopâtre, l&#39;empereur Auguste, et son entourage dont l&#39;intérêt est de la noircir afin d&#39;en faire l&#39;adversaire malfaisant de Rome et le mauvais génie de Marc Antoine. Ainsi ce jugement de l&#39;historien du Ier siècle, Flavius Josèphe : . La légende noire propagée par l&#39;idéologie augustéenne est relayée ensuite par les poètes (Horace, Properce, Lucain) et historiens romains (Eutrope, Dion Cassius et Tite-Live) qui voient en elle quatre dangers : reine (remettant en cause la République romaine), femme de caractère et séductrice (pouvant mettre en danger la virilité et la virtus romaine), ambitieuse (menaçant la liberté) et étrangère (origine grecque et orientalité associées à la débauche et la luxure mettant en cause la « romanité », notamment la vertu de pudicitia (en)). Cela explique la prudence des historiens actuels et l&#39;enthousiasme des cinéastes ou romanciers pour un tel personnage.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="it">Cleopatra VII Thea Philopatore, in greco antico Κλεόπατρα Θεά Φιλοπάτωρ (Alessandria d&#39;Egitto, 69 a.C. – Alessandria d&#39;Egitto, 12 agosto 30 a.C.), è stata una regina egizia del periodo tolemaico.Fu l&#39;ultima regina del Regno tolemaico d&#39;Egitto e l&#39;ultimo membro della Dinastia tolemaica. Il nome &quot;Cleopatra&quot; significa in lingua greca &quot;gloria del padre&quot;.Fu anche una dei nemici più temuti per la Repubblica romana; infatti oltre che disporre di una grossa flotta, di un esercito potente e di un regno ricco di risorse, aveva dalla sua parte anche un gran fascino, grazie al quale aveva sedotto due tra i più grandi condottieri romani: Giulio Cesare e Marco Antonio.Oggi è probabilmente la più famosa di tutti i sovrani dell&#39;Antico Egitto ed è conosciuta con il nome di Cleopatra, anche se fu la settima e ultima regina a possedere quel nome. Cleopatra comunque non fu mai di fatto l&#39;unica sovrana dell&#39;Egitto, avendo regnato insieme al padre, al fratello, al fratello-marito e al figlio. La sua immagine quasi mitica data da leggende orali poi divenuti testi scritti, poi opere teatrali fino alle più moderne pellicole, stride però con la realtà di una donna ossessionata dal potere, spietata e senza scrupoli tanto da far uccidere la sorella minore Arsinoe IV e da usare il sesso come arma per ottenere favori e benefici dai potenti romani.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ja">クレオパトラ7世フィロパトル（ギリシア語: Κλεοπάτρα Φιλοπάτωρ, ラテン語: Cleopatra VII Philopator, 紀元前70年12月/紀元前69年1月 - 紀元前30年8月12日）は、古代エジプトプトレマイオス朝最後のファラオである。父はプトレマイオス12世（アウレテス）、母はクレオパトラ5世であり、兄弟はベレニケ4世（姉）、アルシノエ4世（妹）、プトレマイオス13世、プトレマイオス14世（共に弟）が知られる。「クレオパトラ」の名はギリシア語で「父の栄光」を意味する。現在、一般に「クレオパトラ」として浸透しているのは、このクレオパトラ7世の事である。「絶世の美女」として知られ、人をそらさない魅力的な話術と、小鳥のような美しい声であったと伝えられる。ただし、クレオパトラの肖像は治世当時、アントニウスが発行したとされている硬貨に横顔がのこされているのみであり、この評価は後世の作り話だとの説がある（#人物節を参照）が、妹のアルシノエ4世の復元図から姉のクレオパトラも美しかったとする説もある。</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="nl">Cleopatra VII Philopator (januari 69 v.Chr. – 12 augustus 30 v.Chr.) was koningin van het oude Egypte, het laatste lid van de Ptolemaeïsche dynastie en daarmee de laatste Hellenistische heerseres van Egypte. Ze is verreweg de bekendste van de vele gelijknamige Egyptische vorstinnen en wordt gewoonlijk kortweg als Cleopatra aangeduid.Haar familie was oorspronkelijk van Grieks-Macedonische afkomst.Ze was mede-heerseres over Egypte naast haar vader Ptolemaeus XII Auletes, haar broers/echtgenoten Ptolemaeus XIII Theos Philopator, Ptolemaeus XIV Theos Philopator II en later haar zoon Ptolemaeus XV Caesarion. Cleopatra overleefde een staatsgreep uitgedokterd door de hovelingen van haar oudste broer en ging vervolgens een verhouding aan met Julius Caesar, die haar greep op de troon verstevigde. Na de moord op Caesar in 44 v.Chr. bond ze zich aan Marcus Antonius, met wie zij een tweeling kreeg. Later trouwde zij met Marcus Antonius en baarde nog een zoon. Alles bij elkaar had Cleopatra 4 kinderen, 1 bij Caesar en 3 bij Antonius. Haar (verstands-)huwelijken met haar 2 broers leverden geen kinderen op.Nadat Antonius&#39; rivaal en Caesars wettelijke opvolger, Gaius Julius Caesar Octavianus, de volle macht van Rome tegen Egypte keerde en een relatie met Cleopatra van de hand wees, benam Cleopatra zich van het leven op 12 augustus in 30 v.Chr. Haar nalatenschap overleeft in de vorm van talloze dramatiseringen van haar levensverhaal, inclusief William Shakespeares Antony and Cleopatra, verscheidene opera&#39;s en films.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="pl">Kleopatra VII Filopator, Kleopatra Wielka, gr. Κλεοπάτρα Φιλοπάτωρ, egip. Qlwpdrt – Kliupadrat (ur. 69 rok p.n.e., zm. 12 sierpnia 30 roku p.n.e. w Aleksandrii) – ostatnia królowa hellenistycznego Egiptu, panująca w latach 51–30 p.n.e. Nosiła tytuły Królowa, Nowa Bogini, Bogini Miłująca Ojca, Bogini Miłująca Ojczyznę. Była córką Ptolemeusza XII Auletesa. Po wstąpieniu na tron poślubiła swego brata Ptolemeusza XIII. Na skutek intryg dworskich opuściła Egipt i udała się do Palestyny, gdzie zdobyła poparcie Cezara, z którym miała syna, Ptolemeusza XV Cezariona. Dzięki interwencji wojskowej Cezara powróciła na tron egipski. Po śmierci Ptolemeusza XIII, który zginął na skutek zamieszek antyrzymskich w Aleksandrii, Kleopatra poślubiła drugiego brata, Ptolemeusza XIV. Z drugim małżonkiem odbyła podróż do Rzymu w celu wzmocnienia więzi politycznych pomiędzy obu państwami. Po zabiciu Cezara powróciła do Egiptu i rozkazała zamordować małżonka, po czym w imieniu małoletniego Cezariona objęła rządy.W trwającej w Rzymie wojnie domowej Kleopatra poparła zwolenników cesarstwa Oktawiana Augusta i Marka Antoniusza. W 42 roku p.n.e. osobiście poznała tego ostatniego, czego skutkiem był długoletni związek uczuciowy. W późniejszym konflikcie pomiędzy Oktawianem a Antoniuszem opowiedziała się za kochankiem, z którym miała troje dzieci: bliźnięta Aleksandra Heliosa i Kleopatrę Selene oraz syna Ptolemeusza Filadelfosa. Oktawian w bitwie pod Akcjum w 31 roku p.n.e. pokonał połączone siły Antoniusza i Kleopatry i wkroczył do Egiptu. Kleopatra po nieudanych pertraktacjach ze zwycięzcą, polegających na dążeniu do zapewnienia władzy w Egipcie swoim potomkom, 12 sierpnia 30 roku p.n.e. popełniła samobójstwo.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="pt">Cleópatra Thea Filopator (em grego, Κλεοπάτρα Φιλοπάτωρ – Cleopátra Philopátor; Alexandria, 69 a.C. — 12 de agosto de 30 a.C.) foi a última rainha da dinastia de Ptolomeu, general que governou o Egito após a conquista daquele país pelo rei Alexandre III da Macedônia. Era filha de Ptolomeu Auletes. O nome &quot;Cleópatra&quot; significa &quot;glória do pai&quot;, &quot;Thea&quot; significa &quot;deusa&quot; e &quot;Filopator&quot; &quot;amada por seu pai&quot;. Apesar da numeração das rainhas do Egito variar conforme o historiador (por exemplo, E. R. Bevan a numera como Cleópatra VI), ela é geralmente designada por Cleópatra VII.Cleópatra originalmente governou conjuntamente com seu pai Ptolemeu Auletes, e mais tarde com seus irmãos Ptolomeu XIII e XIV, com quem se casou como por costume egípcio, mas, eventualmente, ela tornou-se a única governante. Como faraó, ela consumou uma ligação com Júlio César, que marcou sua pegada no trono. Mais tarde, ela elevou seu filho com César, Cesário, para co-regente em nome.Cleópatra foi uma grande negociante, estrategista, falava seis idiomas e conhecia filosofia, literatura e arte gregas.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ru">Клеопа́тра VII Филопа́тор (др.-греч. Κλεοπάτρα Φιλοπάτωρ, 69 — 30 гг. до н. э.) — последняя царица эллинистического Египта из македонской династии Птолемеев (Лагидов).Прославлена благодаря драматической истории любви к римскому полководцу Марку Антонию. В годы её правления Египет был покорён Римом, сама Клеопатра покончила жизнь самоубийством, чтобы не стать пленницей первого римского императора Октавиана Августа. Клеопатра стала одним из наиболее популярных античных персонажей в кинофильмах и литературных произведениях.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="zh">克麗奧佩脫拉七世（篤愛父親者）（希腊语：Κλεοπάτρα Φιλοπάτωρ，又譯克婁巴特拉七世、克利歐佩特拉七世、克麗奧佩特拉七世；前69年－前30年8月12日），世称「埃及艷后」，古埃及托勒密王朝末代女王。在她死後，埃及成為羅馬行省。雖然克麗奧佩脫拉擁有埃及法老的稱號，然而身上流著馬其頓希臘人的血統。她是埃及托勒密王朝的王室成員之一，在亞歷山大大帝逝世後，他的將領托勒密一世獲取埃及並建立這個王朝，因此托勒密一世是克麗奧佩脫拉七世的先祖。托勒密王國深受希臘化文明影響，幾乎多數托勒密王室成員都說希臘語，並拒絕學習當地的埃及語言，這也是希臘語和埃及語一直並存於宮廷文件上的原因之一，如羅塞塔石碑。相反地，克麗奧佩脫拉是王室成員中第一個學會埃及語的，還接受古埃及信仰和神靈。她的守護女神是艾西斯，在她統治期間，克麗奧佩脫拉被認為是這位聰慧女神的在世化身。起初克麗奧佩脫拉與他的父親托勒密十二世一同在位治理國家，之後根據古埃及的傳統，她與亲弟弟托勒密十三世結婚並共治，但克麗奧佩脫拉為了成為單獨的統治者，遭到放逐。後來她為了鞏固並奪回失去的權位，她與尤利烏斯·凱撒結盟並成為其情婦，並與凱撒生了一個男孩凱撒里昂，重攬埃及的統治大權。在前44年，尤利烏斯·凱撒遭到刺殺後，克麗奧佩脫拉與馬克·安東尼一同對付凱撒的合法繼承人屋大維，並與安東尼生了亞歷山大·赫利俄斯、克麗奧佩脫拉·塞勒涅二世這對雙胞胎，以及托勒密·費拉德爾甫斯。在與屋大維軍的亞克興角戰役失利後，馬克·安東尼自己結束生命，克麗奧佩脫拉隨後也跟著自殺。根據傳統上認為，克麗奧佩脫拉是在前30年8月12日以毒蛇「aspis」咬自己而身亡。而克麗奧佩脫拉的兒子，同時也是法老的托勒密·凱撒里昂在母親自殺前夕，因屋大維的命令而被殺，托勒密王國因此被併吞，成為羅馬的埃及行省。她的死亡代表托勒密王國終結，也代表希臘化時期結束，東地中海羅馬時代的開始。直至今日，克麗奧佩脫拉依舊是西方文明中一個知名的人物，她的形象仍存於無數的藝術作品之中，她的故事在許多文學、戲劇、電影中上演。在大多數的描繪中，克麗奧佩脫拉是個超級漂亮的美人，充滿知性、美貌和性感，並且成功征服當時西方世界最有權勢的男人。在今日文藝或電影上，她被認為是為了保護國家免受羅馬併吞，而色誘凱撒大帝及他的手下馬克·安東尼。</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/activeYearsStartYear"><small>dbpedia-owl:</small>activeYearsStartYear</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:activeYearsStartYear" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">0051-01-01</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/alias"><small>dbpedia-owl:</small>alias</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:alias" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">Cleopatra VII</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthDate"><small>dbpedia-owl:</small>birthDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:birthDate" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">0069-01-01</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthPlace"><small>dbpedia-owl:</small>birthPlace</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:birthPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Alexandria"><small>dbpedia</small>:Alexandria</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:birthPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Ptolemaic_Kingdom"><small>dbpedia</small>:Ptolemaic_Kingdom</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthYear"><small>dbpedia-owl:</small>birthYear</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:birthYear" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">0069-01-01</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/deathDate"><small>dbpedia-owl:</small>deathDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:deathDate" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">1930-08-12</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/deathPlace"><small>dbpedia-owl:</small>deathPlace</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:deathPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Alexandria"><small>dbpedia</small>:Alexandria</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:deathPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Ptolemaic_Kingdom"><small>dbpedia</small>:Ptolemaic_Kingdom</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/deathYear"><small>dbpedia-owl:</small>deathYear</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:deathYear" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">1930-01-01</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/lccnId"><small>dbpedia-owl:</small>lccnId</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:lccnId" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">n/80/67160</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/parent"><small>dbpedia-owl:</small>parent</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:parent" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cleopatra_V_of_Egypt"><small>dbpedia</small>:Cleopatra_V_of_Egypt</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:parent" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Ptolemy_XII_Auletes"><small>dbpedia</small>:Ptolemy_XII_Auletes</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/predecessor"><small>dbpedia-owl:</small>predecessor</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:predecessor" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Ptolemy_XII_Auletes"><small>dbpedia</small>:Ptolemy_XII_Auletes</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/restingPlace"><small>dbpedia-owl:</small>restingPlace</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:restingPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Ptolemaic_Kingdom"><small>dbpedia</small>:Ptolemaic_Kingdom</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/spouse"><small>dbpedia-owl:</small>spouse</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:spouse" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Mark_Antony"><small>dbpedia</small>:Mark_Antony</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:spouse" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Ptolemy_XIII_Theos_Philopator"><small>dbpedia</small>:Ptolemy_XIII_Theos_Philopator</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:spouse" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Ptolemy_XIV_of_Egypt"><small>dbpedia</small>:Ptolemy_XIV_of_Egypt</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/thumbnail"><small>dbpedia-owl:</small>thumbnail</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:thumbnail nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Kleopatra-VII.-Altes-Museum-Berlin1.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Kleopatra-VII.-Altes-Museum-Berlin1.jpg?width=300</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageExternalLink"><small>dbpedia-owl:</small>wikiPageExternalLink</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.bbc.co.uk/history/">http://www.bbc.co.uk/history/</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Egypt/_Texts/BEVHOP/13*.html">http://penelope.uchicago.edu/Thayer/E/Gazetteer/Places/Africa/Egypt/_Texts/BEVHOP/13*.html</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://penelope.uchicago.edu/oddnotes/cleoinencaustic/cleopatraencaustic.html">http://penelope.uchicago.edu/oddnotes/cleoinencaustic/cleopatraencaustic.html</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://penelope.uchicago.edu/pseudodoxia/pseudo512.html">http://penelope.uchicago.edu/pseudodoxia/pseudo512.html</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://penelope.uchicago.edu/~grout/encyclopaedia_romana/miscellanea/cleopatra/cleopatra.html">http://penelope.uchicago.edu/~grout/encyclopaedia_romana/miscellanea/cleopatra/cleopatra.html</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.bbc.co.uk/history/historic_figures/cleopatra_vii.shtml">http://www.bbc.co.uk/history/historic_figures/cleopatra_vii.shtml</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.gutenberg.org/ebooks/10992">http://www.gutenberg.org/ebooks/10992</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.discoverychannelasia.com/">http://www.discoverychannelasia.com/</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.discoverychannelasia.com/ontv_egyptweek/death_cleopatra/index.shtml">http://www.discoverychannelasia.com/ontv_egyptweek/death_cleopatra/index.shtml</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbpedia-owl:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:wikiPageID" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">60827</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbpedia-owl:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:wikiPageRevisionID" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">604894747</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/alternativeNames"><small>dbpprop:</small>alternativeNames</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:alternativeNames" xml:lang="en">Cleopatra VII</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/birthDate"><small>dbpprop:</small>birthDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:birthDate" xml:lang="en">January 69 BC</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/birthPlace"><small>dbpprop:</small>birthPlace</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:birthPlace" href="http://dbpedia.org/resource/Alexandria"><small>dbpedia</small>:Alexandria</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:birthPlace" href="http://dbpedia.org/resource/Ptolemaic_Kingdom"><small>dbpedia</small>:Ptolemaic_Kingdom</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/caption"><small>dbpprop:</small>caption</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:caption" xml:lang="en">Bust of Cleopatra VII, Altes Museum, Berlin</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/dateOfBirth"><small>dbpprop:</small>dateOfBirth</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:dateOfBirth" xml:lang="en">January, 69 BC</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/dateOfDeath"><small>dbpprop:</small>dateOfDeath</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:dateOfDeath">1930-08-12</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/deathDate"><small>dbpprop:</small>deathDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:deathDate">1930-08-12</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/deathPlace"><small>dbpprop:</small>deathPlace</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:deathPlace" xml:lang="en">Alexandria, Egypt</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/father"><small>dbpprop:</small>father</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:father" href="http://dbpedia.org/resource/Ptolemy_XII_Auletes"><small>dbpedia</small>:Ptolemy_XII_Auletes</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/fullName"><small>dbpprop:</small>fullName</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:fullName" xml:lang="en">Cleopatra VII Thea Philopator</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/hasPhotoCollection"><small>dbpprop:</small>hasPhotoCollection</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:hasPhotoCollection nofollow" href="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Cleopatra">http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Cleopatra</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/imgw"><small>dbpprop:</small>imgw</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:imgw">225</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/issue"><small>dbpprop:</small>issue</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:issue" href="http://dbpedia.org/resource/Alexander_Helios"><small>dbpedia</small>:Alexander_Helios</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:issue" href="http://dbpedia.org/resource/Caesarion"><small>dbpedia</small>:Caesarion</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:issue" href="http://dbpedia.org/resource/Ptolemy_Philadelphus_(son_of_Cleopatra)"><small>dbpedia</small>:Ptolemy_Philadelphus_(son_of_Cleopatra)</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:issue" href="http://dbpedia.org/resource/Cleopatra_Selene_II"><small>dbpedia</small>:Cleopatra_Selene_II</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/mother"><small>dbpprop:</small>mother</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:mother" href="http://dbpedia.org/resource/Cleopatra_V_of_Egypt"><small>dbpedia</small>:Cleopatra_V_of_Egypt</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/name"><small>dbpprop:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">Cleopatra VII Philopator</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">Philopator, Cleopatra Selene</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">q:rw-W:p-d:r:t*H8-nTr-t:H8-R7:t-z:N36</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">q:rw-i-wA-p-A-d:r-t-A-H8</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">wr*t:r-t:W:t-A53-n:X2*t:z</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">wr:r-nb-nfr-nfr-nfr-H2:x-O22</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/name2Explanation"><small>dbpprop:</small>name2Explanation</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name2Explanation" xml:lang="en">Horus name : Wer-neb-neferu-achet-seh</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name2Explanation" xml:lang="en">The great Lady of perfection, excellent in counsel</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/name2InSerekh"><small>dbpprop:</small>name2InSerekh</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name2InSerekh" xml:lang="en">yes</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/name2SerekhSymbol"><small>dbpprop:</small>name2SerekhSymbol</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name2SerekhSymbol" xml:lang="en">G5</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/name3Explanation"><small>dbpprop:</small>name3Explanation</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name3Explanation" xml:lang="en">Horus name : Weret-tut-en-it-es</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name3Explanation" xml:lang="en">The great one, sacred image of her father</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name3Explanation" xml:lang="en">Wr.t-twt-n-jt=s</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/name3InSerekh"><small>dbpprop:</small>name3InSerekh</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name3InSerekh" xml:lang="en">yes</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/name3SerekhSymbol"><small>dbpprop:</small>name3SerekhSymbol</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name3SerekhSymbol" xml:lang="en">G5</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/name4InCartouche"><small>dbpprop:</small>name4InCartouche</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name4InCartouche" xml:lang="en">yes</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/name4Transcription"><small>dbpprop:</small>name4Transcription</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name4Transcription" xml:lang="en">Cleopatra netjeret mer ites</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name4Transcription" xml:lang="en">Qlwpdrt  mr jts</span></span></li>
+	<li><span class="literal"><span property="dbpprop:name4Transcription" xml:lang="en">The goddess Cleopatra who is beloved of her father</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/nameInCartouche"><small>dbpprop:</small>nameInCartouche</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:nameInCartouche" xml:lang="en">yes</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/nameTranscription"><small>dbpprop:</small>nameTranscription</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:nameTranscription" xml:lang="en">Cleopatra</span></span></li>
+	<li><span class="literal"><span property="dbpprop:nameTranscription" xml:lang="en">Qlwpdrt</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/placeOfBirth"><small>dbpprop:</small>placeOfBirth</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:placeOfBirth" href="http://dbpedia.org/resource/Alexandria"><small>dbpedia</small>:Alexandria</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/placeOfBurial"><small>dbpprop:</small>placeOfBurial</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:placeOfBurial" xml:lang="en">Unknown, Probably in Egypt</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/placeOfDeath"><small>dbpprop:</small>placeOfDeath</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:placeOfDeath" href="http://dbpedia.org/resource/Alexandria"><small>dbpedia</small>:Alexandria</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/predecessor"><small>dbpprop:</small>predecessor</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:predecessor" href="http://dbpedia.org/resource/Ptolemy_XII_Auletes"><small>dbpedia</small>:Ptolemy_XII_Auletes</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/regType"><small>dbpprop:</small>regType</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:regType" xml:lang="en">Co-rulers</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/regent"><small>dbpprop:</small>regent</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:regent" href="http://dbpedia.org/resource/Caesarion"><small>dbpedia</small>:Caesarion</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:regent" href="http://dbpedia.org/resource/Ptolemy_XIII_Theos_Philopator"><small>dbpedia</small>:Ptolemy_XIII_Theos_Philopator</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:regent" href="http://dbpedia.org/resource/Ptolemy_XIV_of_Egypt"><small>dbpedia</small>:Ptolemy_XIV_of_Egypt</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:regent" href="http://dbpedia.org/resource/Ptolemy_XII_Auletes"><small>dbpedia</small>:Ptolemy_XII_Auletes</a></span></li>
+	<li><span class="literal"><span property="dbpprop:regent" xml:lang="en">Ptolemy XIV and</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/reign"><small>dbpprop:</small>reign</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:reign">0001-08-30</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/royalHouse"><small>dbpprop:</small>royalHouse</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:royalHouse" href="http://dbpedia.org/resource/Ptolemaic_dynasty"><small>dbpedia</small>:Ptolemaic_dynasty</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/shortDescription"><small>dbpprop:</small>shortDescription</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:shortDescription" xml:lang="en">Queen of Egypt</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/spouse"><small>dbpprop:</small>spouse</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:spouse" href="http://dbpedia.org/resource/Mark_Antony"><small>dbpedia</small>:Mark_Antony</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:spouse" href="http://dbpedia.org/resource/Ptolemy_XIII_Theos_Philopator"><small>dbpedia</small>:Ptolemy_XIII_Theos_Philopator</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpprop:spouse" href="http://dbpedia.org/resource/Ptolemy_XIV_of_Egypt"><small>dbpedia</small>:Ptolemy_XIV_of_Egypt</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/succession"><small>dbpprop:</small>succession</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:succession" xml:lang="en">Ptolemaic Queen of Egypt</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/title"><small>dbpprop:</small>title</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:title" href="http://dbpedia.org/resource/List_of_pharaohs"><small>dbpedia</small>:List_of_pharaohs</a></span></li>
+	<li><span class="literal"><span property="dbpprop:title" xml:lang="en">Cleopatra VII</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/years"><small>dbpprop:</small>years</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:years">51</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://purl.org/dc/elements/1.1/description"><small>dc:</small>description</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dc:description" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">Queen of Egypt</span></span></li>
+	<li><span class="literal"><span property="dc:description" xmlns:dc="http://purl.org/dc/elements/1.1/">Queen of Egypt</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dcterms:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:1st-century_BC_African_rulers"><small>category</small>:1st-century_BC_African_rulers</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:1st-century_BC_female_rulers"><small>category</small>:1st-century_BC_female_rulers</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:69_BC_births"><small>category</small>:69_BC_births</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Ancient_Egyptian_queens_consort"><small>category</small>:Ancient_Egyptian_queens_consort</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Ancient_Egyptian_women_in_warfare"><small>category</small>:Ancient_Egyptian_women_in_warfare</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Deaths_due_to_snake_bites"><small>category</small>:Deaths_due_to_snake_bites</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Egyptian_queens_regnant"><small>category</small>:Egyptian_queens_regnant</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Female_Shakespearean_characters"><small>category</small>:Female_Shakespearean_characters</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Pharaohs_of_the_Ptolemaic_dynasty"><small>category</small>:Pharaohs_of_the_Ptolemaic_dynasty</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Royal_suicides_in_the_classical_world"><small>category</small>:Royal_suicides_in_the_classical_world</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Women_in_Hellenistic_warfare"><small>category</small>:Women_in_Hellenistic_warfare</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:30_BC_deaths"><small>category</small>:30_BC_deaths</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Cleopatra"><small>category</small>:Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Female_suicides"><small>category</small>:Female_suicides</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://xmlns.com/foaf/0.1/Person"><small>foaf</small>:Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Person">http://schema.org/Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://wikidata.dbpedia.org/resource/Q215627">http://wikidata.dbpedia.org/resource/Q215627</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://wikidata.dbpedia.org/resource/Q5">http://wikidata.dbpedia.org/resource/Q5</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"><small>dul</small>:Agent</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson"><small>dul</small>:NaturalPerson</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Agent"><small>dbpedia-owl</small>:Agent</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/BritishRoyalty"><small>dbpedia-owl</small>:BritishRoyalty</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Person"><small>dbpedia-owl</small>:Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Royalty"><small>dbpedia-owl</small>:Royalty</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">クレオパトラ7世フィロパトル（ギリシア語: Κλεοπάτρα Φιλοπάτωρ, ラテン語: Cleopatra VII Philopator, 紀元前70年12月/紀元前69年1月 - 紀元前30年8月12日）は、古代エジプトプトレマイオス朝最後のファラオである。父はプトレマイオス12世（アウレテス）、母はクレオパトラ5世であり、兄弟はベレニケ4世（姉）、アルシノエ4世（妹）、プトレマイオス13世、プトレマイオス14世（共に弟）が知られる。「クレオパトラ」の名はギリシア語で「父の栄光」を意味する。現在、一般に「クレオパトラ」として浸透しているのは、このクレオパトラ7世の事である。「絶世の美女」として知られ、人をそらさない魅力的な話術と、小鳥のような美しい声であったと伝えられる。ただし、クレオパトラの肖像は治世当時、アントニウスが発行したとされている硬貨に横顔がのこされているのみであり、この評価は後世の作り話だとの説がある（#人物節を参照）が、妹のアルシノエ4世の復元図から姉のクレオパトラも美しかったとする説もある。</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">克麗奧佩脫拉七世（篤愛父親者）（希腊语：Κλεοπάτρα Φιλοπάτωρ，又譯克婁巴特拉七世、克利歐佩特拉七世、克麗奧佩特拉七世；前69年－前30年8月12日），世称「埃及艷后」，古埃及托勒密王朝末代女王。在她死後，埃及成為羅馬行省。雖然克麗奧佩脫拉擁有埃及法老的稱號，然而身上流著馬其頓希臘人的血統。她是埃及托勒密王朝的王室成員之一，在亞歷山大大帝逝世後，他的將領托勒密一世獲取埃及並建立這個王朝，因此托勒密一世是克麗奧佩脫拉七世的先祖。托勒密王國深受希臘化文明影響，幾乎多數托勒密王室成員都說希臘語，並拒絕學習當地的埃及語言，這也是希臘語和埃及語一直並存於宮廷文件上的原因之一，如羅塞塔石碑。相反地，克麗奧佩脫拉是王室成員中第一個學會埃及語的，還接受古埃及信仰和神靈。她的守護女神是艾西斯，在她統治期間，克麗奧佩脫拉被認為是這位聰慧女神的在世化身。起初克麗奧佩脫拉與他的父親托勒密十二世一同在位治理國家，之後根據古埃及的傳統，她與亲弟弟托勒密十三世結婚並共治，但克麗奧佩脫拉為了成為單獨的統治者，遭到放逐。後來她為了鞏固並奪回失去的權位，她與尤利烏斯·凱撒結盟並成為其情婦，並與凱撒生了一個男孩凱撒里昂，重攬埃及的統治大權。在前44年，尤利烏斯·凱撒遭到刺殺後，克麗奧佩脫拉與馬克·安東尼一同對付凱撒的合法繼承人屋大維，並與安東尼生了亞歷山大·赫利俄斯、克麗奧佩脫拉·塞勒涅二世這對雙胞胎，以及托勒密·費拉德爾甫斯。在與屋大維軍的亞克興角戰役失利後，馬克·安東尼自己結束生命，克麗奧佩脫拉隨後也跟著自殺。根據傳統上認為，克麗奧佩脫拉是在前30年8月12日以毒蛇「aspis」咬自己而身亡。而克麗奧佩脫拉的兒子，同時也是法老的托勒密·凱撒里昂在母親自殺前夕，因屋大維的命令而被殺，托勒密王國因此被併吞，成為羅馬的埃及行省。她的死亡代表托勒密王國終結，也代表希臘化時期結束，東地中海羅馬時代的開始。直至今日，克麗奧佩脫拉依舊是西方文明中一個知名的人物，她的形象仍存於無數的藝術作品之中，她的故事在許多文學、戲劇、電影中上演。在大多數的描繪中，克麗奧佩脫拉是個超級漂亮的美人，充滿知性、美貌和性感，並且成功征服當時西方世界最有權勢的男人。在今日文藝或電影上，她被認為是為了保護國家免受羅馬併吞，而色誘凱撒大帝及他的手下馬克·安東尼。</span></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cleopatra VII Philopator (Greek: Κλεοπάτρα Φιλοπάτωρ; Late 69 BC – August 12, 30 BC), known to history as Cleopatra, was the last active pharaoh of Ancient Egypt, only shortly survived by her son, Caesarion as pharaoh.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ar">كليوباترا ( 69 ق.م - 30 ق.م ) . ملكة مصر الشهيـره ( 51 ق.م - 30 ق.م ). كانت كليوباترا ابنة بطليموس الثاني عشر المصري . وقد خلفته كملكة سنة 51 ق.م مشاطرة العرش أخاها بطليموس الثالث عشر . وقد وصُفـت بأنها كانت جميلة وساحرة . على نقيض ماتبرزها الصور التي وصلت إلينا . أما الرجال الذين وقعوا في غرامها فقد أسرتهم بشخصيتها القويةالظريفة وبذكائها ودهائها .وكانت دائمة النزاع مع شقيقها الذي انتهى بطردها من مصر .</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Kleopatra VII. Philopator (griechisch Κλεοπάτρα Θεά Φιλοπάτωρ; * 69 v. Chr.; † 12. August 30 v. Chr. in Alexandria) herrschte als letzte Königin des ägyptischen Ptolemäerreiches und zugleich als letzter weiblicher Pharao von 51 v. Chr. bis 30 v. Chr. In den ersten vier Jahren regierte sie zunächst gemeinsam mit ihrem Bruder Ptolemaios XIII., der 47 v. Chr.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Cleopatra Filopator Nea Thea, o Cleopatra VII (en griego: Κλεοπάτρα Φιλοπάτωρ), fue la última reina del Antiguo Egipto y de la dinastía ptolemaica, también llamada Lágida, fundada por Ptolomeo I Sóter, un general de Alejandro Magno. Fue la última del llamado Periodo helenístico de Egipto.Cleopatra nació hacia el año 69 a. C. y murió en el 30 a. C. Era hija de Cleopatra V Trifena y de Ptolomeo XII Auletes, de quien heredó el trono en el año 51 a.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Cléopâtre VII Théa Philopator (en grec, Κλεοπάτρα Φιλοπάτωρ) (v. -69 / 12 août 30 av. J.-C.) est une reine d&#39;Égypte antique de la famille des Ptolémées qui gouverne son pays entre -51 et -30, successivement avec ses frères et époux Ptolémée XIII et Ptolémée XIV puis avec le général romain Marc Antoine.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Cleopatra VII Thea Philopatore, in greco antico Κλεόπατρα Θεά Φιλοπάτωρ (Alessandria d&#39;Egitto, 69 a.C. – Alessandria d&#39;Egitto, 12 agosto 30 a.C.), è stata una regina egizia del periodo tolemaico.Fu l&#39;ultima regina del Regno tolemaico d&#39;Egitto e l&#39;ultimo membro della Dinastia tolemaica.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Cleopatra VII Philopator (januari 69 v.Chr. – 12 augustus 30 v.Chr.) was koningin van het oude Egypte, het laatste lid van de Ptolemaeïsche dynastie en daarmee de laatste Hellenistische heerseres van Egypte.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Kleopatra VII Filopator, Kleopatra Wielka, gr. Κλεοπάτρα Φιλοπάτωρ, egip. Qlwpdrt – Kliupadrat (ur. 69 rok p.n.e., zm. 12 sierpnia 30 roku p.n.e. w Aleksandrii) – ostatnia królowa hellenistycznego Egiptu, panująca w latach 51–30 p.n.e. Nosiła tytuły Królowa, Nowa Bogini, Bogini Miłująca Ojca, Bogini Miłująca Ojczyznę. Była córką Ptolemeusza XII Auletesa. Po wstąpieniu na tron poślubiła swego brata Ptolemeusza XIII.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Cleópatra Thea Filopator (em grego, Κλεοπάτρα Φιλοπάτωρ – Cleopátra Philopátor; Alexandria, 69 a.C. — 12 de agosto de 30 a.C.) foi a última rainha da dinastia de Ptolomeu, general que governou o Egito após a conquista daquele país pelo rei Alexandre III da Macedônia. Era filha de Ptolomeu Auletes. O nome &quot;Cleópatra&quot; significa &quot;glória do pai&quot;, &quot;Thea&quot; significa &quot;deusa&quot; e &quot;Filopator&quot; &quot;amada por seu pai&quot;. Apesar da numeração das rainhas do Egito variar conforme o historiador (por exemplo, E. R.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Клеопа́тра VII Филопа́тор (др.-греч. Κλεοπάτρα Φιλοπάτωρ, 69 — 30 гг. до н. э.) — последняя царица эллинистического Египта из македонской династии Птолемеев (Лагидов).Прославлена благодаря драматической истории любви к римскому полководцу Марку Антонию. В годы её правления Египет был покорён Римом, сама Клеопатра покончила жизнь самоубийством, чтобы не стать пленницей первого римского императора Октавиана Августа.</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Cleopatra</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ar">كليوباترا السابعة</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Kleopatra VII.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Cleopatra VII</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Cléopâtre VII</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Cleopatra VII</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">クレオパトラ7世</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Cleopatra VII</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Kleopatra VII</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Cleópatra</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Клеопатра</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">克娄巴特拉七世</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.0gj27"><small>fbase</small>:Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fr.dbpedia.org/resource/Cléopâtre_VII">http://fr.dbpedia.org/resource/Cléopâtre_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://de.dbpedia.org/resource/Kleopatra_VII.">http://de.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://cs.dbpedia.org/resource/Kleopatra_VII.">http://cs.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://el.dbpedia.org/resource/Κλεοπάτρα_Ζ΄_της_Αιγύπτου">http://el.dbpedia.org/resource/Κλεοπάτρα_Ζ΄_της_Αιγύπτου</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://es.dbpedia.org/resource/Cleopatra_VII">http://es.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://eu.dbpedia.org/resource/Kleopatra_VII.a">http://eu.dbpedia.org/resource/Kleopatra_VII.a</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://id.dbpedia.org/resource/Kleopatra_VII">http://id.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://it.dbpedia.org/resource/Cleopatra_VII">http://it.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ja.dbpedia.org/resource/クレオパトラ7世">http://ja.dbpedia.org/resource/クレオパトラ7世</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ko.dbpedia.org/resource/클레오파트라_7세">http://ko.dbpedia.org/resource/클레오파트라_7세</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nl.dbpedia.org/resource/Cleopatra_VII">http://nl.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pl.dbpedia.org/resource/Kleopatra_VII">http://pl.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pt.dbpedia.org/resource/Cleópatra">http://pt.dbpedia.org/resource/Cleópatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.org/entity/Q635">http://wikidata.org/entity/Q635</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q635">http://wikidata.dbpedia.org/resource/Q635</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ar.dbpedia.org/resource/كليوباترا_السابعة">http://ar.dbpedia.org/resource/كليوباترا_السابعة</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://arz.dbpedia.org/resource/كليوباترا_السابعه">http://arz.dbpedia.org/resource/كليوباترا_السابعه</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ast.dbpedia.org/resource/Cleopatra_VII">http://ast.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://az.dbpedia.org/resource/VII_Kleopatra">http://az.dbpedia.org/resource/VII_Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ba.dbpedia.org/resource/Клеопатра_VII">http://ba.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://bat_smg.dbpedia.org/resource/Kleuopatra_VII">http://bat_smg.dbpedia.org/resource/Kleuopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://be.dbpedia.org/resource/Клеапатра">http://be.dbpedia.org/resource/Клеапатра</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://be_x_old.dbpedia.org/resource/Клеапатра">http://be_x_old.dbpedia.org/resource/Клеапатра</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://bg.dbpedia.org/resource/Клеопатра_VII">http://bg.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://bn.dbpedia.org/resource/ক্লিওপেট্রা">http://bn.dbpedia.org/resource/ক্লিওপেট্রা</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://br.dbpedia.org/resource/Kleopatra_VII">http://br.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://bs.dbpedia.org/resource/Kleopatra_VII">http://bs.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ca.dbpedia.org/resource/Cleòpatra_VII">http://ca.dbpedia.org/resource/Cleòpatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ceb.dbpedia.org/resource/Cleopatra">http://ceb.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://cy.dbpedia.org/resource/Cleopatra">http://cy.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://da.dbpedia.org/resource/Kleopatra_7.">http://da.dbpedia.org/resource/Kleopatra_7.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://diq.dbpedia.org/resource/Kleopatra_VII">http://diq.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://eo.dbpedia.org/resource/Kleopatra">http://eo.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://et.dbpedia.org/resource/Kleopatra_VII">http://et.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fa.dbpedia.org/resource/کلئوپاترا">http://fa.dbpedia.org/resource/کلئوپاترا</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fi.dbpedia.org/resource/Kleopatra_VII">http://fi.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fiu_vro.dbpedia.org/resource/Kleopatra_VII">http://fiu_vro.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fo.dbpedia.org/resource/Kleopatra">http://fo.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fy.dbpedia.org/resource/Kleopatra_VII">http://fy.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ga.dbpedia.org/resource/Cléópatra">http://ga.dbpedia.org/resource/Cléópatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://gan.dbpedia.org/resource/可利俄捌拿七世">http://gan.dbpedia.org/resource/可利俄捌拿七世</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://gd.dbpedia.org/resource/Cleopatra">http://gd.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://gl.dbpedia.org/resource/Cleopatra_VII">http://gl.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://he.dbpedia.org/resource/קלאופטרה_השביעית,_מלכת_מצרים">http://he.dbpedia.org/resource/קלאופטרה_השביעית,_מלכת_מצרים</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://hi.dbpedia.org/resource/क्लियोपाट्रा_७">http://hi.dbpedia.org/resource/क्लियोपाट्रा_७</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://hr.dbpedia.org/resource/Kleopatra">http://hr.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://hu.dbpedia.org/resource/VII._Kleopátra">http://hu.dbpedia.org/resource/VII._Kleopátra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://hy.dbpedia.org/resource/Կլեոպատրա">http://hy.dbpedia.org/resource/Կլեոպատրա</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://io.dbpedia.org/resource/Kleopatra">http://io.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://is.dbpedia.org/resource/Kleópatra_7.">http://is.dbpedia.org/resource/Kleópatra_7.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://jv.dbpedia.org/resource/Cleopatra">http://jv.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ka.dbpedia.org/resource/კლეოპატრა_VII">http://ka.dbpedia.org/resource/კლეოპატრა_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://kk.dbpedia.org/resource/Клеопатра_VII">http://kk.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ku.dbpedia.org/resource/Kleopatra_VII.">http://ku.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://la.dbpedia.org/resource/Cleopatra_VII_(regina_Aegypti)">http://la.dbpedia.org/resource/Cleopatra_VII_(regina_Aegypti)</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://lad.dbpedia.org/resource/Kleopatra_VII">http://lad.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://li.dbpedia.org/resource/Cleopatra_VII">http://li.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://lij.dbpedia.org/resource/Cleopatra_VII">http://lij.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://lt.dbpedia.org/resource/Kleopatra_VII">http://lt.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://lv.dbpedia.org/resource/Kleopatra">http://lv.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://map_bms.dbpedia.org/resource/Cleopatra">http://map_bms.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://mk.dbpedia.org/resource/Клеопатра">http://mk.dbpedia.org/resource/Клеопатра</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ml.dbpedia.org/resource/ക്ലിയോപാട്ര">http://ml.dbpedia.org/resource/ക്ലിയോപാട്ര</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://mr.dbpedia.org/resource/क्लिओपात्रा">http://mr.dbpedia.org/resource/क्लिओपात्रा</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ms.dbpedia.org/resource/Cleopatra_VII_dari_Mesir">http://ms.dbpedia.org/resource/Cleopatra_VII_dari_Mesir</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://mt.dbpedia.org/resource/Kleopatra_VII">http://mt.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://mwl.dbpedia.org/resource/Cleópatra">http://mwl.dbpedia.org/resource/Cleópatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://my.dbpedia.org/resource/ကလီယို_ပတ်ထရာ">http://my.dbpedia.org/resource/ကလီယို_ပတ်ထရာ</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nap.dbpedia.org/resource/Cleopatra">http://nap.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nds.dbpedia.org/resource/Kleopatra_VII.">http://nds.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ne.dbpedia.org/resource/क्लियोपेट्रा_सातौं">http://ne.dbpedia.org/resource/क्लियोपेट्रा_सातौं</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://new.dbpedia.org/resource/क्लियोप्याट्रा_७">http://new.dbpedia.org/resource/क्लियोप्याट्रा_७</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nn.dbpedia.org/resource/Kleopatra">http://nn.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://no.dbpedia.org/resource/Kleopatra_VII_av_Egypt">http://no.dbpedia.org/resource/Kleopatra_VII_av_Egypt</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://oc.dbpedia.org/resource/Cleopatra_VII">http://oc.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pnb.dbpedia.org/resource/قلوپطرہ">http://pnb.dbpedia.org/resource/قلوپطرہ</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://qu.dbpedia.org/resource/Kleopatra_VII">http://qu.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ro.dbpedia.org/resource/Cleopatra">http://ro.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ru.dbpedia.org/resource/Клеопатра">http://ru.dbpedia.org/resource/Клеопатра</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sa.dbpedia.org/resource/क्लियोपैत्रा">http://sa.dbpedia.org/resource/क्लियोपैत्रा</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://scn.dbpedia.org/resource/Cliupatra">http://scn.dbpedia.org/resource/Cliupatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sco.dbpedia.org/resource/Cleopatra_VII">http://sco.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sh.dbpedia.org/resource/Kleopatra">http://sh.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://simple.dbpedia.org/resource/Cleopatra_VII">http://simple.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sk.dbpedia.org/resource/Kleopatra_VII.">http://sk.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sl.dbpedia.org/resource/Kleopatra_VII.">http://sl.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sq.dbpedia.org/resource/Kleopatra_VII.">http://sq.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sr.dbpedia.org/resource/Клеопатра_VII">http://sr.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sv.dbpedia.org/resource/Kleopatra_VII_av_Egypten">http://sv.dbpedia.org/resource/Kleopatra_VII_av_Egypten</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sw.dbpedia.org/resource/Kleopatra">http://sw.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ta.dbpedia.org/resource/ஏழாம்_கிளியோபாட்ரா">http://ta.dbpedia.org/resource/ஏழாம்_கிளியோபாட்ரா</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://te.dbpedia.org/resource/క్లియోపాత్రా">http://te.dbpedia.org/resource/క్లియోపాత్రా</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://th.dbpedia.org/resource/คลีโอพัตรา">http://th.dbpedia.org/resource/คลีโอพัตรา</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://tl.dbpedia.org/resource/Cleopatra_VII_ng_Ehipto">http://tl.dbpedia.org/resource/Cleopatra_VII_ng_Ehipto</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://tr.dbpedia.org/resource/VII._Kleopatra">http://tr.dbpedia.org/resource/VII._Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://uk.dbpedia.org/resource/Клеопатра_VII">http://uk.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ur.dbpedia.org/resource/قلوپطرہ">http://ur.dbpedia.org/resource/قلوپطرہ</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://uz.dbpedia.org/resource/Kleopatra">http://uz.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://vi.dbpedia.org/resource/Cleopatra_VII">http://vi.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://war.dbpedia.org/resource/Cleopatra_VII">http://war.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yo.dbpedia.org/resource/Cleopatra_7k">http://yo.dbpedia.org/resource/Cleopatra_7k</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://zh.dbpedia.org/resource/克娄巴特拉七世">http://zh.dbpedia.org/resource/克娄巴特拉七世</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://zh_min_nan.dbpedia.org/resource/Kleopatra_7-sè">http://zh_min_nan.dbpedia.org/resource/Kleopatra_7-sè</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom nofollow" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Cleopatra?oldid=604894747">http://en.wikipedia.org/wiki/Cleopatra?oldid=604894747</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/depiction"><small>foaf:</small>depiction</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:depiction nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Kleopatra-VII.-Altes-Museum-Berlin1.jpg">http://commons.wikimedia.org/wiki/Special:FilePath/Kleopatra-VII.-Altes-Museum-Berlin1.jpg</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/givenName"><small>foaf:</small>givenName</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:givenName" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Cleopatra Selene</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Cleopatra">http://en.wikipedia.org/wiki/Cleopatra</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/name"><small>foaf:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Cleopatra VII Philopator</span></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Cleopatra VII Thea Philopator</span></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Philopator, Cleopatra Selene</span></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Cleopatra Selene Philopator</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/surname"><small>foaf:</small>surname</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:surname" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Philopator</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/commander"><small>dbpedia-owl:</small>commander</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:commander" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Battle_of_Actium"><small>dbpedia</small>:Battle_of_Actium</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:commander" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Final_War_of_the_Roman_Republic"><small>dbpedia</small>:Final_War_of_the_Roman_Republic</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:commander" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Siege_of_Alexandria_(47_BC)"><small>dbpedia</small>:Siege_of_Alexandria_(47_BC)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:commander" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Battle_of_the_Nile_(47_BC)"><small>dbpedia</small>:Battle_of_the_Nile_(47_BC)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/parent"><small>dbpedia-owl:</small>parent</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:parent" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Alexander_Helios"><small>dbpedia</small>:Alexander_Helios</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:parent" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cleopatra_Selene_II"><small>dbpedia</small>:Cleopatra_Selene_II</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/predecessor"><small>dbpedia-owl:</small>predecessor</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:predecessor" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Caesarion"><small>dbpedia</small>:Caesarion</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/recordLabel"><small>dbpedia-owl:</small>recordLabel</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:recordLabel" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Sly_Stone"><small>dbpedia</small>:Sly_Stone</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/relative"><small>dbpedia-owl:</small>relative</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:relative" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Gaius_Julius_Caesar_(Rome_character)"><small>dbpedia</small>:Gaius_Julius_Caesar_(Rome_character)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/successor"><small>dbpedia-owl:</small>successor</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:successor" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Arsinoe_IV_of_Egypt"><small>dbpedia</small>:Arsinoe_IV_of_Egypt</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageDisambiguates"><small>dbpedia-owl:</small>wikiPageDisambiguates</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageDisambiguates" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cleopatra_(disambiguation)"><small>dbpedia</small>:Cleopatra_(disambiguation)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageRedirects"><small>dbpedia-owl:</small>wikiPageRedirects</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cleopatra_VII"><small>dbpedia</small>:Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cleopatra_VII_Of_Egypt"><small>dbpedia</small>:Cleopatra_VII_Of_Egypt</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cleopatra_VII_Philopator"><small>dbpedia</small>:Cleopatra_VII_Philopator</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cleopatra_VII_Thea_Philopator"><small>dbpedia</small>:Cleopatra_VII_Thea_Philopator</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Cleopatra_VII_of_Egypt"><small>dbpedia</small>:Cleopatra_VII_of_Egypt</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Keeuopatrai"><small>dbpedia</small>:Keeuopatrai</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kiuopatrai"><small>dbpedia</small>:Kiuopatrai</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kleopatra"><small>dbpedia</small>:Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kleopatra_VII"><small>dbpedia</small>:Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Queen_Cleopatra"><small>dbpedia</small>:Queen_Cleopatra</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/commander"><small>dbpprop:</small>commander</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:commander" href="http://dbpedia.org/resource/Battle_of_Actium"><small>dbpedia</small>:Battle_of_Actium</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:commander" href="http://dbpedia.org/resource/Siege_of_Alexandria_(47_BC)"><small>dbpedia</small>:Siege_of_Alexandria_(47_BC)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:commander" href="http://dbpedia.org/resource/Battle_of_the_Nile_(47_BC)"><small>dbpedia</small>:Battle_of_the_Nile_(47_BC)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/eponym"><small>dbpprop:</small>eponym</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:eponym" href="http://dbpedia.org/resource/Cleopatra_(crater)"><small>dbpedia</small>:Cleopatra_(crater)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/family"><small>dbpprop:</small>family</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:family" href="http://dbpedia.org/resource/Gaius_Julius_Caesar_(Rome_character)"><small>dbpedia</small>:Gaius_Julius_Caesar_(Rome_character)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/label"><small>dbpprop:</small>label</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:label" href="http://dbpedia.org/resource/Sly_Stone"><small>dbpedia</small>:Sly_Stone</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/lastMonarch"><small>dbpprop:</small>lastMonarch</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:lastMonarch" href="http://dbpedia.org/resource/List_of_pharaohs"><small>dbpedia</small>:List_of_pharaohs</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/leader"><small>dbpprop:</small>leader</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:leader" href="http://dbpedia.org/resource/Ptolemaic_Kingdom"><small>dbpedia</small>:Ptolemaic_Kingdom</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/mother"><small>dbpprop:</small>mother</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:mother" href="http://dbpedia.org/resource/Alexander_Helios"><small>dbpedia</small>:Alexander_Helios</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:mother" href="http://dbpedia.org/resource/Caesarion"><small>dbpedia</small>:Caesarion</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:mother" href="http://dbpedia.org/resource/Cleopatra_Selene_II"><small>dbpedia</small>:Cleopatra_Selene_II</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/namedAfter"><small>dbpprop:</small>namedAfter</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:namedAfter" href="http://dbpedia.org/resource/216_Kleopatra"><small>dbpedia</small>:216_Kleopatra</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/predecessor"><small>dbpprop:</small>predecessor</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:predecessor" href="http://dbpedia.org/resource/Caesarion"><small>dbpedia</small>:Caesarion</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/shipNamesake"><small>dbpprop:</small>shipNamesake</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:shipNamesake" href="http://dbpedia.org/resource/French_frigate_Cl%C3%A9op%C3%A2tre"><small>dbpedia</small>:French_frigate_Cléopâtre</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fr.dbpedia.org/resource/Cléopâtre_VII">http://fr.dbpedia.org/resource/Cléopâtre_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://de.dbpedia.org/resource/Kleopatra_VII.">http://de.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://cs.dbpedia.org/resource/Kleopatra_VII.">http://cs.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://el.dbpedia.org/resource/Κλεοπάτρα_Ζ΄_της_Αιγύπτου">http://el.dbpedia.org/resource/Κλεοπάτρα_Ζ΄_της_Αιγύπτου</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://es.dbpedia.org/resource/Cleopatra_VII">http://es.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://eu.dbpedia.org/resource/Kleopatra_VII.a">http://eu.dbpedia.org/resource/Kleopatra_VII.a</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://id.dbpedia.org/resource/Kleopatra_VII">http://id.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://it.dbpedia.org/resource/Cleopatra_VII">http://it.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ja.dbpedia.org/resource/クレオパトラ7世">http://ja.dbpedia.org/resource/クレオパトラ7世</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ko.dbpedia.org/resource/클레오파트라_7세">http://ko.dbpedia.org/resource/클레오파트라_7세</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://nl.dbpedia.org/resource/Cleopatra_VII">http://nl.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://pl.dbpedia.org/resource/Kleopatra_VII">http://pl.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://pt.dbpedia.org/resource/Cleópatra">http://pt.dbpedia.org/resource/Cleópatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q635">http://wikidata.dbpedia.org/resource/Q635</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ar.dbpedia.org/resource/كليوباترا_السابعة">http://ar.dbpedia.org/resource/كليوباترا_السابعة</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://arz.dbpedia.org/resource/كليوباترا_السابعه">http://arz.dbpedia.org/resource/كليوباترا_السابعه</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ast.dbpedia.org/resource/Cleopatra_VII">http://ast.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://az.dbpedia.org/resource/VII_Kleopatra">http://az.dbpedia.org/resource/VII_Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ba.dbpedia.org/resource/Клеопатра_VII">http://ba.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://bat_smg.dbpedia.org/resource/Kleuopatra_VII">http://bat_smg.dbpedia.org/resource/Kleuopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://be.dbpedia.org/resource/Клеапатра">http://be.dbpedia.org/resource/Клеапатра</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://be_x_old.dbpedia.org/resource/Клеапатра">http://be_x_old.dbpedia.org/resource/Клеапатра</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://bg.dbpedia.org/resource/Клеопатра_VII">http://bg.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://bn.dbpedia.org/resource/ক্লিওপেট্রা">http://bn.dbpedia.org/resource/ক্লিওপেট্রা</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://br.dbpedia.org/resource/Kleopatra_VII">http://br.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://bs.dbpedia.org/resource/Kleopatra_VII">http://bs.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ca.dbpedia.org/resource/Cleòpatra_VII">http://ca.dbpedia.org/resource/Cleòpatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ceb.dbpedia.org/resource/Cleopatra">http://ceb.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://cy.dbpedia.org/resource/Cleopatra">http://cy.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://da.dbpedia.org/resource/Kleopatra_7.">http://da.dbpedia.org/resource/Kleopatra_7.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://diq.dbpedia.org/resource/Kleopatra_VII">http://diq.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://eo.dbpedia.org/resource/Kleopatra">http://eo.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://et.dbpedia.org/resource/Kleopatra_VII">http://et.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fa.dbpedia.org/resource/کلئوپاترا">http://fa.dbpedia.org/resource/کلئوپاترا</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fi.dbpedia.org/resource/Kleopatra_VII">http://fi.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fiu_vro.dbpedia.org/resource/Kleopatra_VII">http://fiu_vro.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fo.dbpedia.org/resource/Kleopatra">http://fo.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fy.dbpedia.org/resource/Kleopatra_VII">http://fy.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ga.dbpedia.org/resource/Cléópatra">http://ga.dbpedia.org/resource/Cléópatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://gan.dbpedia.org/resource/可利俄捌拿七世">http://gan.dbpedia.org/resource/可利俄捌拿七世</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://gd.dbpedia.org/resource/Cleopatra">http://gd.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://gl.dbpedia.org/resource/Cleopatra_VII">http://gl.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://he.dbpedia.org/resource/קלאופטרה_השביעית,_מלכת_מצרים">http://he.dbpedia.org/resource/קלאופטרה_השביעית,_מלכת_מצרים</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://hi.dbpedia.org/resource/क्लियोपाट्रा_७">http://hi.dbpedia.org/resource/क्लियोपाट्रा_७</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://hr.dbpedia.org/resource/Kleopatra">http://hr.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://hu.dbpedia.org/resource/VII._Kleopátra">http://hu.dbpedia.org/resource/VII._Kleopátra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://hy.dbpedia.org/resource/Կլեոպատրա">http://hy.dbpedia.org/resource/Կլեոպատրա</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://io.dbpedia.org/resource/Kleopatra">http://io.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://is.dbpedia.org/resource/Kleópatra_7.">http://is.dbpedia.org/resource/Kleópatra_7.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://jv.dbpedia.org/resource/Cleopatra">http://jv.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ka.dbpedia.org/resource/კლეოპატრა_VII">http://ka.dbpedia.org/resource/კლეოპატრა_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://kk.dbpedia.org/resource/Клеопатра_VII">http://kk.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ku.dbpedia.org/resource/Kleopatra_VII.">http://ku.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://la.dbpedia.org/resource/Cleopatra_VII_(regina_Aegypti)">http://la.dbpedia.org/resource/Cleopatra_VII_(regina_Aegypti)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://lad.dbpedia.org/resource/Kleopatra_VII">http://lad.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://li.dbpedia.org/resource/Cleopatra_VII">http://li.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://lij.dbpedia.org/resource/Cleopatra_VII">http://lij.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://lt.dbpedia.org/resource/Kleopatra_VII">http://lt.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://lv.dbpedia.org/resource/Kleopatra">http://lv.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://map_bms.dbpedia.org/resource/Cleopatra">http://map_bms.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://mk.dbpedia.org/resource/Клеопатра">http://mk.dbpedia.org/resource/Клеопатра</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ml.dbpedia.org/resource/ക്ലിയോപാട്ര">http://ml.dbpedia.org/resource/ക്ലിയോപാട്ര</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://mr.dbpedia.org/resource/क्लिओपात्रा">http://mr.dbpedia.org/resource/क्लिओपात्रा</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ms.dbpedia.org/resource/Cleopatra_VII_dari_Mesir">http://ms.dbpedia.org/resource/Cleopatra_VII_dari_Mesir</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://mt.dbpedia.org/resource/Kleopatra_VII">http://mt.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://mwl.dbpedia.org/resource/Cleópatra">http://mwl.dbpedia.org/resource/Cleópatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://my.dbpedia.org/resource/ကလီယို_ပတ်ထရာ">http://my.dbpedia.org/resource/ကလီယို_ပတ်ထရာ</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://nap.dbpedia.org/resource/Cleopatra">http://nap.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://nds.dbpedia.org/resource/Kleopatra_VII.">http://nds.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ne.dbpedia.org/resource/क्लियोपेट्रा_सातौं">http://ne.dbpedia.org/resource/क्लियोपेट्रा_सातौं</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://new.dbpedia.org/resource/क्लियोप्याट्रा_७">http://new.dbpedia.org/resource/क्लियोप्याट्रा_७</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://nn.dbpedia.org/resource/Kleopatra">http://nn.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://no.dbpedia.org/resource/Kleopatra_VII_av_Egypt">http://no.dbpedia.org/resource/Kleopatra_VII_av_Egypt</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://oc.dbpedia.org/resource/Cleopatra_VII">http://oc.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://pnb.dbpedia.org/resource/قلوپطرہ">http://pnb.dbpedia.org/resource/قلوپطرہ</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://qu.dbpedia.org/resource/Kleopatra_VII">http://qu.dbpedia.org/resource/Kleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ro.dbpedia.org/resource/Cleopatra">http://ro.dbpedia.org/resource/Cleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ru.dbpedia.org/resource/Клеопатра">http://ru.dbpedia.org/resource/Клеопатра</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sa.dbpedia.org/resource/क्लियोपैत्रा">http://sa.dbpedia.org/resource/क्लियोपैत्रा</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://scn.dbpedia.org/resource/Cliupatra">http://scn.dbpedia.org/resource/Cliupatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sco.dbpedia.org/resource/Cleopatra_VII">http://sco.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sh.dbpedia.org/resource/Kleopatra">http://sh.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://simple.dbpedia.org/resource/Cleopatra_VII">http://simple.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sk.dbpedia.org/resource/Kleopatra_VII.">http://sk.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sl.dbpedia.org/resource/Kleopatra_VII.">http://sl.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sq.dbpedia.org/resource/Kleopatra_VII.">http://sq.dbpedia.org/resource/Kleopatra_VII.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sr.dbpedia.org/resource/Клеопатра_VII">http://sr.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sv.dbpedia.org/resource/Kleopatra_VII_av_Egypten">http://sv.dbpedia.org/resource/Kleopatra_VII_av_Egypten</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sw.dbpedia.org/resource/Kleopatra">http://sw.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ta.dbpedia.org/resource/ஏழாம்_கிளியோபாட்ரா">http://ta.dbpedia.org/resource/ஏழாம்_கிளியோபாட்ரா</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://te.dbpedia.org/resource/క్లియోపాత్రా">http://te.dbpedia.org/resource/క్లియోపాత్రా</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://th.dbpedia.org/resource/คลีโอพัตรา">http://th.dbpedia.org/resource/คลีโอพัตรา</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://tl.dbpedia.org/resource/Cleopatra_VII_ng_Ehipto">http://tl.dbpedia.org/resource/Cleopatra_VII_ng_Ehipto</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://tr.dbpedia.org/resource/VII._Kleopatra">http://tr.dbpedia.org/resource/VII._Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://uk.dbpedia.org/resource/Клеопатра_VII">http://uk.dbpedia.org/resource/Клеопатра_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ur.dbpedia.org/resource/قلوپطرہ">http://ur.dbpedia.org/resource/قلوپطرہ</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://uz.dbpedia.org/resource/Kleopatra">http://uz.dbpedia.org/resource/Kleopatra</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://vi.dbpedia.org/resource/Cleopatra_VII">http://vi.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://war.dbpedia.org/resource/Cleopatra_VII">http://war.dbpedia.org/resource/Cleopatra_VII</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://yo.dbpedia.org/resource/Cleopatra_7k">http://yo.dbpedia.org/resource/Cleopatra_7k</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://zh.dbpedia.org/resource/克娄巴特拉七世">http://zh.dbpedia.org/resource/克娄巴特拉七世</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://zh_min_nan.dbpedia.org/resource/Kleopatra_7-sè">http://zh_min_nan.dbpedia.org/resource/Kleopatra_7-sè</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Cleopatra">http://en.wikipedia.org/wiki/Cleopatra</a></span></li>
+</ul></td></tr>
+      </table>
+    </div> <!--  #content -->
+<!-- footer -->
+    <div id="footer">
+      <div id="ft_t">
+        Browse using:
+	<a href="http://linkeddata.uriburner.com/ode/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FCleopatra">OpenLink Data Explorer</a> |
+	<a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FCleopatra">OpenLink Faceted Browser</a>
+        <!--a href="http://dataviewer.zitgist.com/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FCleopatra">Zitgist Data Viewer</a> |
+        <a href="http://beckr.org/marbles?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FCleopatra">Marbles</a> |
+        <a href="http://www4.wiwiss.fu-berlin.de/rdf_browser/?browse_uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FCleopatra">DISCO</a> |
+        <a href="http://dig.csail.mit.edu/2005/ajar/release/tabulator/0.8/tab.html?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FCleopatra" >Tabulator</a-->
+        &nbsp; &nbsp; Raw Data in:
+	
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Cleopatra&gt;&amp;format=text%2Fcsv">CSV</a> | RDF (
+        <a href="http://dbpedia.org/data/Cleopatra.ntriples">N-Triples</a> 
+        <a href="http://dbpedia.org/data/Cleopatra.n3">N3/Turtle</a> 
+	<a href="http://dbpedia.org/data/Cleopatra.json">JSON</a> 
+        <a href="http://dbpedia.org/data/Cleopatra.rdf">XML</a> ) | OData (
+	<a href="http://dbpedia.org/data/Cleopatra.atom">Atom</a> 
+	<a href="http://dbpedia.org/data/Cleopatra.jsod">JSON</a> )| Microdata (
+	<a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Cleopatra&gt;&amp;output=application%2Fmicrodata%2Bjson">JSON</a>
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Cleopatra&gt;&amp;output=text%2Fhtml">HTML</a>) |  
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Cleopatra&gt;&amp;output=application%2Fld%2Bjson">JSON-LD</a> 
+
+        &nbsp; &nbsp;<a href="http://wiki.dbpedia.org/Imprint">About</a>&nbsp; &nbsp;
+      </div> <!-- #ft_t -->
+      <div id="ft_b">
+        <a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>
+        <a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/LoDLogo.gif"/></a> &nbsp;
+        <a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+        <a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/od_80x15_red_green.png"/></a>
+	<span about=""
+	resource="http://www.w3.org/TR/rdfa-syntax"
+	rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	<a href="http://validator.w3.org/check?uri=referer"><img
+	    src="http://www.w3.org/Icons/valid-xhtml-rdfa"
+	    alt="Valid XHTML + RDFa" height="27" /></a>
+	</span>
+      </div> <!-- #ft_b -->
+      <div id="ft_ccbysa">
+	This content was extracted from <a href="http://en.wikipedia.org/wiki/Cleopatra">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+      </div> <!-- #ft_ccbysa -->
+    </div> <!-- #footer -->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts 
+    </script-->
+    
+ </body>
+</html>
+

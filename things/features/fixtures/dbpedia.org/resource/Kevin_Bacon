@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:dbpprop="http://dbpedia.org/property/" 
+    xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+    version="XHTML+RDFa 1.0" xml:lang="en">
+
+
+<!-- header -->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <title>About: Kevin Bacon</title>
+    <link rel="alternate" type="application/rdf+xml" href="http://dbpedia.org/data/Kevin_Bacon.rdf" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/rdf+n3" href="http://dbpedia.org/data/Kevin_Bacon.n3" title="Structured Descriptor Document (N3/Turtle format)" />
+    <link rel="alternate" type="application/json+rdf" href="http://dbpedia.org/data/Kevin_Bacon.jrdf" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/json" href="http://dbpedia.org/data/Kevin_Bacon.json" title="Structured Descriptor Document (RDF/JSON format)" />
+    <link rel="alternate" type="application/atom+xml" href="http://dbpedia.org/data/Kevin_Bacon.atom" title="OData (Atom+Feed format)" />
+    <link rel="alternate" type="text/plain" href="http://dbpedia.org/data/Kevin_Bacon.ntriples" title="Structured Descriptor Document (N-Triples format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Kevin_Bacon&gt;&amp;format=text%2Fcsv" type="text/csv" title="Structured Descriptor Document (CSV format)" />
+    
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Kevin_Bacon&gt;&amp;output=application%2Fmicrodata%2Bjson" type="application/microdata+json" 	title="Structured Descriptor Document (Microdata/JSON format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Kevin_Bacon&gt;&amp;output=text%2Fhtml" 		     type="text/html" 			title="Structured Descriptor Document (Microdata/HTML format)" />
+    <link rel="alternate" href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Kevin_Bacon&gt;&amp;output=application%2Fld%2Bjson"      type="application/ld+json" 	title="Structured Descriptor Document (JSON-LD format)" />
+    <link rel="timegate" type="text/html" href="http://mementoarchive.lanl.gov/dbpedia/timegate/http://dbpedia.org/page/Kevin_Bacon" title="Time Machine" />
+    <link rel="stylesheet" type="text/css" href="/statics/style.css" />
+    <link href="/statics/highlighter.css" type="text/css" rel="stylesheet" charset="utf-8" />
+    <link rel="foaf:primarytopic" href="http://dbpedia.org/resource/Kevin_Bacon"/>
+    <link rev="describedby" href="http://dbpedia.org/resource/Kevin_Bacon"/>
+    <script type="text/javascript" src="/statics/script.js"></script>
+</head>
+<body onload="init();" about="http://dbpedia.org/resource/Kevin_Bacon">
+    <div id="header">
+      <div id="hd_l">
+	  <h1 id="title">About: <a href="http://dbpedia.org/resource/Kevin_Bacon">Kevin Bacon</a></h1>
+        <div id="homelink">
+          <!--?vsp if (white_page = 0) http (txt); ?-->
+        </div>
+	<div class="page-resource-uri">
+	    An Entity of Type : <a href="http://dbpedia.org/ontology/Agent">agent</a>, 
+	    from Named Graph : <a href="http://dbpedia.org">http://dbpedia.org</a>, 
+	    within Data Space : <a href="http://dbpedia.org">dbpedia.org</a>
+        </div>
+      </div> <!-- hd_l -->
+      <div id="hd_r">
+	  <a href="http://wiki.dbpedia.org/Imprint" title="About DBpedia">
+	      <img src="/statics/dbpedia_logo.png" height="64" alt="About DBpedia"/>
+        </a>
+      </div> <!-- hd_r -->
+    </div> <!-- header -->
+    <div id="content">
+
+      <p>Kevin Norwood Bacon (born July 8, 1958) is an American actor and musician whose notable roles include National Lampoon's Animal House (1978), Friday the 13th (1980), Diner (1982), Footloose (1984), Flatliners (1990), Tremors (1990), Wild Things (1998), JFK (1991), A Few Good Men (1992), The River Wild (1994), Murder in the First (1995), Apollo 13 (1995), Stir of Echoes (1999), Hollow Man (2000), Trapped (2002), Mystic River (2003), The Woodsman (2004), Death Sentence (2007), Frost/Nixon (2008), and X-Men: First Class (2011). </p>
+<!-- proptable -->
+      <table class="description"><tr><th>Property</th><th>Value</th></tr>
+
+<tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/abstract"><small>dbpedia-owl:</small>abstract</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="en">Kevin Norwood Bacon (born July 8, 1958) is an American actor and musician whose notable roles include National Lampoon&#39;s Animal House (1978), Friday the 13th (1980), Diner (1982), Footloose (1984), Flatliners (1990), Tremors (1990), Wild Things (1998), JFK (1991), A Few Good Men (1992), The River Wild (1994), Murder in the First (1995), Apollo 13 (1995), Stir of Echoes (1999), Hollow Man (2000), Trapped (2002), Mystic River (2003), The Woodsman (2004), Death Sentence (2007), Frost/Nixon (2008), and X-Men: First Class (2011). He currently stars on the Fox television series The Following.Bacon has won a Golden Globe Award, three Screen Actors Guild Awards, and was nominated for a Primetime Emmy Award. He was named by The Guardian as one of the best actors never to have received an Academy Award nomination. In 2003, Bacon received a star on the Hollywood Walk of Fame.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ar">كيفين بيكن ممثل أمريكي من مواليد 8 يوليو 1958، حاصل على جائزة نقابة ممثلي الشاشة 1995 كأفضل فريق ممثلين عن دورهم في فيلم أبولو 13,ظهر في العديد من الأفلام منها نهر غامض .</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="de">Kevin Norwood Bacon (* 8. Juli 1958 in Philadelphia) ist ein US-amerikanischer Schauspieler, Regisseur und Produzent sowie Musiker und unter anderem Golden-Globe-Preisträger.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="es">Kevin Norwood Bacon (n. el 8 de julio de 1958) es un actor de cine y teatro estadounidense notable por sus papeles en National Lampoon&#39;s Animal House, Footloose, Diner, The Woodsman, Friday the 13th, Hollow Man, Tremors y Frost/Nixon.Bacon ha ganado un Premios Globo de Oro y Premios del Sindicato de Actores, estuvo nominado para un Premio Emmy, y fue nombrado por The Guardian, como uno de los mejores actores que no ha recibido una nominación al Premio Óscar.En 2003, Bacon recibió una estrella en el Paseo de la Fama de Hollywood.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="fr">Kevin Bacon est un acteur, réalisateur, compositeur et producteur de cinéma américain, né le 8 juillet 1958 à Philadelphie (Pennsylvanie, États-Unis). Remarqué par le public américain dans le film musical Footloose en 1984, il a interprété un certain nombre de méchants, notamment dans Sleepers, La Rivière sauvage, La Loi criminelle, Mauvais piège, Hollow Man ou X-Men : Le Commencement. Cependant, qualifié d&#39;acteur de genre, il est également connu pour des seconds rôles dans JFK, Apollo 13, Mystic River, The Woodsman ou plus récemment Crazy, Stupid, Love.En 2010, il est nommé à l&#39;Emmy et reçoit le Golden Globe et le Screen Actors Guild Award du meilleur acteur dans une mini-série ou un téléfilm pour son rôle du lieutenant-colonel Mike Srobl dans le téléfilm Taking Chance et a depuis 2003 son étoile sur le Hollywood Walk of Fame.Il forme avec son frère le groupe de rock The Bacon Brothers depuis 1995 et son nom a servi de base au jeu sur le cinéma populaire aux États-Unis, The Six Degrees of Kevin Bacon (« Les six degrés de Kevin Bacon »), dont le but est de relier un acteur quelconque à Kevin Bacon par six partenaires de cinéma au maximum.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="it">Kevin Norwood Bacon (Filadelfia, 8 luglio 1958) è un attore, regista e produttore cinematografico statunitense.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ja">ケヴィン・ベーコン（Kevin Bacon, 1958年7月8日 - ）は、アメリカ合衆国の俳優。</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="nl">Kevin Norwood Bacon (Philadelphia (Pennsylvania), 8 juli 1958) is een Amerikaans filmacteur. Hij werd in 1995 genomineerd voor een Golden Globe voor zijn bijrol in The River Wild en in 2005 voor een Golden Satellite Award voor The Woodsman. Meer dan vijf andere acteerprijzen werden hem daadwerkelijk toegekend, waaronder een Blockbuster Entertainment Award voor Hollow Man.Bacon kreeg in 2003 een ster op de Hollywood Walk of Fame.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="pl">Kevin Norwood Bacon (ur. 8 lipca 1958 roku w Filadelfii w stanie Pensylwania) – amerykański aktor, reżyser i producent filmowy.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="pt">Kevin Norwood Bacon (Filadélfia, 8 de julho de 1958) é um premiado ator norte-americano que ganhou fama por seu papel no filme Footloose.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="zh">凯文·贝肯（Kevin Bacon，1958年7月8日－），美國电影演員、话剧演员，出生於賓夕法尼亞州的費城。以1984年主演的電影《渾身是勁》而著名，從影數十年，各類型的角色和製作預算大小不拘的電影都可見其參與，演藝生涯期間更轉型嘗試反派角色。最具知名度的角色有《阿波羅13號》的太空人傑克·斯威格特、《驚濤駭浪》、《透明人》和《神秘河流》等片。</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="dbpedia-owl:abstract" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" xml:lang="ru">Кевин Норвуд Бэйкон (англ. Kevin Norwood Bacon; род. 8 июля 1958(19580708), Филадельфия, Пенсильвания, США) — американский актёр, продюсер, режиссёр.Лауреат премии «Золотой глобус» и премии Гильдии киноактёров США в номинации «Лучшая мужская роль в телефильме или минисериале» за телефильм «Забирая Ченса» (2009).</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/activeYearsStartYear"><small>dbpedia-owl:</small>activeYearsStartYear</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:activeYearsStartYear" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">1978-01-01</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthDate"><small>dbpedia-owl:</small>birthDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:birthDate" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">1958-07-08</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthPlace"><small>dbpedia-owl:</small>birthPlace</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:birthPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Philadelphia"><small>dbpedia</small>:Philadelphia</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:birthPlace" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Pennsylvania"><small>dbpedia</small>:Pennsylvania</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/birthYear"><small>dbpedia-owl:</small>birthYear</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:birthYear" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">1958-01-01</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/child"><small>dbpedia-owl:</small>child</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:child" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Sosie_Bacon"><small>dbpedia</small>:Sosie_Bacon</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/occupation"><small>dbpedia-owl:</small>occupation</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:occupation" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kevin_Bacon__1"><small>dbpedia</small>:Kevin_Bacon__1</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/thumbnail"><small>dbpedia-owl:</small>thumbnail</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:thumbnail nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Kevin_Bacon_Comic-Con_2012.jpg?width=300">http://commons.wikimedia.org/wiki/Special:FilePath/Kevin_Bacon_Comic-Con_2012.jpg?width=300</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/viafId"><small>dbpedia-owl:</small>viafId</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:viafId" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">39570812</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageExternalLink"><small>dbpedia-owl:</small>wikiPageExternalLink</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://www.baconbros.com/">http://www.baconbros.com/</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dbpedia-owl:wikiPageExternalLink nofollow" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://oracleofbacon.org">http://oracleofbacon.org</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageID"><small>dbpedia-owl:</small>wikiPageID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:wikiPageID" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">16827</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/ontology/wikiPageRevisionID"><small>dbpedia-owl:</small>wikiPageRevisionID</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpedia-owl:wikiPageRevisionID" xmlns:dbpedia-owl="http://dbpedia.org/ontology/">606755041</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/birthDate"><small>dbpprop:</small>birthDate</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:birthDate">1958-07-08</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/birthPlace"><small>dbpprop:</small>birthPlace</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:birthPlace" xml:lang="en">Philadelphia, Pennsylvania, U.S.</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/caption"><small>dbpprop:</small>caption</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:caption" xml:lang="en">Bacon at the 2012 San Diego Comic-Con</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/children"><small>dbpprop:</small>children</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:children" href="http://dbpedia.org/resource/Sosie_Bacon"><small>dbpedia</small>:Sosie_Bacon</a></span></li>
+	<li><span class="literal"><span property="dbpprop:children" xml:lang="en">Travis Bacon</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/dateOfBirth"><small>dbpprop:</small>dateOfBirth</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:dateOfBirth">1958-07-08</span><small> (xsd:date)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/hasPhotoCollection"><small>dbpprop:</small>hasPhotoCollection</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:hasPhotoCollection nofollow" href="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Kevin_Bacon">http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Kevin_Bacon</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/imagesize"><small>dbpprop:</small>imagesize</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:imagesize">220</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/name"><small>dbpprop:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:name" xml:lang="en">Bacon, Kevin Norwood</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/occupation"><small>dbpprop:</small>occupation</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:occupation" xml:lang="en">Actor, musician</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/placeOfBirth"><small>dbpprop:</small>placeOfBirth</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:placeOfBirth" href="http://dbpedia.org/resource/Philadelphia"><small>dbpedia</small>:Philadelphia</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/shortDescription"><small>dbpprop:</small>shortDescription</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:shortDescription" xml:lang="en">American film and theater actor, musician</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://dbpedia.org/property/wordnet_type"><small>dbpprop:</small>wordnet_type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dbpprop:wordnet_type nofollow" href="http://www.w3.org/2006/03/wn/wn20/instances/synset-actor-noun-1">http://www.w3.org/2006/03/wn/wn20/instances/synset-actor-noun-1</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://dbpedia.org/property/yearsActive"><small>dbpprop:</small>yearsActive</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dbpprop:yearsActive">1978</span><small> (xsd:integer)</small></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://purl.org/dc/elements/1.1/description"><small>dc:</small>description</a>
+</td><td><ul>
+	<li><span class="literal"><span property="dc:description" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en">American film and theater actor, musician</span></span></li>
+	<li><span class="literal"><span property="dc:description" xmlns:dc="http://purl.org/dc/elements/1.1/">American film and theater actor, musician</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://purl.org/dc/terms/subject"><small>dcterms:</small>subject</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:1958_births"><small>category</small>:1958_births</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:20th-century_American_male_actors"><small>category</small>:20th-century_American_male_actors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:21st-century_American_male_actors"><small>category</small>:21st-century_American_male_actors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:American_male_film_actors"><small>category</small>:American_male_film_actors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:American_male_soap_opera_actors"><small>category</small>:American_male_soap_opera_actors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:American_male_television_actors"><small>category</small>:American_male_television_actors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:American_male_voice_actors"><small>category</small>:American_male_voice_actors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Best_Miniseries_or_Television_Movie_Actor_Golden_Globe_winners"><small>category</small>:Best_Miniseries_or_Television_Movie_Actor_Golden_Globe_winners</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Circle_in_the_Square_Theatre_School_alumni"><small>category</small>:Circle_in_the_Square_Theatre_School_alumni</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Living_people"><small>category</small>:Living_people</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Male_actors_from_Philadelphia,_Pennsylvania"><small>category</small>:Male_actors_from_Philadelphia,_Pennsylvania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Obie_Award_recipients"><small>category</small>:Obie_Award_recipients</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Outstanding_Performance_by_a_Cast_in_a_Motion_Picture_Screen_Actors_Guild_Award_winners"><small>category</small>:Outstanding_Performance_by_a_Cast_in_a...ure_Screen_Actors_Guild_Award_winners</a></span></li>
+	<li><span class="literal"><a class="uri" rel="dcterms:subject" xmlns:dcterms="http://purl.org/dc/terms/" href="http://dbpedia.org/resource/Category:Sedgwick_family"><small>category</small>:Sedgwick_family</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"><small>rdf:</small>type</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://xmlns.com/foaf/0.1/Person"><small>foaf</small>:Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://schema.org/Person">http://schema.org/Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://wikidata.dbpedia.org/resource/Q215627">http://wikidata.dbpedia.org/resource/Q215627</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.w3.org/2002/07/owl#Thing"><small>owl</small>:Thing</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type nofollow" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://wikidata.dbpedia.org/resource/Q5">http://wikidata.dbpedia.org/resource/Q5</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"><small>dul</small>:Agent</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson"><small>dul</small>:NaturalPerson</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Agent"><small>dbpedia-owl</small>:Agent</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/ontology/Person"><small>dbpedia-owl</small>:Person</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Actor109765278"><small>yago</small>:Actor109765278</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/ActorsFromPhiladelphia,Pennsylvania"><small>yago</small>:ActorsFromPhiladelphia,Pennsylvania</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/AmericanAtheists"><small>yago</small>:AmericanAtheists</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/AmericanFilmActors"><small>yago</small>:AmericanFilmActors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/AmericanSoapOperaActors"><small>yago</small>:AmericanSoapOperaActors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/AmericanTelevisionActors"><small>yago</small>:AmericanTelevisionActors</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Atheist109820044"><small>yago</small>:Atheist109820044</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/CausalAgent100007347"><small>yago</small>:CausalAgent100007347</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Disbeliever110015897"><small>yago</small>:Disbeliever110015897</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Entertainer109616922"><small>yago</small>:Entertainer109616922</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/LivingThing100004258"><small>yago</small>:LivingThing100004258</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/NonreligiousPerson109625789"><small>yago</small>:NonreligiousPerson109625789</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Object100002684"><small>yago</small>:Object100002684</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Organism100004475"><small>yago</small>:Organism100004475</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Performer110415638"><small>yago</small>:Performer110415638</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Person100007846"><small>yago</small>:Person100007846</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/Whole100003553"><small>yago</small>:Whole100003553</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoLegalActorGeo"><small>yago</small>:YagoLegalActorGeo</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/YagoLegalActor"><small>yago</small>:YagoLegalActor</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/PhysicalEntity100001930"><small>yago</small>:PhysicalEntity100001930</a></span></li>
+	<li><span class="literal"><a class="uri" rel="rdf:type" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" href="http://dbpedia.org/class/yago/LivingPeople"><small>yago</small>:LivingPeople</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#comment"><small>rdfs:</small>comment</a>
+</td><td><ul>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ar">كيفين بيكن ممثل أمريكي من مواليد 8 يوليو 1958، حاصل على جائزة نقابة ممثلي الشاشة 1995 كأفضل فريق ممثلين عن دورهم في فيلم أبولو 13,ظهر في العديد من الأفلام منها نهر غامض .</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Kevin Norwood Bacon (* 8. Juli 1958 in Philadelphia) ist ein US-amerikanischer Schauspieler, Regisseur und Produzent sowie Musiker und unter anderem Golden-Globe-Preisträger.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Kevin Norwood Bacon (Filadelfia, 8 luglio 1958) è un attore, regista e produttore cinematografico statunitense.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">ケヴィン・ベーコン（Kevin Bacon, 1958年7月8日 - ）は、アメリカ合衆国の俳優。</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Kevin Norwood Bacon (Philadelphia (Pennsylvania), 8 juli 1958) is een Amerikaans filmacteur. Hij werd in 1995 genomineerd voor een Golden Globe voor zijn bijrol in The River Wild en in 2005 voor een Golden Satellite Award voor The Woodsman. Meer dan vijf andere acteerprijzen werden hem daadwerkelijk toegekend, waaronder een Blockbuster Entertainment Award voor Hollow Man.Bacon kreeg in 2003 een ster op de Hollywood Walk of Fame.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Kevin Norwood Bacon (ur. 8 lipca 1958 roku w Filadelfii w stanie Pensylwania) – amerykański aktor, reżyser i producent filmowy.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Kevin Norwood Bacon (Filadélfia, 8 de julho de 1958) é um premiado ator norte-americano que ganhou fama por seu papel no filme Footloose.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">凯文·贝肯（Kevin Bacon，1958年7月8日－），美國电影演員、话剧演员，出生於賓夕法尼亞州的費城。以1984年主演的電影《渾身是勁》而著名，從影數十年，各類型的角色和製作預算大小不拘的電影都可見其參與，演藝生涯期間更轉型嘗試反派角色。最具知名度的角色有《阿波羅13號》的太空人傑克·斯威格特、《驚濤駭浪》、《透明人》和《神秘河流》等片。</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Кевин Норвуд Бэйкон (англ. Kevin Norwood Bacon; род. 8 июля 1958(19580708), Филадельфия, Пенсильвания, США) — американский актёр, продюсер, режиссёр.Лауреат премии «Золотой глобус» и премии Гильдии киноактёров США в номинации «Лучшая мужская роль в телефильме или минисериале» за телефильм «Забирая Ченса» (2009).</span></span></li>
+	<li><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Kevin Norwood Bacon (born July 8, 1958) is an American actor and musician whose notable roles include National Lampoon&#39;s Animal House (1978), Friday the 13th (1980), Diner (1982), Footloose (1984), Flatliners (1990), Tremors (1990), Wild Things (1998), JFK (1991), A Few Good Men (1992), The River Wild (1994), Murder in the First (1995), Apollo 13 (1995), Stir of Echoes (1999), Hollow Man (2000), Trapped (2002), Mystic River (2003), The Woodsman (2004), Death Sentence (2007), Frost/Nixon (2008), and X-Men: First Class (2011). </span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Kevin Norwood Bacon (n.</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:comment" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Kevin Bacon est un acteur, réalisateur, compositeur et producteur de cinéma américain, né le 8 juillet 1958 à Philadelphie (Pennsylvanie, États-Unis). Remarqué par le public américain dans le film musical Footloose en 1984, il a interprété un certain nombre de méchants, notamment dans Sleepers, La Rivière sauvage, La Loi criminelle, Mauvais piège, Hollow Man ou X-Men : Le Commencement.</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/2000/01/rdf-schema#label"><small>rdfs:</small>label</a>
+</td><td><ul>
+	<li><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Kevin Bacon</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ar">كيفين بيكن</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="de">Kevin Bacon</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="es">Kevin Bacon</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="fr">Kevin Bacon</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="it">Kevin Bacon</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ja">ケヴィン・ベーコン</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="nl">Kevin Bacon</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pl">Kevin Bacon</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="pt">Kevin Bacon</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="ru">Бэйкон, Кевин</span></span></li>
+	<li style="display:none;"><span class="literal"><span property="rdfs:label" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="zh">凯文·贝肯</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://rdf.freebase.com/ns/m.04954"><small>fbase</small>:Kevin Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://data.linkedmdb.org/resource/producer/9717">http://data.linkedmdb.org/resource/producer/9717</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fr.dbpedia.org/resource/Kevin_Bacon">http://fr.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://de.dbpedia.org/resource/Kevin_Bacon">http://de.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q3454165">http://wikidata.dbpedia.org/resource/Q3454165</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://cs.dbpedia.org/resource/Kevin_Bacon">http://cs.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://el.dbpedia.org/resource/Κέβιν_Μπέικον">http://el.dbpedia.org/resource/Κέβιν_Μπέικον</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://es.dbpedia.org/resource/Kevin_Bacon">http://es.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://eu.dbpedia.org/resource/Kevin_Bacon">http://eu.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://id.dbpedia.org/resource/Kevin_Bacon">http://id.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://it.dbpedia.org/resource/Kevin_Bacon">http://it.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ja.dbpedia.org/resource/ケヴィン・ベーコン">http://ja.dbpedia.org/resource/ケヴィン・ベーコン</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ko.dbpedia.org/resource/케빈_베이컨">http://ko.dbpedia.org/resource/케빈_베이컨</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://nl.dbpedia.org/resource/Kevin_Bacon">http://nl.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pl.dbpedia.org/resource/Kevin_Bacon">http://pl.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://pt.dbpedia.org/resource/Kevin_Bacon">http://pt.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://wikidata.org/entity/Q3454165">http://wikidata.org/entity/Q3454165</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sw.cyc.com/concept/Mx4rv72pnJwpEbGdrcN5Y29ycA">http://sw.cyc.com/concept/Mx4rv72pnJwpEbGdrcN5Y29ycA</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://zitgist.com/music/artist/cc0dbdfc-9b2c-4e31-8448-808412388406">http://zitgist.com/music/artist/cc0dbdfc-9b2c-4e31-8448-808412388406</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://yago-knowledge.org/resource/Kevin_Bacon">http://yago-knowledge.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://an.dbpedia.org/resource/Kevin_Bacon">http://an.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ar.dbpedia.org/resource/كيفين_بيكن">http://ar.dbpedia.org/resource/كيفين_بيكن</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://bg.dbpedia.org/resource/Кевин_Бейкън">http://bg.dbpedia.org/resource/Кевин_Бейкън</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ca.dbpedia.org/resource/Kevin_Bacon">http://ca.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://da.dbpedia.org/resource/Kevin_Bacon">http://da.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fa.dbpedia.org/resource/کوین_بیکن">http://fa.dbpedia.org/resource/کوین_بیکن</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://fi.dbpedia.org/resource/Kevin_Bacon">http://fi.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://gl.dbpedia.org/resource/Kevin_Bacon">http://gl.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://he.dbpedia.org/resource/קווין_בייקון">http://he.dbpedia.org/resource/קווין_בייקון</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://hr.dbpedia.org/resource/Kevin_Bacon">http://hr.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://hu.dbpedia.org/resource/Kevin_Bacon">http://hu.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://io.dbpedia.org/resource/Kevin_Bacon">http://io.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ka.dbpedia.org/resource/კევინ_ბეიკონი">http://ka.dbpedia.org/resource/კევინ_ბეიკონი</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://no.dbpedia.org/resource/Kevin_Bacon">http://no.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://oc.dbpedia.org/resource/Kevin_Bacon">http://oc.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://ru.dbpedia.org/resource/Бэйкон,_Кевин">http://ru.dbpedia.org/resource/Бэйкон,_Кевин</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sh.dbpedia.org/resource/Kevin_Bacon">http://sh.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://simple.dbpedia.org/resource/Kevin_Bacon">http://simple.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sk.dbpedia.org/resource/Kevin_Bacon">http://sk.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sr.dbpedia.org/resource/Кевин_Бејкон">http://sr.dbpedia.org/resource/Кевин_Бејкон</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://sv.dbpedia.org/resource/Kevin_Bacon">http://sv.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://th.dbpedia.org/resource/เควิน_เบคอน">http://th.dbpedia.org/resource/เควิน_เบคอน</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://tr.dbpedia.org/resource/Kevin_Bacon">http://tr.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://uk.dbpedia.org/resource/Кевін_Бейкон">http://uk.dbpedia.org/resource/Кевін_Бейкон</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://vi.dbpedia.org/resource/Kevin_Bacon">http://vi.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://zh.dbpedia.org/resource/凯文·贝肯">http://zh.dbpedia.org/resource/凯文·贝肯</a></span></li>
+	<li><span class="literal"><a class="uri" rel="owl:sameAs" href="http://zh_min_nan.dbpedia.org/resource/Kevin_Bacon">http://zh_min_nan.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://www.w3.org/ns/prov#wasDerivedFrom"><small>prov:</small>wasDerivedFrom</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="prov:wasDerivedFrom nofollow" xmlns:prov="http://www.w3.org/ns/prov#" href="http://en.wikipedia.org/wiki/Kevin_Bacon?oldid=606755041">http://en.wikipedia.org/wiki/Kevin_Bacon?oldid=606755041</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/depiction"><small>foaf:</small>depiction</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:depiction nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://commons.wikimedia.org/wiki/Special:FilePath/Kevin_Bacon_Comic-Con_2012.jpg">http://commons.wikimedia.org/wiki/Special:FilePath/Kevin_Bacon_Comic-Con_2012.jpg</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/givenName"><small>foaf:</small>givenName</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:givenName" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Kevin Norwood</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/homepage"><small>foaf:</small>homepage</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:homepage nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://www.baconbros.com/">http://www.baconbros.com/</a></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"><small>foaf:</small>isPrimaryTopicOf</a>
+</td><td><ul>
+	<li><span class="literal"><a class="uri" rel="foaf:isPrimaryTopicOf nofollow" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Kevin_Bacon">http://en.wikipedia.org/wiki/Kevin_Bacon</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/name"><small>foaf:</small>name</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Bacon, Kevin Norwood</span></span></li>
+	<li><span class="literal"><span property="foaf:name" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Kevin Norwood Bacon</span></span></li>
+</ul></td></tr><tr class="even"><td class="property"><a class="uri" href="http://xmlns.com/foaf/0.1/surname"><small>foaf:</small>surname</a>
+</td><td><ul>
+	<li><span class="literal"><span property="foaf:surname" xmlns:foaf="http://xmlns.com/foaf/0.1/" xml:lang="en">Bacon</span></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/bandMember"><small>dbpedia-owl:</small>bandMember</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:bandMember" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/The_Bacon_Brothers"><small>dbpedia</small>:The_Bacon_Brothers</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/director"><small>dbpedia-owl:</small>director</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:director" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Loverboy_(2005_film)"><small>dbpedia</small>:Loverboy_(2005_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:director" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Losing_Chase"><small>dbpedia</small>:Losing_Chase</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/guest"><small>dbpedia-owl:</small>guest</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:guest" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/The_Finale_(Will_&amp;_Grace)"><small>dbpedia</small>:The_Finale_(Will_&amp;_Grace)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/narrator"><small>dbpedia-owl:</small>narrator</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:narrator" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/A_Little_Vicious"><small>dbpedia</small>:A_Little_Vicious</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/portrayer"><small>dbpedia-owl:</small>portrayer</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:portrayer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Balto_(character)"><small>dbpedia</small>:Balto_(character)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/producer"><small>dbpedia-owl:</small>producer</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:producer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Loverboy_(2005_film)"><small>dbpedia</small>:Loverboy_(2005_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:producer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Like_You_Do..._Best_of_The_Lightning_Seeds"><small>dbpedia</small>:Like_You_Do..._Best_of_The_Lightning_Seeds</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:producer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Wild_Things"><small>dbpedia</small>:Wild_Things</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:producer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Mama_(Loves_a_Crackhead)"><small>dbpedia</small>:Mama_(Loves_a_Crackhead)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:producer" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Audioweb_(album)"><small>dbpedia</small>:Audioweb_(album)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/starring"><small>dbpedia-owl:</small>starring</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Mister_Roberts_(1984_film)"><small>dbpedia</small>:Mister_Roberts_(1984_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Skum_Rocks!"><small>dbpedia</small>:Skum_Rocks!</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Murder_in_the_First_(film)"><small>dbpedia</small>:Murder_in_the_First_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Elephant_White"><small>dbpedia</small>:Elephant_White</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/My_One_and_Only_(film)"><small>dbpedia</small>:My_One_and_Only_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/JFK_(film)"><small>dbpedia</small>:JFK_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/The_Air_I_Breathe"><small>dbpedia</small>:The_Air_I_Breathe</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Rails_&amp;_Ties"><small>dbpedia</small>:Rails_&amp;_Ties</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Sleepers_(film)"><small>dbpedia</small>:Sleepers_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/The_Big_Picture_(1989_film)"><small>dbpedia</small>:The_Big_Picture_(1989_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Criminal_Law_(film)"><small>dbpedia</small>:Criminal_Law_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/My_Dog_Skip_(film)"><small>dbpedia</small>:My_Dog_Skip_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/The_Air_Up_There"><small>dbpedia</small>:The_Air_Up_There</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Crazy,_Stupid,_Love"><small>dbpedia</small>:Crazy,_Stupid,_Love</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Apollo_13_(film)"><small>dbpedia</small>:Apollo_13_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Friday_the_13th_(1980_film)"><small>dbpedia</small>:Friday_the_13th_(1980_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/A_Few_Good_Men"><small>dbpedia</small>:A_Few_Good_Men</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Quicksilver_(film)"><small>dbpedia</small>:Quicksilver_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Super_(2010_American_film)"><small>dbpedia</small>:Super_(2010_American_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Footloose_(1984_film)"><small>dbpedia</small>:Footloose_(1984_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Where_the_Truth_Lies"><small>dbpedia</small>:Where_the_Truth_Lies</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/The_River_Wild"><small>dbpedia</small>:The_River_Wild</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Telling_Lies_in_America"><small>dbpedia</small>:Telling_Lies_in_America</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Mystic_River_(film)"><small>dbpedia</small>:Mystic_River_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Flatliners"><small>dbpedia</small>:Flatliners</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Trapped_(2002_film)"><small>dbpedia</small>:Trapped_(2002_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/End_of_the_Line_(1987_film)"><small>dbpedia</small>:End_of_the_Line_(1987_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/The_Woodsman"><small>dbpedia</small>:The_Woodsman</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Queens_Logic"><small>dbpedia</small>:Queens_Logic</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Digging_to_China"><small>dbpedia</small>:Digging_to_China</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/He_Said,_She_Said"><small>dbpedia</small>:He_Said,_She_Said</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Wild_Things"><small>dbpedia</small>:Wild_Things</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Tremors_(film)"><small>dbpedia</small>:Tremors_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Picture_Perfect_(1997_film)"><small>dbpedia</small>:Picture_Perfect_(1997_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Pyrates"><small>dbpedia</small>:Pyrates</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Hollow_Man"><small>dbpedia</small>:Hollow_Man</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/The_Following"><small>dbpedia</small>:The_Following</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Beauty_Shop"><small>dbpedia</small>:Beauty_Shop</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Death_Sentence_(2007_film)"><small>dbpedia</small>:Death_Sentence_(2007_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Stir_of_Echoes"><small>dbpedia</small>:Stir_of_Echoes</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Balto_(film)"><small>dbpedia</small>:Balto_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/She&#39;s_Having_a_Baby"><small>dbpedia</small>:She&#39;s_Having_a_Baby</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Destination_Anywhere:_The_Film"><small>dbpedia</small>:Destination_Anywhere:_The_Film</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Taking_Chance"><small>dbpedia</small>:Taking_Chance</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/We_Married_Margo"><small>dbpedia</small>:We_Married_Margo</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/R.I.P.D."><small>dbpedia</small>:R.I.P.D.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:starring" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Jayne_Mansfield&#39;s_Car"><small>dbpedia</small>:Jayne_Mansfield&#39;s_Car</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageDisambiguates"><small>dbpedia-owl:</small>wikiPageDisambiguates</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageDisambiguates" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kevin_Bacon_(disambiguation)"><small>dbpedia</small>:Kevin_Bacon_(disambiguation)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/ontology/wikiPageRedirects"><small>dbpedia-owl:</small>wikiPageRedirects</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpedia-owl:wikiPageRedirects" xmlns:dbpedia-owl="http://dbpedia.org/ontology/" href="http://dbpedia.org/resource/Kevin_Norwood_Bacon"><small>dbpedia</small>:Kevin_Norwood_Bacon</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/aux"><small>dbpprop:</small>aux</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:aux" href="http://dbpedia.org/resource/List_of_The_Colbert_Report_episodes_(2008)"><small>dbpedia</small>:List_of_The_Colbert_Report_episodes_(2008)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:aux" href="http://dbpedia.org/resource/List_of_Film_Sack_episodes"><small>dbpedia</small>:List_of_Film_Sack_episodes</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/currentMembers"><small>dbpprop:</small>currentMembers</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:currentMembers" href="http://dbpedia.org/resource/The_Bacon_Brothers"><small>dbpedia</small>:The_Bacon_Brothers</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/directedby"><small>dbpprop:</small>directedby</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:directedby" href="http://dbpedia.org/resource/List_of_The_Closer_episodes"><small>dbpedia</small>:List_of_The_Closer_episodes</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/director"><small>dbpprop:</small>director</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:director" href="http://dbpedia.org/resource/Loverboy_(2005_film)"><small>dbpedia</small>:Loverboy_(2005_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:director" href="http://dbpedia.org/resource/Losing_Chase"><small>dbpedia</small>:Losing_Chase</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/guests"><small>dbpprop:</small>guests</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2008)"><small>dbpedia</small>:List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2008)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2009)"><small>dbpedia</small>:List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2009)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2014)"><small>dbpedia</small>:List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2014)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2000%E2%80%9309)"><small>dbpedia</small>:List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2000–09)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2013)"><small>dbpedia</small>:List_of_The_Late_Late_Show_with_Craig_Ferguson_episodes_(2013)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_Conan_episodes_(2013)"><small>dbpedia</small>:List_of_Conan_episodes_(2013)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_Late_Night_with_Jimmy_Fallon_episodes_(2013%E2%80%9314)"><small>dbpedia</small>:List_of_Late_Night_with_Jimmy_Fallon_episodes_(2013–14)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_11)"><small>dbpedia</small>:List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_11)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_14)"><small>dbpedia</small>:List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_14)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_4)"><small>dbpedia</small>:List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_4)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_5)"><small>dbpedia</small>:List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_5)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_7)"><small>dbpedia</small>:List_of_Late_Night_with_Conan_O&#39;Brien_episodes_(season_7)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2011)"><small>dbpedia</small>:List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2011)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:guests" href="http://dbpedia.org/resource/List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2013%E2%80%9314)"><small>dbpedia</small>:List_of_The_Tonight_Show_with_Jay_Leno_episodes_(2013–14)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/narrator"><small>dbpprop:</small>narrator</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:narrator" href="http://dbpedia.org/resource/A_Little_Vicious"><small>dbpedia</small>:A_Little_Vicious</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/portrayer"><small>dbpprop:</small>portrayer</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:portrayer" href="http://dbpedia.org/resource/Balto_(character)"><small>dbpedia</small>:Balto_(character)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/producer"><small>dbpprop:</small>producer</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:producer" href="http://dbpedia.org/resource/Loverboy_(2005_film)"><small>dbpedia</small>:Loverboy_(2005_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:producer" href="http://dbpedia.org/resource/Like_You_Do..._Best_of_The_Lightning_Seeds"><small>dbpedia</small>:Like_You_Do..._Best_of_The_Lightning_Seeds</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:producer" href="http://dbpedia.org/resource/Wild_Things"><small>dbpedia</small>:Wild_Things</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:producer" href="http://dbpedia.org/resource/Audioweb_(album)"><small>dbpedia</small>:Audioweb_(album)</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://dbpedia.org/property/rtitle"><small>dbpprop:</small>rtitle</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:rtitle" href="http://dbpedia.org/resource/Saturday_Night_Live_(season_16)"><small>dbpedia</small>:Saturday_Night_Live_(season_16)</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://dbpedia.org/property/starring"><small>dbpprop:</small>starring</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Mister_Roberts_(1984_film)"><small>dbpedia</small>:Mister_Roberts_(1984_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Skum_Rocks!"><small>dbpedia</small>:Skum_Rocks!</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Murder_in_the_First_(film)"><small>dbpedia</small>:Murder_in_the_First_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/My_One_and_Only_(film)"><small>dbpedia</small>:My_One_and_Only_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/JFK_(film)"><small>dbpedia</small>:JFK_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/The_Air_I_Breathe"><small>dbpedia</small>:The_Air_I_Breathe</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Rails_&amp;_Ties"><small>dbpedia</small>:Rails_&amp;_Ties</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Sleepers_(film)"><small>dbpedia</small>:Sleepers_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/The_Big_Picture_(1989_film)"><small>dbpedia</small>:The_Big_Picture_(1989_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Criminal_Law_(film)"><small>dbpedia</small>:Criminal_Law_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/My_Dog_Skip_(film)"><small>dbpedia</small>:My_Dog_Skip_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/The_Air_Up_There"><small>dbpedia</small>:The_Air_Up_There</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Crazy,_Stupid,_Love"><small>dbpedia</small>:Crazy,_Stupid,_Love</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Apollo_13_(film)"><small>dbpedia</small>:Apollo_13_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Friday_the_13th_(1980_film)"><small>dbpedia</small>:Friday_the_13th_(1980_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/A_Few_Good_Men"><small>dbpedia</small>:A_Few_Good_Men</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Quicksilver_(film)"><small>dbpedia</small>:Quicksilver_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Super_(2010_American_film)"><small>dbpedia</small>:Super_(2010_American_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Footloose_(1984_film)"><small>dbpedia</small>:Footloose_(1984_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Where_the_Truth_Lies"><small>dbpedia</small>:Where_the_Truth_Lies</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/The_River_Wild"><small>dbpedia</small>:The_River_Wild</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Telling_Lies_in_America"><small>dbpedia</small>:Telling_Lies_in_America</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Mystic_River_(film)"><small>dbpedia</small>:Mystic_River_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Flatliners"><small>dbpedia</small>:Flatliners</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Trapped_(2002_film)"><small>dbpedia</small>:Trapped_(2002_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/End_of_the_Line_(1987_film)"><small>dbpedia</small>:End_of_the_Line_(1987_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/The_Woodsman"><small>dbpedia</small>:The_Woodsman</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Queens_Logic"><small>dbpedia</small>:Queens_Logic</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Digging_to_China"><small>dbpedia</small>:Digging_to_China</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/He_Said,_She_Said"><small>dbpedia</small>:He_Said,_She_Said</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Tremors_(film)"><small>dbpedia</small>:Tremors_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Pyrates"><small>dbpedia</small>:Pyrates</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Hollow_Man"><small>dbpedia</small>:Hollow_Man</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Beauty_Shop"><small>dbpedia</small>:Beauty_Shop</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Death_Sentence_(2007_film)"><small>dbpedia</small>:Death_Sentence_(2007_film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Stir_of_Echoes"><small>dbpedia</small>:Stir_of_Echoes</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Balto_(film)"><small>dbpedia</small>:Balto_(film)</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/She&#39;s_Having_a_Baby"><small>dbpedia</small>:She&#39;s_Having_a_Baby</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Destination_Anywhere:_The_Film"><small>dbpedia</small>:Destination_Anywhere:_The_Film</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Taking_Chance"><small>dbpedia</small>:Taking_Chance</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/We_Married_Margo"><small>dbpedia</small>:We_Married_Margo</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/R.I.P.D."><small>dbpedia</small>:R.I.P.D.</a></span></li>
+	<li><span class="literal"><a class="uri" rev="dbpprop:starring" href="http://dbpedia.org/resource/Jayne_Mansfield&#39;s_Car"><small>dbpedia</small>:Jayne_Mansfield&#39;s_Car</a></span></li>
+</ul></td></tr><tr class="even"><td class="property">is <a class="uri" href="http://www.w3.org/2002/07/owl#sameAs"><small>owl:</small>sameAs</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fr.dbpedia.org/resource/Kevin_Bacon">http://fr.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://de.dbpedia.org/resource/Kevin_Bacon">http://de.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://wikidata.dbpedia.org/resource/Q3454165">http://wikidata.dbpedia.org/resource/Q3454165</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://el.dbpedia.org/resource/Κέβιν_Μπέικον">http://el.dbpedia.org/resource/Κέβιν_Μπέικον</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://es.dbpedia.org/resource/Kevin_Bacon">http://es.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://eu.dbpedia.org/resource/Kevin_Bacon">http://eu.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://id.dbpedia.org/resource/Kevin_Bacon">http://id.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://it.dbpedia.org/resource/Kevin_Bacon">http://it.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ja.dbpedia.org/resource/ケヴィン・ベーコン">http://ja.dbpedia.org/resource/ケヴィン・ベーコン</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ko.dbpedia.org/resource/케빈_베이컨">http://ko.dbpedia.org/resource/케빈_베이컨</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://nl.dbpedia.org/resource/Kevin_Bacon">http://nl.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://pl.dbpedia.org/resource/Kevin_Bacon">http://pl.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://pt.dbpedia.org/resource/Kevin_Bacon">http://pt.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://an.dbpedia.org/resource/Kevin_Bacon">http://an.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ar.dbpedia.org/resource/كيفين_بيكن">http://ar.dbpedia.org/resource/كيفين_بيكن</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://bg.dbpedia.org/resource/Кевин_Бейкън">http://bg.dbpedia.org/resource/Кевин_Бейкън</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ca.dbpedia.org/resource/Kevin_Bacon">http://ca.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://da.dbpedia.org/resource/Kevin_Bacon">http://da.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fa.dbpedia.org/resource/کوین_بیکن">http://fa.dbpedia.org/resource/کوین_بیکن</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://fi.dbpedia.org/resource/Kevin_Bacon">http://fi.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://gl.dbpedia.org/resource/Kevin_Bacon">http://gl.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://he.dbpedia.org/resource/קווין_בייקון">http://he.dbpedia.org/resource/קווין_בייקון</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://hr.dbpedia.org/resource/Kevin_Bacon">http://hr.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://hu.dbpedia.org/resource/Kevin_Bacon">http://hu.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://io.dbpedia.org/resource/Kevin_Bacon">http://io.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ka.dbpedia.org/resource/კევინ_ბეიკონი">http://ka.dbpedia.org/resource/კევინ_ბეიკონი</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://no.dbpedia.org/resource/Kevin_Bacon">http://no.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://oc.dbpedia.org/resource/Kevin_Bacon">http://oc.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://ru.dbpedia.org/resource/Бэйкон,_Кевин">http://ru.dbpedia.org/resource/Бэйкон,_Кевин</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sh.dbpedia.org/resource/Kevin_Bacon">http://sh.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://simple.dbpedia.org/resource/Kevin_Bacon">http://simple.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sk.dbpedia.org/resource/Kevin_Bacon">http://sk.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sr.dbpedia.org/resource/Кевин_Бејкон">http://sr.dbpedia.org/resource/Кевин_Бејкон</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://sv.dbpedia.org/resource/Kevin_Bacon">http://sv.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://th.dbpedia.org/resource/เควิน_เบคอน">http://th.dbpedia.org/resource/เควิน_เบคอน</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://tr.dbpedia.org/resource/Kevin_Bacon">http://tr.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://uk.dbpedia.org/resource/Кевін_Бейкон">http://uk.dbpedia.org/resource/Кевін_Бейкон</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://vi.dbpedia.org/resource/Kevin_Bacon">http://vi.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://zh.dbpedia.org/resource/凯文·贝肯">http://zh.dbpedia.org/resource/凯文·贝肯</a></span></li>
+	<li><span class="literal"><a class="uri" rev="owl:sameAs" href="http://zh_min_nan.dbpedia.org/resource/Kevin_Bacon">http://zh_min_nan.dbpedia.org/resource/Kevin_Bacon</a></span></li>
+</ul></td></tr><tr class="odd"><td class="property">is <a class="uri" href="http://xmlns.com/foaf/0.1/primaryTopic"><small>foaf:</small>primaryTopic</a>
+ of</td><td><ul>
+	<li><span class="literal"><a class="uri" rev="foaf:primaryTopic" xmlns:foaf="http://xmlns.com/foaf/0.1/" href="http://en.wikipedia.org/wiki/Kevin_Bacon">http://en.wikipedia.org/wiki/Kevin_Bacon</a></span></li>
+</ul></td></tr>
+      </table>
+    </div> <!--  #content -->
+<!-- footer -->
+    <div id="footer">
+      <div id="ft_t">
+        Browse using:
+	<a href="http://linkeddata.uriburner.com/ode/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FKevin_Bacon">OpenLink Data Explorer</a> |
+	<a href="/describe/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FKevin_Bacon">OpenLink Faceted Browser</a>
+        <!--a href="http://dataviewer.zitgist.com/?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FKevin_Bacon">Zitgist Data Viewer</a> |
+        <a href="http://beckr.org/marbles?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FKevin_Bacon">Marbles</a> |
+        <a href="http://www4.wiwiss.fu-berlin.de/rdf_browser/?browse_uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FKevin_Bacon">DISCO</a> |
+        <a href="http://dig.csail.mit.edu/2005/ajar/release/tabulator/0.8/tab.html?uri=http%3A%2F%2Fdbpedia.org%2Fresource%2FKevin_Bacon" >Tabulator</a-->
+        &nbsp; &nbsp; Raw Data in:
+	
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Kevin_Bacon&gt;&amp;format=text%2Fcsv">CSV</a> | RDF (
+        <a href="http://dbpedia.org/data/Kevin_Bacon.ntriples">N-Triples</a> 
+        <a href="http://dbpedia.org/data/Kevin_Bacon.n3">N3/Turtle</a> 
+	<a href="http://dbpedia.org/data/Kevin_Bacon.json">JSON</a> 
+        <a href="http://dbpedia.org/data/Kevin_Bacon.rdf">XML</a> ) | OData (
+	<a href="http://dbpedia.org/data/Kevin_Bacon.atom">Atom</a> 
+	<a href="http://dbpedia.org/data/Kevin_Bacon.jsod">JSON</a> )| Microdata (
+	<a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Kevin_Bacon&gt;&amp;output=application%2Fmicrodata%2Bjson">JSON</a>
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Kevin_Bacon&gt;&amp;output=text%2Fhtml">HTML</a>) |  
+        <a href="http://dbpedia.org/sparql?default-graph-uri=http%3A%2F%2Fdbpedia.org&amp;query=DESCRIBE+&lt;http://dbpedia.org/resource/Kevin_Bacon&gt;&amp;output=application%2Fld%2Bjson">JSON-LD</a> 
+
+        &nbsp; &nbsp;<a href="http://wiki.dbpedia.org/Imprint">About</a>&nbsp; &nbsp;
+      </div> <!-- #ft_t -->
+      <div id="ft_b">
+        <a href="http://virtuoso.openlinksw.com" title="OpenLink Virtuoso"><img class="powered_by" src="/statics/virt_power_no_border.png" alt="Powered by OpenLink Virtuoso"/></a>
+        <a href="http://linkeddata.org/"><img alt="This material is Open Knowledge" src="/statics/LoDLogo.gif"/></a> &nbsp;
+        <a href="http://dbpedia.org/sparql"><img alt="W3C Semantic Web Technology" src="/statics/sw-sparql-blue.png"/></a> &nbsp;  &nbsp;
+        <a href="http://www.opendefinition.org/"><img alt="This material is Open Knowledge" src="/statics/od_80x15_red_green.png"/></a>
+	<span about=""
+	resource="http://www.w3.org/TR/rdfa-syntax"
+	rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/">
+	<a href="http://validator.w3.org/check?uri=referer"><img
+	    src="http://www.w3.org/Icons/valid-xhtml-rdfa"
+	    alt="Valid XHTML + RDFa" height="27" /></a>
+	</span>
+      </div> <!-- #ft_b -->
+      <div id="ft_ccbysa">
+	This content was extracted from <a href="http://en.wikipedia.org/wiki/Kevin_Bacon">Wikipedia</a> and is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>
+
+      </div> <!-- #ft_ccbysa -->
+    </div> <!-- #footer -->
+    <!--script type="text/javascript">
+     Place any Javascript code e.g. Google Analytics scripts 
+    </script-->
+    
+ </body>
+</html>
+
