@@ -1,31 +1,14 @@
 from behave import *
 from hamcrest import *
-
-
-@when(u'I visit the page for Kevin Bacon')
-def step_impl(context):
-    br = context.browser
-    br.visit('/things/Kevin_Bacon')
-    context.url = br.url
-    context.current_item = 'http://dbpedia.org/resource/Kevin_Bacon'
-    assert_that(context.browser.status_code, equal_to(200))
-
-
-@when(u'I visit the page for Errol Brown')
-def impl(context):
-    br = context.browser
-    br.visit('/things/Errol_Brown')
-    assert_that(context.browser.status_code, equal_to(200))
-
+from things.models import Thing
 
 @when(u'I visit the page for "{title}"')
-def impl(context, title):
-    context.browser.visit('/things/' + title.replace(' ', '_'))
-    assert_that(context.browser.status_code, equal_to(200))
+def visit(context, title):
+    iri = 'http://dbpedia.org/resource/' + title.replace(' ', '_')
+    thing = Thing(iri=iri)
+    context.client.visit('/things/' + thing.pk)
 
 
 @when(u'I visit any page')
-def impl(context):
-    br = context.browser
-    br.visit('/things/Kevin_Bacon')
-    assert_that(context.browser.status_code, equal_to(200))
+def visit_any(context):
+    visit(context, 'Kevin Bacon')

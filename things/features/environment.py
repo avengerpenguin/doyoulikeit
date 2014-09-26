@@ -17,26 +17,17 @@ urls = [
 ]
 
 
-def visit_wrapper(context):
-    server_url = context.config.server_url
-    original_visit = context.browser.visit
+class Client:
+    page = None
 
-    def new_visit(url):
-        full_url = urljoin(server_url, url)
-        try:
-            original_visit(full_url)
-        except HttpResponseError, http_error:
-            print context.browser.html
-            raise http_error
+    def __init__(self, server_url):
+        self.server_url = server_url
 
-    return new_visit
+    def visit(self, relative_url):
+        hyperspace.jump(urljoin(self.server_url, relative_url))
 
 
 def before_all(context):
-    context.browser = Browser(driver_name='firefox')
-
-    context.browser.visit = visit_wrapper(context)
-
     httpretty.enable()
     s = requests.Session()
 
@@ -56,10 +47,25 @@ def before_all(context):
             print "Mocking: " + url
             httpretty.register_uri(httpretty.GET, url, body=fixture.read(), status=200, content_type='text/turtle')
 
+    server_url = context.config.server_url
+    context.client = Client(server_url)
+
+def visit_wrapper(context):
+    server_url = context.config.server_url
+    original_visit = context.browser.visit
+
+    def new_visit(url):
+        full_url = urljoin(server_url, url)
+        try:
+            original_visit(full_url)
+        except HttpResponseError, http_error:
+            print context.browser.html
+            raise http_error
+
+    return new_visit
+
+
 
 def after_all(context):
     httpretty.disable()
     httpretty.reset()
-
-    context.browser.quit()
-    context.browser = None

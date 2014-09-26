@@ -7,7 +7,7 @@
     {% if already_voted %}
         <p>You like it.</p>
     {% else %}
-    <form action="{{ request.get_full_path }}/likes/{{user.id}}" method="post">
+    <form action="/things/{{ thing.pk }}/likes/{{user.id}}" method="post">
         {% csrf_token %}
         <input type="submit" value="Yes" class="ui animated fade button"/>
     </form>
