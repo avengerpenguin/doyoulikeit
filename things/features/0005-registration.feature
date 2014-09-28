@@ -2,7 +2,7 @@ Feature: New users registering with username and password
 
   Scenario: Registration process
     Given I am not a registered user
-    When I click the 'Register' link
+    When I click the "Register" link
     And I give a username and password
     Then I should be logged in
 

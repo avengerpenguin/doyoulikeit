@@ -2,20 +2,22 @@
 
 {% block content %}
 
-<article itemscope itemtype="http://schema.org/Thing" itemid="{{ thing.pk }}">
+<article itemscope itemtype="http://schema.org/Thing" itemid="{{ thing.iri }}">
 
     {% if already_voted %}
         <p>You like it.</p>
     {% else %}
-    <form action="/things/{{ thing.pk }}/likes/{{user.id}}" method="post">
+    <form action="/things/{{ thing.pk }}/likes/{{user.id}}" method="post" name="like">
         {% csrf_token %}
         <input type="submit" value="Yes" class="ui animated fade button"/>
     </form>
     {% endif %}
 
-    <h1 itemprop="http://schema.org/name" class="ui header">{{ thing.rdfs_label}}</h1>
+    <h1 itemprop="http://schema.org/name" class="ui header">{{ thing.schema_name}}</h1>
 
-    <p itemprop="http://schema.org/description">{{ thing.rdfs_comment }}</p>
+    {% if thing.schema_description %}
+      <p itemprop="http://schema.org/description">{{ thing.schema_description }}</p>
+    {% endif %}
 
 </article>
 
