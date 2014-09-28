@@ -9,3 +9,4 @@ httpretty==0.8.3
 -e git+git://github.com/avengerpenguin/hyperspace#egg=hyperspace
 PyHamcrest==1.8.0
 mechanize==0.2.5
+django12factor==1.1
