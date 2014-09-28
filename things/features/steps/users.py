@@ -48,3 +48,7 @@ def fill_login_form(context):
 def click_login(context):
     br = context.browser
     br.follow_link(text_regex='Log in')
+
+@when(u'I click the "Register" link')
+def impl(context):
+    br.follow_link(text_regex='Register')
