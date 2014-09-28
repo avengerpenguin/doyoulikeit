@@ -7,3 +7,5 @@ django-lazysignup==0.12.2
 splinter==0.6.0
 httpretty==0.8.3
 -e git+git://github.com/avengerpenguin/hyperspace#egg=hyperspace
+PyHamcrest==1.8.0
+mechanize==0.2.5
