@@ -16,7 +16,7 @@ def impl(context):
 
 
 @when(u'I click the "Yes" button')
-def impl(context):
+def click_yes(context):
     thing_url = context.browser.geturl()
     context.browser.select_form(name='like')
     context.browser.submit()
@@ -39,3 +39,15 @@ def impl(context, title):
 
     assert 1 == Vote.objects.filter(
         thing=thing, sentiment=Vote.LIKE, user=context.user).count()
+
+
+@given(u'I have been voting on some things anonymously')
+def impl(context):
+    thing = Thing.objects.all()[0]
+    context.thing = thing
+
+    br = context.browser
+    context.page = context.url(thing.get_absolute_url())
+    br.open(context.page)
+    click_yes()
+

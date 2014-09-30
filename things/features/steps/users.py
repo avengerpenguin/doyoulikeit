@@ -30,6 +30,7 @@ def impl(context):
     click_login(context)
     fill_login_form(context)
 
+
 @then(u'I should be logged in')
 def impl(context):
     assert_that(list(context.browser.links(url_regex='.*/accounts/login.*')), empty())
@@ -49,6 +50,38 @@ def click_login(context):
     br = context.browser
     br.follow_link(text_regex='Log in')
 
+
 @when(u'I click the "Register" link')
-def impl(context):
+def click_register(context):
+    br = context.browser
     br.follow_link(text_regex='Register')
+
+
+@when(u'I try to register with an existing username')
+def impl(context):
+    existing = User.objects.all()[0].username
+    click_register(context)
+    br = context.browser
+    br.select_form(name='login')
+    br['username'] = existing
+    br['password'] = 'somepassword'
+    br.submit()
+
+@then(u'I should get an error messaging explaining that username is taken')
+def impl(context):
+    page = context.browser.response.soup
+    assert_that(page.find('p', {'class': 'error'}).text, contains_string('taken'))
+
+@when(u'I register successfully')
+def register(context):
+    click_register(context)
+    br = context.browser
+    br.select_form(name='login')
+    br['username'] = 'someuser'
+    br['password'] = 'somepassword'
+    br.submit()
+
+@then(u'my anonymous votes should be linked to my new account')
+def impl(context):
+    user = User.objects.get(username='someuser')
+
