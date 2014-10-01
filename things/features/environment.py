@@ -7,11 +7,6 @@ import mechanize
 import os
 
 
-
-# This is necessary for all installed apps to be recognized, for some reason.
-os.environ['DJANGO_SETTINGS_MODULE'] = 'myproject.settings'
-
-
 def before_all(context):
 
     server_url = context.config.server_url
@@ -39,6 +34,7 @@ def before_all(context):
         return BeautifulSoup(html)
 
     context.soup = soup
+
 
 def after_all(context):
     from django.test import utils

@@ -11,7 +11,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'things',
     'django_behave',
-    'lazysignup'
+    'lazysignup',
 )
 
 TEST_RUNNER = 'django_behave.runner.DjangoBehaveTestSuiteRunner'
