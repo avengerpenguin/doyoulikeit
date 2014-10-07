@@ -13,12 +13,25 @@
     </form>
   {% endif %}
 
-  <h1 itemprop="http://schema.org/name" class="ui header">{{ thing.schema_name}}</h1>
+  <h1 itemprop="http://schema.org/name" class="ui header">{{ thing.schema_name }}</h1>
 
   {% if thing.schema_description %}
     <p itemprop="http://schema.org/description">{{ thing.schema_description }}</p>
   {% endif %}
 
+<div class="ui fluid accordion links">
+  <div class="active title">
+    <i class="dropdown icon"></i>
+    Starred in
+  </div>
+  <div class="active content">
+    <ul>
+      Wild Things
+    </ul>
+  </div>
+</div>
+
 </article>
+
 
 {% endblock %}

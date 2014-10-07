@@ -5,8 +5,10 @@
 article {
     margin-top: 1em;
     font-family: 'Raleway', sans-serif;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    max-width: 40em;
+    margin: 0 auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 h1 {
@@ -19,8 +21,6 @@ h1.ui.header {
 }
 
 p {
-    max-width: 40em;
-    margin: 0 auto;
     line-height: 130%;
     font-size: 0.8rem;
 }
@@ -30,4 +30,8 @@ form {
     text-align: center;
     margin: 0 auto;
     margin-bottom: 1em;
+}
+
+div.links {
+    margin-top: 1em;
 }
