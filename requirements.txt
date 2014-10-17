@@ -9,3 +9,4 @@ splinter==0.6.0
 PyHamcrest==1.8.0
 mechanize==0.2.5
 django12factor==1.1
+django-allauth==0.18.0

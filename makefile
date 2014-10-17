@@ -8,7 +8,7 @@ pep8:
 	pep8 .
 
 test: venv
-	venv/bin/python test things
+	venv/bin/python manage.py test things
 
 heroku: test
 	pip install django-herokuapp
