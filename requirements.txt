@@ -1,7 +1,7 @@
 django-toolbelt==0.0.1
 Django==1.6.5
 behave==1.2.4
-laconia==0.0.0
+laconia==0.1.0
 django-behave==0.1.2
 django-lazysignup==0.12.2
 splinter==0.6.0

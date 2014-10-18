@@ -25,9 +25,11 @@
     Starred in
   </div>
   <div class="active content">
+    {% for film in thing.dbpedia_starring_of %}
     <ul>
-      Wild Things
+      {% film.schema_name %}
     </ul>
+    {% endfor %}
   </div>
 </div>
 
