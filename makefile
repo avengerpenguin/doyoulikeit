@@ -1,3 +1,5 @@
+export PATH := venv/bin:$(PATH)
+
 all: pep8 test
 
 venv:
@@ -8,7 +10,8 @@ pep8:
 	pep8 .
 
 test: venv
-	venv/bin/python manage.py test things
+	venv/bin/pip install honcho
+	venv/bin/honcho --env .env.test --procfile Procfile.test start
 
 heroku: test
 	pip install django-herokuapp

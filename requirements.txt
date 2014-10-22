@@ -5,8 +5,9 @@ laconia==0.0.0
 django-behave==0.1.2
 django-lazysignup==0.12.2
 splinter==0.6.0
--e git+git://github.com/avengerpenguin/hyperspace#egg=hyperspace
+-e git+https://github.com/avengerpenguin/hyperspace#egg=hyperspace
 PyHamcrest==1.8.0
 mechanize==0.2.5
 django12factor==1.1
 django-allauth==0.18.0
+testypie==0.3.0
