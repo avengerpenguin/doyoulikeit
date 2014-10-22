@@ -3,6 +3,7 @@ import hyperspace
 from rdflib import Graph, URIRef
 from django.db import models
 from django.contrib.auth.models import User
+from django_session_stashable import SessionStashable
 
 
 class LaconicModel(models.Model):
@@ -23,6 +24,7 @@ class LaconicModel(models.Model):
         self._graph = graph
         factory = laconia.ThingFactory(graph)
         self._entity = factory(URIRef(self.iri))
+        print graph.serialize(format='turtle')
 
     def __getattr__(self, item):
         if item == 'id':
@@ -30,6 +32,7 @@ class LaconicModel(models.Model):
         elif item == 'iri':
             return self.iri
         else:
+            print list(getattr(self._entity, item))
             potential_vals = [value for value in getattr(self._entity, item)
                               if not value.language or value.language == 'en']
             if potential_vals:
@@ -70,13 +73,17 @@ class Thing(LaconicModel):
 #         return self.model_class(value)
 
 
-class Vote(models.Model):
+class Vote(models.Model, SessionStashable):
     LIKE = 'L'
     DISLIKE = 'D'
     MEH = 'M'
 
     class Meta:
         unique_together = (("user", "thing", "sentiment"),)
+
+    creator_field = 'user'
+    session_variable = 'vote_stash'
+
     user = models.ForeignKey(User)
     thing = models.ForeignKey(Thing)
     sentiment = models.CharField(max_length=1, choices=(

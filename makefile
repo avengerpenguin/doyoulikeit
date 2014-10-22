@@ -1,5 +1,8 @@
 all: pep8 test
 
+clean:
+	rm -rf venv
+
 venv:
 	virtualenv venv
 	venv/bin/pip install -r requirements.txt
@@ -8,7 +11,8 @@ pep8:
 	pep8 .
 
 test: venv
-	venv/bin/python manage.py test things
+	venv/bin/python manage.py syncdb --noinput
+	venv/bin/honcho --procfile Procfile.test --env .env.test start
 
 heroku: test
 	pip install django-herokuapp
