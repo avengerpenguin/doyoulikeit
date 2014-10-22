@@ -12,7 +12,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'things',
     'django_behave',
-    'lazysignup',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -73,10 +72,11 @@ TEMPLATE_CONTEXT_PROCESSORS = TCP + (
 AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
     'allauth.account.auth_backends.AuthenticationBackend',
-    'lazysignup.backends.LazySignupBackend',
 )
 
 import django12factor
 globals().update(django12factor.factorise())
 
 TEMPLATE_DEBUG = DEBUG
+
+APPEND_SLASH=False

@@ -2,6 +2,9 @@ export PATH := venv/bin:$(PATH)
 
 all: pep8 test
 
+clean:
+	rm -rf venv
+
 venv:
 	virtualenv venv
 	venv/bin/pip install -r requirements.txt
