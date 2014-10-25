@@ -69,9 +69,10 @@ class Thing(LaconicModel):
         return u'/things/' + str(self.id)
 
     def __unicode__(self):
+        self.set_lang('en')
         names = self.schema_name
         if names:
-            return self.schema_name[0]
+            return names[0]
         else:
             return self.iri
 
