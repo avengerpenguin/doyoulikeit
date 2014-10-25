@@ -2,8 +2,10 @@ import laconia
 import hyperspace
 from rdflib import Graph, URIRef
 from django.db import models
+from django.shortcuts import get_object_or_404
 from django.contrib.auth.models import User
 from django_session_stashable import SessionStashable
+from httplib2 import iri2uri
 
 
 class LaconicModel(models.Model):
@@ -24,9 +26,11 @@ class LaconicModel(models.Model):
 
         self._graph = graph
         factory = laconia.ThingFactory(graph)
-        self._entity = factory(URIRef(self.iri))
+        self._entity = factory(iri2uri(self.iri))
 
     def __getattr__(self, item):
+        if item == 'schema_name':
+            print list(self._entity.schema_description)
         if item == 'id':
             return self.id
         elif item == 'iri':
@@ -36,7 +40,7 @@ class LaconicModel(models.Model):
             if potential_vals:
                 return potential_vals[0]
             else:
-                return None
+                raise AttributeError
 
     def set_lang(self, newlang):
         self._entity.lang = newlang
@@ -47,7 +51,7 @@ class Thing(LaconicModel):
     Currently empty as it only serves as syntactic sugar for the views to be
     able to talk about distinct models."""
     def get_absolute_url(self):
-        return '/things/' + str(self.id)
+        return u'/things/' + str(self.id)
 
     def __unicode__(self):
         return self.schema_name

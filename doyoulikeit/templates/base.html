@@ -12,8 +12,9 @@
 
     <body>
         <header>
+            <p class="siteheader">Do You Like It?</p>
             {% if request.user.is_authenticated %}
-                Hello, {{ request.user.username }}
+                <p>Hello, {{ request.user.username }}</p>
             {% else %}
                 <a href="/accounts/login/?next={{request.path}}" rel="login">Log in</a>
                 <a href="/accounts/signup/?next={{request.path}}" rel="register">Register</a>

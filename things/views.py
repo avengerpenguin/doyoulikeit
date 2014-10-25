@@ -14,8 +14,18 @@ def reparent_after_login(sender, **kwargs):
 
 def thing_view(request, thing_id):
 
-    thing = Thing.objects.get(id=int(thing_id))
-    thing.set_lang('en')
+    try:
+        thing = Thing.objects.get(id=int(thing_id))
+        thing.set_lang('en')
+    except ValueError:
+        iri = u'http://dbpedia.org/resource/{}'.format(thing_id)
+        things = Thing.objects.filter(iri=iri)
+        if things.count() == 0:
+            thing = Thing(iri=iri)
+            thing.save()
+        else:
+            thing = things[0]
+        return redirect(thing)
 
     if request.user.is_anonymous():
         already_voted = (Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0)
@@ -35,7 +45,7 @@ def thing_view(request, thing_id):
 
 def likes(request, thing_id, user_id):
     thing = Thing.objects.get(id=int(thing_id))
-    print type(user_id)
+
     if int(user_id) > 0:
         user = User.objects.get(id=user_id)
 
