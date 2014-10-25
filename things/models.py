@@ -73,7 +73,7 @@ class Thing(LaconicModel):
         if names:
             return self.schema_name[0]
         else:
-            return self._id
+            return self.iri
 
     def __str__(self):
         return unicode(self).encode('utf-8')
