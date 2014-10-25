@@ -1,3 +1,4 @@
+from __builtin__ import isinstance
 import laconia
 import hyperspace
 from rdflib import Graph, URIRef
@@ -14,6 +15,7 @@ class LaconicModel(models.Model):
 
     def __init__(self, *args, **kwargs):
         super(LaconicModel, self).__init__(*args, **kwargs)
+
         graph = Graph()
         graph.bind("dbpedia", "http://dbpedia.org/resource/")
         graph.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
@@ -34,14 +36,29 @@ class LaconicModel(models.Model):
         elif item == 'iri':
             return self.iri
         else:
-            potential_vals = list(getattr(self._entity, item))
-            if potential_vals:
-                return potential_vals[0]
-            else:
-                raise AttributeError
+            vals = set(getattr(self._entity, item))
+            vals = map(convert_entities_to_things, vals)
+            return vals
 
     def set_lang(self, newlang):
         self._entity.lang = newlang
+
+
+def convert_entities_to_things(entity):
+    if isinstance(entity, laconia.Thing):
+        thing = Thing.get_or_create(entity._id)
+        thing.set_lang('en')
+        return thing
+    else:
+        return entity
+
+
+def force_url_value_to_str(entity, attr):
+    urls = getattr(entity, attr)
+    if len(urls) == 0:
+        return None
+    else:
+        return set(urls).pop()._id
 
 
 class Thing(LaconicModel):
@@ -56,6 +73,26 @@ class Thing(LaconicModel):
 
     def __str__(self):
         return self.schema_name.encode('utf-8')
+
+    @property
+    def schema_image(self):
+        return force_url_value_to_str(self._entity, 'schema_image')
+
+    @property
+    def schema_thumbnailUrl(self):
+        return force_url_value_to_str(self._entity, 'schema_thumbnailUrl')
+
+    @classmethod
+    def get_or_create(cls, iri):
+        things = cls.objects.filter(iri=iri)
+        if things.count() == 0:
+            thing = cls(iri=iri)
+            thing.save()
+        else:
+            thing = things[0]
+
+        return thing
+
 
 
 # class LaconicField(models.CharField):

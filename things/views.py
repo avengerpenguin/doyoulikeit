@@ -36,13 +36,13 @@ def thing_view(request, thing_id):
 def thing_redirect(_request, thing_id):
 
     iri = u'http://dbpedia.org/resource/{}'.format(thing_id)
-    things = Thing.objects.filter(iri=iri)
-    if things.count() == 0:
-        thing = Thing(iri=iri)
-        thing.save()
-    else:
-        thing = things[0]
+    thing = Thing.get_or_create(iri)
+    print len(thing._graph)
+    if len(thing._graph) == 0:
+        thing.delete()
+        return HttpResponse(status=404)
     return redirect(thing)
+
 
 def likes(request, thing_id, user_id):
     thing = Thing.objects.get(id=int(thing_id))
