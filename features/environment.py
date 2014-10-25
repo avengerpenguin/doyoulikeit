@@ -2,6 +2,7 @@
 from rdflib import Namespace
 import hyperspace
 from laconia import ThingFactory
+from things.models import Thing, User, Vote
 
 
 def page_object(iri, graph):
@@ -10,6 +11,11 @@ def page_object(iri, graph):
 
 
 def before_all(context):
-    context.page = hyperspace.jump('http://localhost:5000/')
+    Vote.objects.all().delete()
+    User.objects.all().delete()
+    Thing.objects.all().delete()
+
+    context.page = hyperspace.jump('http://localhost:5100/')
 
     context.page_object = lambda: page_object(context.iri, context.page.data)
+

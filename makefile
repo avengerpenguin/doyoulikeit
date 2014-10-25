@@ -13,6 +13,8 @@ pep8:
 	pep8 .
 
 test: venv
+	rm -f /tmp/dyli.db
+	venv/bin/python manage.py syncdb --noinput
 	venv/bin/pip install honcho
 	venv/bin/honcho --env .env.test --procfile Procfile.test start
 

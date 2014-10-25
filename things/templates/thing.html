@@ -15,6 +15,10 @@
 
   <h1 itemprop="http://schema.org/name" class="ui header">{{ thing.schema_name }}</h1>
 
+  {% if thing.schema_image %}
+    <img itemprop="http://schema.org/image" src="{{ thing.schema_image }}"/>
+  {% endif %}
+
   {% if thing.schema_description %}
     <p itemprop="http://schema.org/description">{{ thing.schema_description }}</p>
   {% endif %}

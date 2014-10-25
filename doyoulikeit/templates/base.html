@@ -15,7 +15,8 @@
             {% if request.user.is_authenticated %}
                 Hello, {{ request.user.username }}
             {% else %}
-                <a href="/accounts/login/?next={{request.path}}">Log in</a>
+                <a href="/accounts/login/?next={{request.path}}" rel="login">Log in</a>
+                <a href="/accounts/signup/?next={{request.path}}" rel="register">Register</a>
             {% endif %}
         </header>
         {% block content %}{% endblock %}

@@ -13,8 +13,7 @@ def visit(context, title):
 
     context.iri = iri
     context.page = hyperspace.jump(
-        'http://localhost:5000/things/{}'.format(thing.id))
-    print context.page.data.serialize(format='turtle')
+        'http://localhost:5100/things/{}'.format(thing.id))
 
 
 @when(u'I visit any page')

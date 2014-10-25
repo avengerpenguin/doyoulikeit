@@ -15,9 +15,10 @@ def reparent_after_login(sender, **kwargs):
 def thing_view(request, thing_id):
 
     thing = Thing.objects.get(id=int(thing_id))
+    thing.set_lang('en')
 
     if request.user.is_anonymous():
-        already_voted = not Vote.get_stashed_in_session(request.session).filter(thing=thing).count()
+        already_voted = (Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0)
         user_id = 0
     else:
         already_voted = not (0 == Vote.objects.filter(
@@ -34,8 +35,8 @@ def thing_view(request, thing_id):
 
 def likes(request, thing_id, user_id):
     thing = Thing.objects.get(id=int(thing_id))
-
-    if not request.user.is_anonymous():
+    print type(user_id)
+    if int(user_id) > 0:
         user = User.objects.get(id=user_id)
 
         if request.user != user:
@@ -51,12 +52,12 @@ def likes(request, thing_id, user_id):
             vote.save()
 
     else:
-        already_voted = not Vote.get_stashed_in_session(request.session).filter(thing=thing).count()
+        already_voted = Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0
         if already_voted:
             return HttpResponse(status=409)
         else:
             vote = Vote(thing=thing, sentiment=Vote.LIKE)
-            vote.stash_in_session(request.session)
             vote.save()
+            vote.stash_in_session(request.session)
 
     return redirect(thing)

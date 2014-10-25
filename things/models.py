@@ -15,6 +15,7 @@ class LaconicModel(models.Model):
         graph = Graph()
         graph.bind("dbpedia", "http://dbpedia.org/resource/")
         graph.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
+        graph.bind("schema", "http://schema.org/")
 
         hyperspace.session.headers['Accept'] = 'text/turtle'
         home = hyperspace.jump('http://dyli-thingy.herokuapp.com/')
@@ -24,7 +25,6 @@ class LaconicModel(models.Model):
         self._graph = graph
         factory = laconia.ThingFactory(graph)
         self._entity = factory(URIRef(self.iri))
-        print graph.serialize(format='turtle')
 
     def __getattr__(self, item):
         if item == 'id':
@@ -32,13 +32,14 @@ class LaconicModel(models.Model):
         elif item == 'iri':
             return self.iri
         else:
-            print list(getattr(self._entity, item))
-            potential_vals = [value for value in getattr(self._entity, item)
-                              if not value.language or value.language == 'en']
+            potential_vals = list(getattr(self._entity, item))
             if potential_vals:
                 return potential_vals[0]
             else:
                 return None
+
+    def set_lang(self, newlang):
+        self._entity.lang = newlang
 
 
 class Thing(LaconicModel):
@@ -78,16 +79,17 @@ class Vote(models.Model, SessionStashable):
     DISLIKE = 'D'
     MEH = 'M'
 
-    class Meta:
-        unique_together = (("user", "thing", "sentiment"),)
-
     creator_field = 'user'
     session_variable = 'vote_stash'
 
-    user = models.ForeignKey(User)
+    user = models.ForeignKey(User, null=True, blank=True)
     thing = models.ForeignKey(Thing)
     sentiment = models.CharField(max_length=1, choices=(
         (LIKE, 'like'),
         (DISLIKE, 'dislike'),
         (MEH, 'meh'),
     ))
+
+    def __str__(self):
+        self.thing.set_lang('en')
+        return 'Vote({user} {sentiment}s {thing})'.format(user=self.user, sentiment=self.sentiment, thing=self.thing)
