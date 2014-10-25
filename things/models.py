@@ -69,10 +69,10 @@ class Thing(LaconicModel):
         return u'/things/' + str(self.id)
 
     def __unicode__(self):
-        return self.schema_name
+        return self.schema_name[0]
 
     def __str__(self):
-        return self.schema_name.encode('utf-8')
+        return self.schema_name[0].encode('utf-8')
 
     @property
     def schema_image(self):
