@@ -29,8 +29,6 @@ class LaconicModel(models.Model):
         self._entity = factory(iri2uri(self.iri))
 
     def __getattr__(self, item):
-        if item == 'schema_name':
-            print list(self._entity.schema_description)
         if item == 'id':
             return self.id
         elif item == 'iri':
