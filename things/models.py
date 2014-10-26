@@ -1,4 +1,3 @@
-from __builtin__ import isinstance
 import laconia
 import hyperspace
 from rdflib import Graph, URIRef
@@ -7,6 +6,7 @@ from django.shortcuts import get_object_or_404
 from django.contrib.auth.models import User
 from django_session_stashable import SessionStashable
 from httplib2 import iri2uri
+
 
 
 class LaconicModel(models.Model):
@@ -21,7 +21,6 @@ class LaconicModel(models.Model):
         graph.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
         graph.bind("schema", "http://schema.org/")
 
-        hyperspace.session.headers['Accept'] = 'text/turtle'
         home = hyperspace.jump('http://dyli-thingy.herokuapp.com/')
         thing = home.queries['lookup'][0].build({'iri': self.iri}).submit()
         graph = graph + thing.data

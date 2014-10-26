@@ -1,0 +1,7 @@
+{
+    "body": "@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n@prefix schema: <http://schema.org/> .\n@prefix xml: <http://www.w3.org/XML/1998/namespace> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n<http://dbpedia.org/resource/Pyrates> schema:actor <http://dbpedia.org/resource/Bruce_Payne>,\n        <http://dbpedia.org/resource/Kevin_Bacon>,\n        <http://dbpedia.org/resource/Kristin_Dattilo>,\n        <http://dbpedia.org/resource/Kyra_Sedgwick> ;\n    schema:description \"Ari & Sam (Originaltitel: Pyrates) ist eine US-amerikanische Filmkom\u00f6die von Noah Stern aus dem Jahr 1991. Die Hauptrollen spielten Kyra Sedgwick und Kevin Bacon.\"@de,\n        \"Pyrates is an 1991 comedy film, starring Kevin Bacon and Kyra Sedgwick about a couple who experience pyrokinesis after having sex. Directed and written by Noah Stern, the film was released on VHS on December 18, 1991.\"@en,\n        \"Pyrates es una pel\u00edcula de comedia de 1991, protagonizada por Kevin Bacon y Kyra Sedgwick sobre una pareja que experimenta piroquinesis despu\u00e9s de tener sexo. Dirigida y escrita por Noah Stern, la pel\u00edcula fue lanzada en VHS el 18 de diciembre de 1991.\"@es,\n        \"Pyrates est un film am\u00e9ricain r\u00e9alis\u00e9 en 1991 par Noah Stern.\"@fr ;\n    schema:name \"Ari & Sam\"@de,\n        \"Pyrates\"@en,\n        \"Pyrates\"@es,\n        \"Pyrates\"@fr .\n\n", 
+    "headers": {
+        "Content-Type": "text/turtle; charset=utf-8"
+    }, 
+    "code": 200
+}
