@@ -15,14 +15,18 @@ class LaconicModel(models.Model):
     def __init__(self, *args, **kwargs):
         super(LaconicModel, self).__init__(*args, **kwargs)
 
-        graph = Graph()
-        graph.bind("dbpedia", "http://dbpedia.org/resource/")
-        graph.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
-        graph.bind("schema", "http://schema.org/")
+        if 'graph' in kwargs and kwargs['graph']:
+            graph = kwargs['graph']
+        else:
+            graph = Graph()
+            graph.bind("dbpedia", "http://dbpedia.org/resource/")
+            graph.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
+            graph.bind("schema", "http://schema.org/")
 
-        home = hyperspace.jump('http://dyli-thingy.herokuapp.com/')
-        thing = home.queries['lookup'][0].build({'iri': self.iri}).submit()
-        graph = graph + thing.data
+            hyperspace.session.headers['Accept'] = 'text/turtle'
+            home = hyperspace.jump('http://dyli-thingy.herokuapp.com/')
+            thing = home.queries['lookup'][0].build({'iri': self.iri}).submit()
+            graph = graph + thing.data
 
         self._graph = graph
         factory = laconia.ThingFactory(graph)
@@ -39,10 +43,10 @@ class LaconicModel(models.Model):
             return vals
 
     @classmethod
-    def get_or_create(cls, iri):
+    def get_or_create(cls, iri, graph=None):
         things = cls.objects.filter(iri=iri)
         if things.count() == 0:
-            thing = cls(iri=iri)
+            thing = cls(iri=iri, graph=graph)
             thing.save()
         else:
             thing = things[0]
