@@ -33,8 +33,22 @@ def thing_view(request, thing_id):
     })
 
 
-def thing_redirect(_request, thing_id):
+def bounce(request):
+    iri = request.GET['iri']
 
+    if not iri:
+        return HttpResponse(status=404)
+
+    thing = Thing.get_or_create(iri)
+
+    if len(thing._graph) == 0:
+        thing.delete()
+        return HttpResponse(status=404)
+
+    return redirect(thing)
+
+
+def thing_redirect(_request, thing_id):
     iri = u'http://dbpedia.org/resource/{}'.format(thing_id)
     thing = Thing.get_or_create(iri)
     print len(thing._graph)

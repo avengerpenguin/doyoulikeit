@@ -8,7 +8,6 @@ from django_session_stashable import SessionStashable
 from httplib2 import iri2uri
 
 
-
 class LaconicModel(models.Model):
 
     iri = models.CharField(max_length=255, unique=True)
@@ -39,13 +38,24 @@ class LaconicModel(models.Model):
             vals = map(convert_entities_to_things, vals)
             return vals
 
+    @classmethod
+    def get_or_create(cls, iri):
+        things = cls.objects.filter(iri=iri)
+        if things.count() == 0:
+            thing = cls(iri=iri)
+            thing.save()
+        else:
+            thing = things[0]
+
+        return thing
+
     def set_lang(self, newlang):
         self._entity.lang = newlang
 
 
 def convert_entities_to_things(entity):
     if isinstance(entity, laconia.Thing):
-        thing = Thing.get_or_create(entity._id)
+        thing = LaconicModel.get_or_create(entity._id)
         thing.set_lang('en')
         return thing
     else:
@@ -85,18 +95,6 @@ class Thing(LaconicModel):
     @property
     def schema_thumbnailUrl(self):
         return force_url_value_to_str(self._entity, 'schema_thumbnailUrl')
-
-    @classmethod
-    def get_or_create(cls, iri):
-        things = cls.objects.filter(iri=iri)
-        if things.count() == 0:
-            thing = cls(iri=iri)
-            thing.save()
-        else:
-            thing = things[0]
-
-        return thing
-
 
 
 # class LaconicField(models.CharField):

@@ -34,7 +34,7 @@
     <ul class="ui large labels">
         {% for work in thing.schema_actor_of %}
             {% if work.schema_name %}
-            <li class="ui label"><a href="{{ work.get_absolute_url }}">{{ work.schema_name|first }}</a></li>
+            <li class="ui label"><a href="/things/bounce?iri={{work}}">{{ work.schema_name|first }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>
