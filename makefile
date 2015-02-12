@@ -1,11 +1,14 @@
-export PATH := venv/bin:$(PATH)
+.PHONY: clean run secret heroku pep8 all
+
+SHOULDIT := node_modules/shouldit/bin/shouldit
+
 
 all: pep8 test
 
 clean:
 	rm -rf venv
 
-venv:
+venv: requirements.txt
 	virtualenv venv
 	venv/bin/pip install -r requirements.txt
 
@@ -34,3 +37,7 @@ secret: heroku
 run: venv
 	venv/bin/pip install honcho
 	venv/bin/honcho start
+
+$(SHOULDIT):
+	npm install express "git+https://github.com/avengerpenguin/ShouldIT.git"
+
