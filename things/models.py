@@ -15,27 +15,22 @@ class LaconicModel(models.Model):
     def __init__(self, *args, **kwargs):
         super(LaconicModel, self).__init__(*args, **kwargs)
 
-        if 'graph' in kwargs and kwargs['graph']:
-            graph = kwargs['graph']
-        else:
-            graph = Graph()
-            graph.bind("dbpedia", "http://dbpedia.org/resource/")
-            graph.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
-            graph.bind("schema", "http://schema.org/")
+        graph = Graph()
+        graph.bind('dbpedia', 'http://dbpedia.org/resource/')
+        graph.bind('rdfs', 'http://www.w3.org/2000/01/rdf-schema#')
+        graph.bind('schema', 'http://schema.org/')
 
-            hyperspace.session.headers['Accept'] = 'text/turtle'
-            home = hyperspace.jump('http://dyli-thingy.herokuapp.com/')
-            thing = home.queries['lookup'][0].build({'iri': self.iri}).submit()
-            graph = graph + thing.data
+        hyperspace.session.headers['Accept'] = 'text/turtle'
+        home = hyperspace.jump('http://dyli-thingy.herokuapp.com/')
+        thing = home.queries['lookup'][0].build({'iri': self.iri}).submit()
+        graph = graph + thing.data
 
         self._graph = graph
         factory = laconia.ThingFactory(graph)
         self._entity = factory(iri2uri(self.iri))
 
     def __getattr__(self, item):
-        if item == 'id':
-            return self.id
-        elif item == 'iri':
+        if item == 'iri':
             return self.iri
         else:
             vals = set(getattr(self._entity, item))
@@ -43,10 +38,10 @@ class LaconicModel(models.Model):
             return vals
 
     @classmethod
-    def get_or_create(cls, iri, graph=None):
+    def get_or_create(cls, iri):
         things = cls.objects.filter(iri=iri)
         if things.count() == 0:
-            thing = cls(iri=iri, graph=graph)
+            thing = cls(iri=iri)
             thing.save()
         else:
             thing = things[0]

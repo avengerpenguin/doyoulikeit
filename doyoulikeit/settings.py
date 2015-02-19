@@ -11,7 +11,6 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'things',
-    'django_behave',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',

@@ -51,7 +51,7 @@ def bounce(request):
 def thing_redirect(_request, thing_id):
     iri = u'http://dbpedia.org/resource/{}'.format(thing_id)
     thing = Thing.get_or_create(iri)
-    print len(thing._graph)
+
     if len(thing._graph) == 0:
         thing.delete()
         return HttpResponse(status=404)
