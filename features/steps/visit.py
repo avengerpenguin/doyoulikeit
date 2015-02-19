@@ -1,5 +1,5 @@
 from behave import *
-from hamcrest import *
+import hyperspace
 from things.models import Thing
 
 @when(u'I visit the page for "{title}"')
@@ -11,9 +11,9 @@ def visit(context, title):
         thing = Thing(iri=iri)
         thing.save()
 
-    br = context.browser
-    context.page = context.url(thing.get_absolute_url())
-    br.open(context.page)
+    context.iri = iri
+    context.page = hyperspace.jump(
+        'http://localhost:5100/things/{}'.format(thing.id))
 
 
 @when(u'I visit any page')

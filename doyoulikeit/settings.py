@@ -5,14 +5,20 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
+    'django.contrib.sites',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'things',
     'django_behave',
-    'lazysignup',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
 )
+
+SITE_ID = 1
 
 TEST_RUNNER = 'django_behave.runner.DjangoBehaveTestSuiteRunner'
 
@@ -60,14 +66,17 @@ from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
 
 TEMPLATE_CONTEXT_PROCESSORS = TCP + (
     'django.core.context_processors.request',
-)
+    "allauth.account.context_processors.account",
+    "allauth.socialaccount.context_processors.socialaccount",)
 
 AUTHENTICATION_BACKENDS = (
-  'django.contrib.auth.backends.ModelBackend',
-  'lazysignup.backends.LazySignupBackend',
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
 )
 
 import django12factor
 globals().update(django12factor.factorise())
 
 TEMPLATE_DEBUG = DEBUG
+
+APPEND_SLASH=False

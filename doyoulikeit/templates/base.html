@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{% load staticfiles i18n lazysignup_tags %}
+{% load staticfiles i18n %}
 <html lang="en">
     <head>
         <title>{% block title %}Do you like it?{% endblock %}</title>
@@ -12,10 +12,12 @@
 
     <body>
         <header>
-            {% if not user|is_lazy_user %}
-                Hello, {{ user.username }}
+            <p class="siteheader">Do You Like It?</p>
+            {% if request.user.is_authenticated %}
+                <p>Hello, {{ request.user.username }}</p>
             {% else %}
-                <a href="/accounts/login?next={{request.path}}">Log in</a>
+                <a href="/accounts/login/?next={{request.path}}" rel="login">Log in</a>
+                <a href="/accounts/signup/?next={{request.path}}" rel="register">Register</a>
             {% endif %}
         </header>
         {% block content %}{% endblock %}

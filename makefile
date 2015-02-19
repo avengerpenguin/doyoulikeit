@@ -1,6 +1,14 @@
+.PHONY: clean run secret heroku pep8 all
+
+SHOULDIT := node_modules/shouldit/bin/shouldit
+
+
 all: pep8 test
 
-venv:
+clean:
+	rm -rf venv
+
+venv: requirements.txt
 	virtualenv venv
 	venv/bin/pip install -r requirements.txt
 
@@ -8,7 +16,10 @@ pep8:
 	pep8 .
 
 test: venv
-	venv/bin/python test things
+	rm -f /tmp/dyli.db
+	venv/bin/python manage.py syncdb --noinput
+	venv/bin/pip install honcho
+	venv/bin/honcho --env .env.test --procfile Procfile.test start
 
 heroku: test
 	pip install django-herokuapp
@@ -26,3 +37,7 @@ secret: heroku
 run: venv
 	venv/bin/pip install honcho
 	venv/bin/honcho start
+
+$(SHOULDIT):
+	npm install express "git+https://github.com/avengerpenguin/ShouldIT.git"
+

@@ -1,6 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
+header p.siteheader {
+    float: right;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.6rem;
+    margin: 1em;
+}
 
 article {
     margin-top: 1em;
@@ -34,4 +41,23 @@ form {
 
 div.links {
     margin-top: 1em;
+}
+
+article img.depiction {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    max-height: 200px;
+}
+
+.ui.large.labels {
+    text-align: center;
+}
+
+.ui.label:first-child {
+    margin-left: 0.2em;
+}
+
+body > article > div > div.active.content > ul > li {
+    margin: 0.2em;
 }

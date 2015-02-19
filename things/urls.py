@@ -4,8 +4,10 @@ from things import views
 from things.models import Thing
 
 urlpatterns = [
-    url(r'^(?P<thing_id>.+)/likes/(?P<user_id>.+)$', views.likes),
-    url(r'^(?P<thing_id>[^/]+)$', views.thing_view),
+    url(r'bounce$', views.bounce),
+    url(r'^(?P<thing_id>\d+)/likes/(?P<user_id>.+)$', views.likes),
+    url(r'^(?P<thing_id>\d+)$', views.thing_view),
+    url(r'^(?P<thing_id>[^/]+)$', views.thing_redirect),
 ]
 
 try:
