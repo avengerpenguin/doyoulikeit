@@ -37,7 +37,7 @@ $(TARGET)/pep8.errors: $(TARGET) $(PEP8) $(PYSRC)
 
 $(TARGET)/unit-tests.xml: $(PIP) $(VENV)/deps.touch $(PYSRC) $(PYTEST)
 	$(PIP) install pytest-cov
-	DEBUG=True SECRET_KEY=abc py.test -vv --ds=doyoulikeit.settings --cov things --cov-report term-missing --cov-report html --junit-xml $(TARGET)/unit-tests.xml test
+	DEBUG=True SECRET_KEY=abc py.test -vv -n 4 --ds=doyoulikeit.settings --cov things --cov-report term-missing --cov-report html --junit-xml $(TARGET)/unit-tests.xml test
 
 $(TARGET)/results/test-output.xml: $(PIP) .env.test Procfile.test $(HONCHO) $(VENV)/deps.touch $(PYSRC) $(VENV)/bin/gunicorn $(PYTEST)
 	mkdir -p $(TARGET)/results

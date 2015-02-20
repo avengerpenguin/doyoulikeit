@@ -30,12 +30,9 @@ class LaconicModel(models.Model):
         self._entity = factory(iri2uri(self.iri))
 
     def __getattr__(self, item):
-        if item == 'iri':
-            return self.iri
-        else:
-            vals = set(getattr(self._entity, item))
-            vals = map(convert_entities_to_things, vals)
-            return vals
+        vals = set(getattr(self._entity, item))
+        vals = map(convert_entities_to_things, vals)
+        return set(vals)
 
     @classmethod
     def get_or_create(cls, iri):
