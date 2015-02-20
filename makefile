@@ -14,7 +14,7 @@ TARGET := $(PWD)/target
 all: $(TARGET)/pep8.errors $(TARGET)/unit-tests.xml
 
 clean:
-	rm -rf venv results node_modules target
+	rm -rf venv results node_modules target .coverage htmlcov
 
 $(TARGET):
 	mkdir -p $(TARGET)
