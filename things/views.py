@@ -1,5 +1,6 @@
 from django.http import HttpResponse
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
+from lazysignup.decorators import allow_lazy_user
 from things.models import Thing, Vote, User
 from allauth.account.signals import user_logged_in
 from django.dispatch import receiver
@@ -14,16 +15,16 @@ def reparent_after_login(sender, **kwargs):
 
 def thing_view(request, thing_id):
 
-    thing = Thing.objects.get(id=int(thing_id))
+    thing = get_object_or_404(Thing, id=int(thing_id))
     thing.set_lang('en')
 
-    if request.user.is_anonymous():
-        already_voted = (Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0)
-        user_id = 0
-    else:
+    if hasattr(request, 'user') and request.user.is_authenticated():
         already_voted = not (0 == Vote.objects.filter(
             thing=thing, sentiment=Vote.LIKE, user__id=request.user.id).count())
         user_id = request.user.id
+    else:
+        already_voted = (Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0)
+        user_id = 0
 
 
     return render(request, "thing.html", {

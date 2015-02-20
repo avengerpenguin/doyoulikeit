@@ -1,6 +1,6 @@
 django-toolbelt==0.0.1
 Django==1.6.5
-laconia==0.2.12
+laconia==0.3.0
 django-lazysignup==0.12.2
 hyperspace==0.0.5
 django12factor==1.1

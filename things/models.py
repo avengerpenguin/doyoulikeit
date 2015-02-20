@@ -31,8 +31,8 @@ class LaconicModel(models.Model):
 
     def __getattr__(self, item):
         vals = set(getattr(self._entity, item))
-        vals = map(convert_entities_to_things, vals)
-        return set(vals)
+        vals = map(self.entity_to_thing, vals)
+        return list(vals)
 
     @classmethod
     def get_or_create(cls, iri):
@@ -45,17 +45,17 @@ class LaconicModel(models.Model):
 
         return thing
 
+    @classmethod
+    def entity_to_thing(cls, entity):
+        if isinstance(entity, laconia.Thing):
+            thing = cls.get_or_create(entity._id)
+            thing.set_lang('en')
+            return thing
+        else:
+            return entity
+
     def set_lang(self, newlang):
         self._entity.lang = newlang
-
-
-def convert_entities_to_things(entity):
-    if isinstance(entity, laconia.Thing):
-        thing = LaconicModel.get_or_create(entity._id)
-        thing.set_lang('en')
-        return thing
-    else:
-        return entity
 
 
 def force_url_value_to_str(entity, attr):
@@ -73,16 +73,13 @@ class Thing(LaconicModel):
     def get_absolute_url(self):
         return u'/things/' + str(self.id)
 
-    def __unicode__(self):
+    def __str__(self):
         self.set_lang('en')
         names = self.schema_name
         if names:
-            return names[0]
+            return str(names[0])
         else:
-            return self.iri
-
-    def __str__(self):
-        return unicode(self).encode('utf-8')
+            return str(self.iri)
 
     @property
     def schema_image(self):
@@ -91,24 +88,6 @@ class Thing(LaconicModel):
     @property
     def schema_thumbnailUrl(self):
         return force_url_value_to_str(self._entity, 'schema_thumbnailUrl')
-
-
-# class LaconicField(models.CharField):
-#     description = "A link to an RDF model class."
-#     __metaclass__ = models.SubfieldBase
-#
-#     def __init__(self, model_class, *args, **kwargs):
-#         self.model_class = model_class
-#         kwargs['max_length'] = 200
-#         super(LaconicField, self).__init__(*args, **kwargs)
-#
-#     def get_prep_value(self, value):
-#         return value.ident
-#
-#     def to_python(self, value):
-#         if isinstance(value, self.model_class):
-#             return value
-#         return self.model_class(value)
 
 
 class Vote(models.Model, SessionStashable):

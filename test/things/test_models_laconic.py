@@ -6,9 +6,7 @@ from rdflib import Graph, URIRef, Literal, RDFS
 from things.models import LaconicModel
 
 
-
-
-@pytest.fixture(autouse=True, scope='session')
+@pytest.fixture(autouse=True, scope='module')
 def mock_responses(request):
     def callback(http_request):
         responses.stop()
@@ -45,23 +43,6 @@ def test_filtering_to_single_language():
     assert set(lm.schema_name) == {'Castle'}
     lm.set_lang('de')
     assert set(lm.schema_name) == {'Burg'}
-
-
-# @pytest.mark.django_db
-# def test_creating_laconic_model_from_existing_graph():
-#     iri = 'http://dbpedia.org/resource/Kevin_Bacon'
-#     graph = Graph()
-#     graph.parse(iri)
-#
-#     extra_prop = 'http://example.com/my/extra/property'
-#     message = 'This proves the existing graph was used.'
-#     marker = (URIRef(iri),
-#               URIRef(extra_prop),
-#               Literal(message))
-#     graph.add(marker)
-#
-#     lm = LaconicModel(iri=iri, graph=graph)
-#     assert message in getattr(lm, extra_prop)
 
 
 @pytest.mark.django_db
