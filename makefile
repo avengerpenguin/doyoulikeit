@@ -4,7 +4,7 @@ SHOULDIT := node_modules/shouldit/bin/shouldit
 VENV := venv
 PYTHON := $(VENV)/bin/python
 PIP := $(VENV)/bin/pip
-PYTEST := $(VENV)/bin/pytest
+PYTEST := $(VENV)/bin/py.test
 PEP8 := $(VENV)/bin/pep8
 HONCHO := $(VENV)/bin/honcho
 
@@ -26,8 +26,8 @@ $(VENV)/deps.touch: $(PIP) requirements.txt
 $(VENV)/bin/%: $(PIP)
 	$(PIP) install $*
 
-$(VENV)/bin/nosetests: $(PIP)
-	$(PIP) install -e 'git+https://github.com/nose-devs/nose#egg=nose'
+$(VENV)/bin/py.test: $(PIP)
+	$(PIP) install pytest pytest-cov pytest-xdist pytest-django responses
 
 $(PYTHON) $(PIP):
 	virtualenv -p python3 venv
@@ -36,7 +36,6 @@ $(TARGET)/pep8.errors: $(TARGET) $(PEP8) $(PYSRC)
 	$(PEP8) --exclude="venv,node_modules" . | tee $(TARGET)/pep8.errors || true
 
 $(TARGET)/unit-tests.xml: $(PIP) $(VENV)/deps.touch $(PYSRC) $(PYTEST)
-	$(PIP) install pytest-cov
 	DEBUG=True SECRET_KEY=abc py.test -vv -n 4 --ds=doyoulikeit.settings --cov things --cov-report term-missing --cov-report html --junit-xml $(TARGET)/unit-tests.xml test
 
 $(TARGET)/results/test-output.xml: $(PIP) .env.test Procfile.test $(HONCHO) $(VENV)/deps.touch $(PYSRC) $(VENV)/bin/gunicorn $(PYTEST)
