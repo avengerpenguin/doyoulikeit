@@ -10,7 +10,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'things',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -18,8 +17,6 @@ INSTALLED_APPS = (
 )
 
 SITE_ID = 1
-
-TEST_RUNNER = 'django_behave.runner.DjangoBehaveTestSuiteRunner'
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -31,7 +28,6 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'doyoulikeit.urls'
-
 WSGI_APPLICATION = 'doyoulikeit.wsgi.application'
 
 # Internationalization
@@ -54,11 +50,11 @@ STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
+    os.path.join(BASE_DIR, '../static'),
 )
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'templates'),
+    os.path.join(BASE_DIR, '../templates'),
 )
 
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP

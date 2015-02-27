@@ -1,3 +1,0 @@
-proxy: python -m testypie
-web: gunicorn doyoulikeit.wsgi --log-file - --env http_proxy=http://localhost:5000 --bind=127.0.0.1:5100
-test: py.test -vv --junit-xml target/results/test-output.xml tests
