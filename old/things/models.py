@@ -2,10 +2,15 @@ import laconia
 import hyperspace
 from rdflib import Graph, URIRef
 from django.db import models
-from django.shortcuts import get_object_or_404
 from django.contrib.auth.models import User
 from django_session_stashable import SessionStashable
 from httplib2 import iri2uri
+import requests
+from cachecontrol import CacheControl
+
+
+http_client = CacheControl(requests.Session())
+http_client.headers['Accept'] = 'text/turtle'
 
 
 class LaconicModel(models.Model):
@@ -20,10 +25,13 @@ class LaconicModel(models.Model):
         graph.bind('rdfs', 'http://www.w3.org/2000/01/rdf-schema#')
         graph.bind('schema', 'http://schema.org/')
 
-        hyperspace.session.headers['Accept'] = 'text/turtle'
-        home = hyperspace.jump('http://dyli-thingy.herokuapp.com/')
+        home = hyperspace.jump('http://dyli-thingy.herokuapp.com/',
+                               client=http_client)
         thing = home.queries['lookup'][0].build({'iri': self.iri}).submit()
         graph = graph + thing.data
+
+        if len(graph) == 0:
+            raise LaconicModel.DoesNotExist('No data found for: ' + self.iri)
 
         self._graph = graph
         factory = laconia.ThingFactory(graph)
@@ -31,7 +39,7 @@ class LaconicModel(models.Model):
 
     def __getattr__(self, item):
         vals = set(getattr(self._entity, item))
-        vals = map(self.entity_to_thing, vals)
+        vals = map(LaconicModel.entity_to_thing, vals)
         return list(vals)
 
     @classmethod

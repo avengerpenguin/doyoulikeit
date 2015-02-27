@@ -1,0 +1,33 @@
+./manage.py:6:1: E302 expected 2 blank lines, found 1
+./doyoulikeit/settings.py:51:1: E402 module level import not at top of file
+./doyoulikeit/settings.py:64:1: E402 module level import not at top of file
+./doyoulikeit/settings.py:76:1: E402 module level import not at top of file
+./doyoulikeit/settings.py:81:13: E225 missing whitespace around operator
+./doyoulikeit/urls.py:7:5: E128 continuation line under-indented for visual indent
+./doyoulikeit/wsgi.py:13:1: E402 module level import not at top of file
+./doyoulikeit/wsgi.py:14:1: E402 module level import not at top of file
+./features/environment.py:21:1: W391 blank line at end of file
+./features/steps/check_page.py:18:80: E501 line too long (81 > 79 characters)
+./features/steps/check_page.py:20:1: E302 expected 2 blank lines, found 1
+./features/steps/check_page.py:23:80: E501 line too long (95 > 79 characters)
+./features/steps/users.py:64:80: E501 line too long (100 > 79 characters)
+./features/steps/users.py:72:80: E501 line too long (80 > 79 characters)
+./features/steps/users.py:78:80: E501 line too long (98 > 79 characters)
+./features/steps/users.py:91:1: E302 expected 2 blank lines, found 1
+./features/steps/users.py:93:80: E501 line too long (82 > 79 characters)
+./features/steps/visit.py:5:1: E302 expected 2 blank lines, found 1
+./features/steps/voting.py:9:80: E501 line too long (97 > 79 characters)
+./features/steps/voting.py:39:80: E501 line too long (93 > 79 characters)
+./test/things/test_models_laconic.py:13:80: E501 line too long (80 > 79 characters)
+./test/things/test_views_likes.py:12:80: E501 line too long (80 > 79 characters)
+./test/things/test_views_likes.py:99:80: E501 line too long (81 > 79 characters)
+./test/things/test_views_likes.py:114:22: E711 comparison to None should be 'if cond is None:'
+./test/things/test_views_likes.py:117:80: E501 line too long (93 > 79 characters)
+./test/things/test_views_thing.py:12:80: E501 line too long (80 > 79 characters)
+./tests/test_page_information.py:10:1: E302 expected 2 blank lines, found 1
+./tests/test_page_information.py:14:1: E302 expected 2 blank lines, found 1
+./things/models.py:119:80: E501 line too long (117 > 79 characters)
+./things/views.py:23:80: E501 line too long (80 > 79 characters)
+./things/views.py:26:80: E501 line too long (102 > 79 characters)
+./things/views.py:30:5: E303 too many blank lines (2)
+./things/views.py:81:80: E501 line too long (100 > 79 characters)

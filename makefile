@@ -8,7 +8,7 @@ PYTEST := $(VENV)/bin/py.test
 PEP8 := $(VENV)/bin/pep8
 HONCHO := $(VENV)/bin/honcho
 
-PYSRC := $(shell find {doyoulikeit,things,manage.py,tests} -iname '*.py')
+PYSRC := $(shell find {doyoulikeit,things,manage.py,test,tests} -iname '*.py')
 TARGET := $(PWD)/target
 
 all: $(TARGET)/pep8.errors $(TARGET)/unit-tests.xml

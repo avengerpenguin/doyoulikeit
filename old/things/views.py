@@ -63,10 +63,10 @@ def likes(request, thing_id, user_id):
     thing = Thing.objects.get(id=int(thing_id))
 
     if int(user_id) > 0:
-        user = User.objects.get(id=user_id)
-
-        if request.user != user:
+        if str(request.user.id) != user_id:
             return HttpResponse(status=403)
+
+        user = User.objects.get(id=user_id)
 
         already_voted = not (0 == Vote.objects.filter(
             thing=thing, user=user).count())
