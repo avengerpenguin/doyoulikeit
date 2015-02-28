@@ -4,3 +4,6 @@ django-allauth==0.19.1
 django12factor==1.2
 laconia==0.3.0
 hyperspace==0.1.0
+httplib2==0.9
+django-session-stashable==1.0
+CacheControl==0.11.1

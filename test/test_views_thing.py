@@ -2,7 +2,7 @@ import re
 import pytest
 import responses
 import testypie
-from things.models import Thing, User
+from doyoulikeit.models import Thing, User
 
 
 @pytest.fixture(autouse=True, scope='module')

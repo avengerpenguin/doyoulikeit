@@ -1,7 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render, redirect, get_object_or_404
-from lazysignup.decorators import allow_lazy_user
-from things.models import Thing, Vote, User
+from doyoulikeit.models import Thing, Vote, User
 from allauth.account.signals import user_logged_in
 from django.dispatch import receiver
 
@@ -46,16 +45,6 @@ def bounce(request):
         thing.delete()
         return HttpResponse(status=404)
 
-    return redirect(thing)
-
-
-def thing_redirect(_request, thing_id):
-    iri = u'http://dbpedia.org/resource/{}'.format(thing_id)
-    thing = Thing.get_or_create(iri)
-
-    if len(thing._graph) == 0:
-        thing.delete()
-        return HttpResponse(status=404)
     return redirect(thing)
 
 

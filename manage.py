@@ -3,6 +3,7 @@ import os
 import sys
 import re
 
+
 def read_env():
     """Pulled from Honcho code with minor updates, reads local default
     environment variables from a .env file located in the project root
@@ -25,6 +26,7 @@ def read_env():
             m3 = re.match(r'\A"(.*)"\Z', val)
             if m3:
                 val = re.sub(r'\\(.)', r'\1', m3.group(1))
+
             os.environ.setdefault(key, val)
 
 

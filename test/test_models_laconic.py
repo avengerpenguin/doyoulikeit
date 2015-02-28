@@ -2,8 +2,7 @@ import re
 import pytest
 import testypie
 import responses
-from rdflib import Graph, URIRef, Literal, RDFS
-from things.models import LaconicModel
+from doyoulikeit.models import LaconicModel
 
 
 @pytest.fixture(autouse=True, scope='module')
@@ -72,7 +71,7 @@ def test_get_or_create_loads_existing_instance():
     lm = LaconicModel(iri='http://dbpedia.org/resource/Bananaman')
     lm.save()
     lm2 = LaconicModel.get_or_create('http://dbpedia.org/resource/Bananaman')
-    assert lm2.pk == lm.pk
+    assert lm2.id == lm.id
 
 
 @pytest.mark.django_db
@@ -81,3 +80,4 @@ def test_linked_entities_are_also_laconic_models():
     lm.save()
     for film in lm.schema_actor_of:
         assert isinstance(film, LaconicModel)
+

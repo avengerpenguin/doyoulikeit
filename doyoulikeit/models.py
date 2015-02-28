@@ -38,6 +38,8 @@ class LaconicModel(models.Model):
         self._entity = factory(iri2uri(self.iri))
 
     def __getattr__(self, item):
+        if item == 'query':
+            raise AttributeError
         vals = set(getattr(self._entity, item))
         vals = map(LaconicModel.entity_to_thing, vals)
         return list(vals)

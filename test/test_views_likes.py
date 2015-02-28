@@ -2,7 +2,7 @@ import re
 import pytest
 import responses
 import testypie
-from things.models import Thing, User, Vote
+from doyoulikeit.models import Thing, User, Vote
 
 
 @pytest.fixture(autouse=True, scope='module')
@@ -120,3 +120,4 @@ def test_anonymous_has_votes_saved_after_login(client):
     vote = Vote.objects.all()[0]
     assert vote.thing == thing
     assert vote.user == user
+
