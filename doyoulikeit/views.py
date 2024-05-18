@@ -1,40 +1,46 @@
-from django.http import HttpResponse
-from django.shortcuts import render, redirect, get_object_or_404
-from doyoulikeit.models import Thing, Vote, User
 from allauth.account.signals import user_logged_in
 from django.dispatch import receiver
+from django.http import HttpResponse
+from django.shortcuts import get_object_or_404, redirect, render
+
+from doyoulikeit.models import Thing, User, Vote
 
 
 @receiver(user_logged_in)
 def reparent_after_login(sender, **kwargs):
-    request = kwargs['request']
-    user = kwargs['user']
+    request = kwargs["request"]
+    user = kwargs["user"]
     Vote.reparent_all_my_session_objects(request.session, user)
 
 
 def thing_view(request, thing_id):
 
     thing = get_object_or_404(Thing, id=int(thing_id))
-    thing.set_lang('en')
+    thing.set_lang("en")
 
-    if hasattr(request, 'user') and request.user.is_authenticated():
-        already_voted = not (0 == Vote.objects.filter(
-            thing=thing, sentiment=Vote.LIKE, user__id=request.user.id).count())
+    if hasattr(request, "user") and request.user.is_authenticated():
+        already_voted = not (
+            0
+            == Vote.objects.filter(
+                thing=thing, sentiment=Vote.LIKE, user__id=request.user.id
+            ).count()
+        )
         user_id = request.user.id
     else:
-        already_voted = (Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0)
+        already_voted = (
+            Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0
+        )
         user_id = 0
 
-
-    return render(request, "thing.html", {
-        'thing': thing,
-        'user_id': user_id,
-        'already_voted': already_voted
-    })
+    return render(
+        request,
+        "thing.html",
+        {"thing": thing, "user_id": user_id, "already_voted": already_voted},
+    )
 
 
 def bounce(request):
-    iri = request.GET['iri']
+    iri = request.GET["iri"]
 
     if not iri:
         return HttpResponse(status=404)
@@ -57,8 +63,7 @@ def likes(request, thing_id, user_id):
 
         user = User.objects.get(id=user_id)
 
-        already_voted = not (0 == Vote.objects.filter(
-            thing=thing, user=user).count())
+        already_voted = not (0 == Vote.objects.filter(thing=thing, user=user).count())
 
         if already_voted:
             return HttpResponse(status=409)
@@ -67,7 +72,9 @@ def likes(request, thing_id, user_id):
             vote.save()
 
     else:
-        already_voted = Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0
+        already_voted = (
+            Vote.get_stashed_in_session(request.session).filter(thing=thing).count() > 0
+        )
         if already_voted:
             return HttpResponse(status=409)
         else:
