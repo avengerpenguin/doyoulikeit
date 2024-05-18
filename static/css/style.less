@@ -1,50 +1,49 @@
 @import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
-@import 'grid.less';
+@import "grid.less";
 
 @column-width: 60;
 @gutter-width: 20;
 @columns: 12;
 @total-width: 100%;
 
-
 header {
-    >p.ui.header {
-        font-family: 'Gloria Hallelujah', cursive;
-        .column(7);
-    }
-    >nav {
-        .column(5);
-    }
+  > p.ui.header {
+    font-family: "Gloria Hallelujah", cursive;
+    .column(7);
+  }
+  > nav {
+    .column(5);
+  }
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 article > div.ui.card {
-    margin: 0 auto;
+  margin: 0 auto;
+  .column(12);
+  .push(0);
+
+  form[name="like"] {
     .column(12);
-    .push(0);
+    text-align: center;
+    margin-bottom: 1em;
 
-    form[name=like] {
-        .column(12);
-        text-align: center;
-        margin-bottom: 1em;
-
-        input.ui.button {
-            font-family: 'Raleway', sans-serif;
-        }
+    input.ui.button {
+      font-family: "Raleway", sans-serif;
     }
+  }
 
-    img {
-        margin: 0 auto;
-    }
+  img {
+    margin: 0 auto;
+  }
 }
 
 article > div.ui.card h1.header {
-    text-align: center;
-    font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
 }
 
 /*
