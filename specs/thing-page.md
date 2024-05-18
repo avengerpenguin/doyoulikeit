@@ -7,7 +7,6 @@ encourage a user to browse across the site and to vote on more things.
 
 ## Information
 
-  + it should have a title or name
-  + it should have a description or summary
-  + it should have a picture
-  
+- it should have a title or name
+- it should have a description or summary
+- it should have a picture
