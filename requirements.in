@@ -1,0 +1,14 @@
+quart
+quart-db
+uvicorn
+invoke
+testcontainers
+Wikidata
+jinja2
+jinja2-fragments
+langchain
+langchain-ollama
+rdflib
+markdown
+tqdm
+pydash

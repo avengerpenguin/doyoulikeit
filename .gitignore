@@ -1,10 +1,2 @@
 venv
-*.pyc
-staticfiles
-*~
-.idea
-.env
-/ghostdriver.log
-/.coverage
-/htmlcov
-/target
+.direnv

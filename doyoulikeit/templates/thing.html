@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+    <article>
+        <h1>{{ thing.label }}</h1>
+        {% if thing.image_url %}
+            <img src="{{ thing.image_url }}" alt="{{ thing.label }}">
+        {% endif %}
+        <p>{{ thing.description|safe }}</p>
+    </article>
+    <form method="post">
+        <button value="skip" formaction="/{{ thing.thing_id }}/skip" hx-post="/{{ thing.thing_id }}/skip" >
+            ❌
+        </button>
+        <button value="like" formaction="/{{ thing.thing_id }}/like" hx-post="/{{ thing.thing_id }}/like">
+            💚
+        </button>
+    </form>
+{% endblock %}
