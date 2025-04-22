@@ -45,7 +45,7 @@ resource scaleway_container this {
     protocol = "http1"
 
     secret_environment_variables = {
-      "DATABASE_URL" = neon_endpoint.this.host
+      "DATABASE_URL" = "postgresql://${neon_project.this.database_user}:${neon_project.this.database_password}@${neon_project.this.database_host_pooler}/${neon_project.this.database_name}?sslmode=require"
     }
 }
 
@@ -53,62 +53,53 @@ provider "neon" {}
 
 resource "neon_project" "this" {
   name = "doyoulikeit"
+  region_id = "aws-eu-west-2"
 }
 
-resource "neon_branch" "main" {
-  project_id = neon_project.this.id
-  name       = "main"
+# resource "neon_endpoint" "this" {
+#   branch_id  = neon_project.this.default_branch_id
+#   project_id = neon_project.this.id
+# }
+#
+# resource "neon_role" "owner" {
+#   branch_id  = neon_project.this.default_branch_id
+#   name       = "neondb_owner"
+#   project_id = neon_project.this.id
+# }
+
+output "database_uri" {
+  value = "postgresql://${neon_project.this.database_user}:${neon_project.this.database_password}@${neon_project.this.database_host_pooler}/${neon_project.this.database_name}?sslmode=require"
+  sensitive = true
 }
 
-resource "neon_endpoint" "this" {
-  branch_id  = neon_branch.main.id
-  project_id = neon_project.this.id
-}
+# resource "neon_database" "this" {
+#   branch_id  = neon_project.this.default_branch_id
+#   name       = "neondb"
+#   owner_name = "neondb_owner"
+#   project_id = neon_project.this.id
+# }
 
-resource "neon_role" "owner" {
-  branch_id  = neon_branch.main.id
-  name       = "neondb_owner"
-  project_id = neon_project.this.id
-}
+# import {
+#   to = neon_project.this
+#   id = "broad-wind-83397190"
+# }
+#
+# import {
+#   to = neon_branch.main
+#   id = "br-restless-cell-ab98yu4t"
+# }
 
-resource "neon_database" "this" {
-  branch_id  = neon_branch.main.id
-  name       = "neondb"
-  owner_name = "neondb_owner"
-  project_id = neon_project.this.id
-}
-
-resource "scaleway_inference_deployment" "deployment" {
-  name = "doyoulikeit"
-  node_type = "L4"
-  model_name = "deepseek/deepseek-r1-distill-llama-8b"
-  public_endpoint {
-    is_enabled = true
-  }
-  accept_eula = true
-}
-
-import {
-  to = neon_project.this
-  id = "broad-wind-83397190"
-}
-
-import {
-  to = neon_branch.main
-  id = "br-restless-cell-ab98yu4t"
-}
-
-import {
-  to = neon_endpoint.this
-  id = "ep-shrill-rain-ab4tv8oe"
-}
-
-import {
-  to = neon_role.owner
-  id = "${neon_project.this.id}/${neon_branch.main.id}/neondb_owner"
-}
-
-import {
-  to = neon_database.this
-  id = "${neon_project.this.id}/${neon_branch.main.id}/neondb"
-}
+# import {
+#   to = neon_endpoint.this
+#   id = "ep-ancient-frog-absx7u8c"
+# }
+#
+# import {
+#   to = neon_role.owner
+#   id = "${neon_project.this.id}/${neon_branch.main.id}/neondb_owner"
+# }
+#
+# import {
+#   to = neon_database.this
+#   id = "${neon_project.this.id}/${neon_branch.main.id}/neondb"
+# }

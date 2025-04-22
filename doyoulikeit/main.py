@@ -6,10 +6,11 @@ from textwrap import dedent
 import markdown
 from langchain_core.language_models import BaseLLM
 from langchain_ollama import OllamaLLM
-from quart import Quart, g, render_template, redirect, make_response, request
+from quart import Quart, g, render_template, redirect, make_response, request, Response
 from quart_db import QuartDB
 from rdflib import Graph, URIRef, Literal
 from typing_extensions import TypedDict
+from werkzeug.exceptions import NotFound
 from wikidata.client import Client
 from wikidata.commonsmedia import File
 from wikidata.entity import Entity, EntityId
@@ -19,8 +20,7 @@ from jinja2_fragments.quart import render_block
 app: Quart = Quart(__name__, template_folder="templates")
 db: QuartDB = QuartDB(app, url=os.getenv("DATABASE_URL", "sqlite:memory:"))
 wikidata: Client = Client()
-image_prop = wikidata.get('P18')
-llm: BaseLLM = OllamaLLM(model="gemma3:4b")
+image_prop = wikidata.get(EntityId('P18'))
 
 
 
@@ -41,7 +41,7 @@ ALL_THE_THINGS = set()
 
 with open("filtered.tsv") as f:
     for line in f:
-        _, thing_id= line.split("\t")
+        _, thing_id = line.split("\t")
         ALL_THE_THINGS.add(thing_id.strip())
 
 
@@ -65,7 +65,7 @@ class Thing(TypedDict):
     image_url: str | None
 
 
-async def get_thing(thing_id: EntityId) -> Thing:
+async def get_thing(thing_id: EntityId) -> Thing | None:
     result = await g.connection.fetch_one("""
     SELECT thing_id, label, description, image_url FROM things WHERE thing_id = :thing_id
     """, {"thing_id": thing_id}
@@ -73,66 +73,13 @@ async def get_thing(thing_id: EntityId) -> Thing:
     if result:
         return Thing(**result)
 
-    entity: Entity = wikidata.get(thing_id, load=True)
-
-    description = entity.description["en"]
-    try:
-        wikipedia_url = entity.attributes["sitelinks"]["enwiki"]["url"]
-        wikipedia_ident = wikipedia_url.split("/")[-1]
-        dbpedia_uri = f"http://dbpedia.org/resource/{wikipedia_ident}"
-
-        graph = Graph()
-        graph.parse(dbpedia_uri)
-
-        for o in graph.objects(subject=URIRef(dbpedia_uri), predicate=URIRef("http://dbpedia.org/ontology/abstract")):
-            o: Literal
-            if o.language == "en":
-                description = o.value
-                break
-
-    except KeyError:
-        pass
-
-    description = markdown.markdown(llm.invoke(dedent(
-        f"""\
-        You are an editor and copywriter for a website and app that presents users with random things and asks
-        them to mark which things they like. It's a random, quirky website for seeing what are the most liked
-        things in the world in completely separate categories.
-
-        I am going to give you an encyclopaedia-style abstract for {entity.label} and I want you to rewrite
-        this abstract into a style that retains the informative nature in case someone hasn't heard of
-        the thing, but has a tone that is trying to hype up the thing to encourage the user to like it.
-
-        Please respond with just the copy to put on the page with nothing additional.
-
-        Abstract: {description}
-        """
-    )).strip("\""))
-
-
-    try:
-        image: File = entity[image_prop]
-    except KeyError:
-        image = None
-
-    thing = Thing(
-        thing_id=thing_id,
-        label=entity.label["en"],
-        description=description,
-        image_url=image.image_url if image else None,
-    )
-
-    await g.connection.execute("""
-    INSERT INTO things (thing_id, label, description, image_url)
-    VALUES (:thing_id, :label, :description, :image_url)
-    """, thing)
-
-    return thing
-
 
 @app.get('/<string:thing_id>')
 async def thing_view(thing_id: EntityId):
     thing = await get_thing(thing_id)
+
+    if thing is None:
+        return Response(status=404)
 
     if request.headers.get("HX-Request"):
         return await render_block("thing.html", "content", thing=thing)

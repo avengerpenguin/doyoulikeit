@@ -2,6 +2,7 @@ CREATE TABLE things (
   thing_id text PRIMARY KEY,
   label text NOT NULL,
   description text NOT NULL,
+  significance int NOT NULL,
   image_url text NOT NULL
 );
 
