@@ -1,15 +1,19 @@
-FROM python:3.13-slim AS build
-COPY --from=arigaio/atlas:latest /atlas /atlas
+FROM --platform=linux/amd64 python:3.13-slim AS build
 
 RUN apt-get update && apt-get upgrade -y && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-WORKDIR /app/
+WORKDIR /app
 
-COPY migrations /migrations
+RUN pip install build setuptools wheel
 
-COPY ./requirements.txt /app/
-RUN pip install -r requirements.txt
-COPY doyoulikeit /app/
+COPY . /app/
+RUN python -m build --wheel
 
+FROM --platform=linux/amd64 python:3.13-slim AS app
+COPY --from=build /app/dist /tmp/dist
+
+COPY ./requirements.txt /tmp/dist/
+RUN pip install -r /tmp/dist/requirements.txt
+RUN pip install /tmp/dist/*.whl && rm -rf /tmp/dist
 
 CMD ["uvicorn", "doyoulikeit:app", "--host", "0.0.0.0", "--port", "8080"]

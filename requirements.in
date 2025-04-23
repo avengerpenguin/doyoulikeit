@@ -12,3 +12,5 @@ rdflib
 markdown
 tqdm
 pydash
+tenacity
+quart-authlib

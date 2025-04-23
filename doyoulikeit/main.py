@@ -1,68 +1,99 @@
 import json
 import os
-import random
-from textwrap import dedent
+from urllib.parse import urlencode, quote_plus
+import pydash
 
-import markdown
-from langchain_core.language_models import BaseLLM
-from langchain_ollama import OllamaLLM
-from quart import Quart, g, render_template, redirect, make_response, request, Response
-from quart_db import QuartDB
-from rdflib import Graph, URIRef, Literal
-from typing_extensions import TypedDict
-from werkzeug.exceptions import NotFound
-from wikidata.client import Client
-from wikidata.commonsmedia import File
-from wikidata.entity import Entity, EntityId
+from authlib.integrations.flask_oauth2 import ResourceProtector
 from jinja2_fragments.quart import render_block
-
+from quart import Quart, g, render_template, redirect, make_response, request, Response, url_for, session
+from quart_authlib import OAuth
+from quart_db import QuartDB
+from typing_extensions import TypedDict
+from wikidata.client import Client
+from wikidata.entity import EntityId
 
 app: Quart = Quart(__name__, template_folder="templates")
+app.config["SECRET_KEY"] = os.environ["SECRET_KEY"]
 db: QuartDB = QuartDB(app, url=os.getenv("DATABASE_URL", "sqlite:memory:"))
 wikidata: Client = Client()
 image_prop = wikidata.get(EntityId('P18'))
 
+oauth = OAuth(app)
+oauth.register(
+    "auth0",
+    client_id=os.getenv("AUTH0_CLIENT_ID"),
+    client_secret=os.getenv("AUTH0_CLIENT_SECRET"),
+    client_kwargs={
+        "scope": "openid profile email",
+    },
+    server_metadata_url=f'https://{os.getenv("AUTH0_DOMAIN")}/.well-known/openid-configuration'
+)
 
 
-# with open("films.json") as f:
-#     data = json.load(f)
-#     ALL_THE_THINGS = set(
-#         row["item"].split("/")[-1]
-#         for row in data
-#     )
-
-ALL_THE_THINGS = set()
-
-# with open("things.json") as f:
-#     data = json.load(f)
-#     for result in data["results"]["bindings"]:
-#         ALL_THE_THINGS.add(result["other"]["value"].split("/")[-1])
+@app.route("/login")
+async def login():
+    redirect_uri = url_for('callback', _external=True)
+    return oauth.auth0.authorize_redirect(redirect_uri)
 
 
-with open("filtered.tsv") as f:
-    for line in f:
-        _, thing_id = line.split("\t")
-        ALL_THE_THINGS.add(thing_id.strip())
+@app.route("/callback", methods=["GET", "POST"])
+async def callback():
+    token = await oauth.auth0.authorize_access_token()
+    session["user"] = token
+    return redirect("/")
+
+
+@app.route("/logout")
+def logout():
+    session.clear()
+    return redirect(
+        "https://" + os.getenv("AUTH0_DOMAIN")
+        + "/v2/logout?"
+        + urlencode(
+            {
+                "returnTo": url_for("home", _external=True),
+                "client_id": os.getenv("AUTH0_CLIENT_ID"),
+            },
+            quote_via=quote_plus,
+        )
+    )
 
 
 @app.route('/')
-async def index():
-    new_thing = await random_thing()
+async def home():
+    user_id = pydash.get(session, "user.userinfo.sub")
+    new_thing = await random_thing(user_id)
     return redirect(f"/{new_thing}")
-
-
-async def random_thing():
-    results = await g.connection.fetch_all("SELECT thing_id FROM votes WHERE user_id = '1'")
-    seen_things = set(row["thing_id"] for row in results)
-    new_thing = random.choice(list(ALL_THE_THINGS - seen_things))
-    return new_thing
 
 
 class Thing(TypedDict):
     thing_id: str
     label: str
     description: str
+    significance: int
     image_url: str | None
+
+
+async def random_thing(user_id: str | None) -> str | None:
+    if user_id:
+        result = await g.connection.fetch_one("""
+        SELECT t.thing_id 
+        FROM things t
+        LEFT JOIN votes v
+        ON t.thing_id = v.thing_id AND v.user_id = :user_id
+        WHERE v.thing_id IS NULL
+        ORDER BY RANDOM() * t.significance DESC
+        LIMIT 1;
+        """, {"user_id": user_id})
+    else:
+        result = await g.connection.fetch_one("""
+        SELECT t.thing_id 
+        FROM things t
+        ORDER BY RANDOM() * t.significance DESC
+        LIMIT 1;
+        """)
+    if result:
+        return result["thing_id"]
 
 
 async def get_thing(thing_id: EntityId) -> Thing | None:
@@ -84,23 +115,27 @@ async def thing_view(thing_id: EntityId):
     if request.headers.get("HX-Request"):
         return await render_block("thing.html", "content", thing=thing)
 
-    return await render_template("thing.html", thing=thing)
+    return await render_template("thing.html", thing=thing, session=session.get('user'))
 
 
 @app.post('/<string:thing_id>/like')
 async def vote_like(thing_id: EntityId):
+    user_id = pydash.get(session, "user.userinfo.sub")
+    if not user_id:
+        return redirect(f"/{thing_id}")
+
     await g.connection.execute(
         """
         INSERT INTO votes
         (user_id, thing_id, liked)
         VALUES
-        (1, :thing_id, true)
+        (:user_id, :thing_id, true)
         ON CONFLICT (user_id, thing_id) DO UPDATE SET liked = true
         """,
-        {"thing_id": thing_id},
+        {"thing_id": thing_id, "user_id": user_id},
     )
 
-    new_thing = await random_thing()
+    new_thing = await random_thing(user_id)
 
     if request.headers.get("HX-Request"):
         response = await make_response()
@@ -112,18 +147,22 @@ async def vote_like(thing_id: EntityId):
 
 @app.post('/<string:thing_id>/skip')
 async def vote_skip(thing_id: EntityId):
+    user_id = pydash.get(session, "user.userinfo.sub")
+    if not user_id:
+        return redirect(f"/{thing_id}")
+
     await g.connection.execute(
         """
         INSERT INTO votes
         (user_id, thing_id, liked)
         VALUES
-        (1, :thing_id, false)
+        (:user_id, :thing_id, false)
         ON CONFLICT (user_id, thing_id) DO UPDATE SET liked = false
         """,
-        {"thing_id": thing_id},
+        {"thing_id": thing_id, "user_id": user_id},
     )
 
-    new_thing = await random_thing()
+    new_thing = await random_thing(user_id)
 
     if request.headers.get("HX-Request"):
         response = await make_response()
