@@ -10,7 +10,7 @@ import markdown
 from invoke import task, Context
 from langchain_core.language_models import BaseLLM
 from langchain_ollama import OllamaLLM
-from rdflib import Graph, URIRef, Literal
+from rdflib import Graph, URIRef
 from tenacity import retry, wait_exponential, stop_after_attempt
 from testcontainers.compose import DockerCompose
 from wikidata.client import Client
@@ -130,15 +130,14 @@ def seed_abstract(c: Context):
 
         try:
             graph = _get_graph(dbpedia_uri)
-        except Exception:
-            print(f"Error parsing {dbpedia_uri}", file=sys.stderr)
-            raise
+        except Exception as e:
+            print(f"Error parsing {dbpedia_uri} -- {e}", file=sys.stderr)
+            continue
 
         for o in graph.objects(
             subject=URIRef(dbpedia_uri),
             predicate=URIRef("http://dbpedia.org/ontology/abstract"),
         ):
-            o: Literal
             if o.language == "en":
                 entity["description"] = o.value
                 break
@@ -150,7 +149,8 @@ def seed_abstract(c: Context):
 def seed_llm(c: Context):
     llm: BaseLLM = OllamaLLM(model="gemma3:4b")
     for line in sys.stdin:
-        entity = Thing(**json.loads(line))
+        data: Thing = json.loads(line)
+        entity: Thing = Thing(**data)
         entity["description"] = markdown.markdown(
             llm.invoke(
                 dedent(

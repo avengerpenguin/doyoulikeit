@@ -20,7 +20,7 @@ repos:
     rev: v1.11.1
     hooks:
       - id: mypy
-        additional_dependencies: [types-requests, types-python-slugify]
+        additional_dependencies: [types-requests, types-python-slugify, types-Markdown]
   - repo: https://github.com/antonbabenko/pre-commit-terraform
     rev: v1.88.4
     hooks:
