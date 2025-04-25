@@ -1,0 +1,1 @@
+recursive-include doyoulikeit/templates *.html

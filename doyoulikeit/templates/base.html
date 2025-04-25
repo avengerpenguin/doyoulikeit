@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Do you like it?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.jade.min.css"
+    >
+    <script src="https://unpkg.com/htmx.org@2.0.0"
+            integrity="sha384-wS5l5IKJBvK6sPTKa2WZ1js3d947pvWXbPJ1OmWfEuxLgeHcEbjUUA5i9V5ZkpCw"
+            crossorigin="anonymous"></script>
+    <style type="text/css">
+        body {
+            margin: 0 auto;
+            max-width: 40em;
+            text-align: center;
+        }
+
+        article p {
+            text-align: left;
+        }
+
+        article img {
+            display: block;
+            margin: 1em auto 0;
+            max-width: 100%;
+            padding-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><a href="/">Do you like it?</a></h1>
+    {% if session %}
+        <h2>Welcome {{ session.userinfo.name }}!</h2>
+        <p><a href="/logout">Logout</a></p>
+    {% else %}
+        <h2>Welcome Guest</h2>
+        <p><a href="/login">Login</a></p>
+    {% endif %}
+</header>
+<main>{% block content %}{% endblock %}</main>
+</body>
+</html>

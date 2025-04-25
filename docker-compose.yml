@@ -1,0 +1,29 @@
+services:
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_DB=doyoulikeit
+    ports:
+      - "5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+  atlas:
+    build:
+      context: .
+    entrypoint: /atlas
+    command: "migrate apply --url postgres://postgres:1234@db/doyoulikeit?sslmode=disable --dir file:///migrations"
+    volumes:
+      - ./db:/db
+      - ./migrations:/migrations
+    depends_on:
+      db:
+        condition: service_healthy
