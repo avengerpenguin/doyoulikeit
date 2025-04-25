@@ -59,6 +59,7 @@ def create_migrations(c: Context):
 def build(c: Context):
     c.run("docker build -t doyoulikeit .")
 
+
 @task
 def infra(c: Context):
     c.run("tofu -chdir=infra init")
@@ -72,12 +73,13 @@ async def _seed_wikidata():
     await db_connection.execute("""
         SELECT thing_id FROM things
     """)
-    existing_things = set(r["thing_id"] for r in await db_connection.fetch("SELECT thing_id FROM things"))
+    existing_things = set(
+        r["thing_id"] for r in await db_connection.fetch("SELECT thing_id FROM things")
+    )
     await db_connection.close()
 
-
     wikidata: Client = Client()
-    image_prop = wikidata.get(EntityId('P18'))
+    image_prop = wikidata.get(EntityId("P18"))
 
     for line in sys.stdin:
         significance, thing_id = line.split("\t")
@@ -101,7 +103,7 @@ async def _seed_wikidata():
             description=description,
             significance=int(significance),
             image_url=image.image_url if image else None,
-            wikipedia_url = entity.attributes["sitelinks"]["enwiki"]["url"],
+            wikipedia_url=entity.attributes["sitelinks"]["enwiki"]["url"],
         )
         print(json.dumps(thing))
 
@@ -132,7 +134,10 @@ def seed_abstract(c: Context):
             print(f"Error parsing {dbpedia_uri}", file=sys.stderr)
             raise
 
-        for o in graph.objects(subject=URIRef(dbpedia_uri), predicate=URIRef("http://dbpedia.org/ontology/abstract")):
+        for o in graph.objects(
+            subject=URIRef(dbpedia_uri),
+            predicate=URIRef("http://dbpedia.org/ontology/abstract"),
+        ):
             o: Literal
             if o.language == "en":
                 entity["description"] = o.value
@@ -146,21 +151,25 @@ def seed_llm(c: Context):
     llm: BaseLLM = OllamaLLM(model="gemma3:4b")
     for line in sys.stdin:
         entity = Thing(**json.loads(line))
-        entity["description"] = markdown.markdown(llm.invoke(dedent(
-            f"""\
+        entity["description"] = markdown.markdown(
+            llm.invoke(
+                dedent(
+                    f"""\
             You are an editor and copywriter for a website and app that presents users with random things and asks
             them to mark which things they like. It's a random, quirky website for seeing what are the most liked
             things in the world in completely separate categories.
-    
+
             I am going to give you an encyclopaedia-style abstract for {entity["label"]} and I want you to rewrite
             this abstract into a style that retains the informative nature in case someone hasn't heard of
             the thing, but has a tone that is trying to hype up the thing to encourage the user to like it.
-    
+
             Please respond with just the copy to put on the page with nothing additional.
-    
+
             Abstract: {entity["description"]}
             """
-        )).strip("\""))
+                )
+            ).strip('"')
+        )
         print(json.dumps(entity))
 
 
@@ -173,11 +182,18 @@ async def _seed_db():
 
             try:
                 async with pool.acquire() as db_connection:
-                    await db_connection.execute("""
+                    await db_connection.execute(
+                        """
                         INSERT INTO things (thing_id, label, description, significance, image_url)
                         VALUES ($1, $2, $3, $4, $5)
                         ON CONFLICT DO NOTHING
-                    """, thing["thing_id"], thing["label"], thing["description"], thing["significance"], thing["image_url"])
+                    """,
+                        thing["thing_id"],
+                        thing["label"],
+                        thing["description"],
+                        thing["significance"],
+                        thing["image_url"],
+                    )
             except Exception as e:
                 print(f"Error {e} while inserting {thing}", file=sys.stderr)
                 continue
