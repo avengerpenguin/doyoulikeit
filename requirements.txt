@@ -107,8 +107,10 @@ markupsafe==3.0.2
     #   werkzeug
 ollama==0.4.7
     # via langchain-ollama
-orjson==3.10.15
-    # via langsmith
+orjson==3.11.5
+    # via
+    #   -r requirements.in
+    #   langsmith
 packaging==24.2
     # via
     #   langchain-core

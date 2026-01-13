@@ -14,3 +14,4 @@ tqdm
 pydash
 tenacity
 quart-authlib
+orjson>=3.11.0

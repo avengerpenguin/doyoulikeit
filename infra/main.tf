@@ -78,33 +78,57 @@ resource "scaleway_container" "this" {
   }
 }
 
+resource scaleway_container_domain "apex" {
+  container_id = scaleway_container.this.id
+  hostname     = scaleway_domain_record.apex.fqdn
+}
 
+resource scaleway_container_domain "www" {
+  container_id = scaleway_container.this.id
+  hostname     = scaleway_domain_record.www.fqdn
+}
+
+resource scaleway_domain_record "apex" {
+  dns_zone = "thelike.site"
+  name     = ""
+  type     = "ALIAS"
+  data     = "${scaleway_container.this.domain_name}."
+  ttl      = 3600
+}
+
+resource scaleway_domain_record "www" {
+  dns_zone = "thelike.site"
+  name     = "www"
+  type     = "CNAME"
+  data     = "${scaleway_container.this.domain_name}."
+  ttl      = 3600
+}
 
 resource "neon_project" "this" {
   name      = "doyoulikeit"
   region_id = "aws-eu-west-2"
 }
 
-
 output "database_uri" {
   value     = "postgresql://${neon_project.this.database_user}:${neon_project.this.database_password}@${neon_project.this.database_host_pooler}/${neon_project.this.database_name}?sslmode=require"
   sensitive = true
 }
 
-
 resource "auth0_client" "this" {
   name            = "doyoulikeit"
   app_type        = "regular_web"
-  callbacks       = ["http://localhost:8080/callback", "https://${scaleway_container.this.domain_name}/callback"]
+  callbacks       = [
+    "http://localhost:8080/callback",
+    "https://${scaleway_container.this.domain_name}/callback",
+    "https://${scaleway_container_domain.apex.hostname}/callback",
+  ]
   oidc_conformant = true
   depends_on      = [scaleway_container.this]
 }
 
-
 data "auth0_client" "this" {
   client_id = local.auth0_client_id
 }
-
 
 import {
   to = auth0_client.this

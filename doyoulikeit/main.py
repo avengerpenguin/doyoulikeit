@@ -38,6 +38,15 @@ oauth.register(
     server_metadata_url=f'https://{os.getenv("AUTH0_DOMAIN")}/.well-known/openid-configuration',
 )
 
+@app.before_request
+async def redirect_www():
+    host = request.headers.get("Host")
+    if host and host.startswith("www."):
+        new_host = host[4:]
+        url = request.url.replace(host, new_host, 1)
+        return redirect(url, code=301)
+    return None
+
 
 @app.route("/login")
 async def login():
