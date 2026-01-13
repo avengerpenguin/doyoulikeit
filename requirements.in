@@ -1,4 +1,5 @@
 quart
+sentry-sdk[quart]
 quart-db
 uvicorn
 invoke

@@ -37,6 +37,11 @@ locals {
   auth0_client_id = "OyKMhFXN7AScYf1v6yxrFyjbTzoXQihZ"
 }
 
+variable "docker_tag" {
+  type = string
+  default = "latest"
+}
+
 output "registry_endpoint" {
   value = scaleway_container_namespace.this.registry_endpoint
 }
@@ -57,11 +62,21 @@ resource "random_password" "auth0_key" {
   override_special = "!#$%&*()-_=+[]{}<>:?"
 }
 
+data "scaleway_secret" "sentry_dsn" {
+  path = "/doyoulikeit"
+  name = "sentry-dsn"
+}
+
+data "scaleway_secret_version" "sentry_dsn" {
+  secret_id = data.scaleway_secret.sentry_dsn.id
+  revision = "latest"
+}
+
 resource "scaleway_container" "this" {
   name           = "doyoulikeit"
   region         = "nl-ams"
   namespace_id   = scaleway_container_namespace.this.id
-  registry_image = "${scaleway_container_namespace.this.registry_endpoint}/doyoulikeit:latest"
+  registry_image = "${scaleway_container_namespace.this.registry_endpoint}/doyoulikeit:${var.docker_tag}"
   privacy        = "public"
   memory_limit   = 128
   cpu_limit      = 70
@@ -75,6 +90,7 @@ resource "scaleway_container" "this" {
     "AUTH0_CLIENT_SECRET" = data.auth0_client.this.client_secret
     "AUTH0_DOMAIN"        = "dev-zy4wj5zc3ka4savt.uk.auth0.com"
     "SECRET_KEY"          = random_password.auth0_key.result
+    "SENTRY_DSN" = data.scaleway_secret_version.sentry_dsn.data
   }
 }
 
@@ -114,8 +130,13 @@ output "database_uri" {
   sensitive = true
 }
 
+output "container_id" {
+  value = scaleway_container.this.id
+}
+
 resource "auth0_client" "this" {
   name            = "doyoulikeit"
+  description = "Login for thelike.site"
   app_type        = "regular_web"
   callbacks       = [
     "http://localhost:8080/callback",

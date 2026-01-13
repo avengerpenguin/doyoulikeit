@@ -20,12 +20,19 @@ from quart_db import QuartDB
 from typing_extensions import TypedDict
 from wikidata.client import Client
 from wikidata.entity import EntityId
+import sentry_sdk
+from sentry_sdk.integrations.quart import QuartIntegration
+
 
 app: Quart = Quart(__name__, template_folder="templates")
 app.config["SECRET_KEY"] = os.environ["SECRET_KEY"]
 db: QuartDB = QuartDB(app, url=os.getenv("DATABASE_URL", "sqlite:memory:"))
 wikidata: Client = Client()
 image_prop = wikidata.get(EntityId("P18"))
+
+sentry_sdk.init(
+    integrations=[QuartIntegration()],
+)
 
 oauth = OAuth(app)
 oauth.register(
@@ -40,10 +47,10 @@ oauth.register(
 
 @app.before_request
 async def redirect_www():
-    host = request.headers.get("Host")
+    host = request.host
     if host and host.startswith("www."):
         new_host = host[4:]
-        url = request.url.replace(host, new_host, 1)
+        url = f"{request.scheme}://{new_host}{request.full_path}"
         return redirect(url, code=301)
     return None
 
