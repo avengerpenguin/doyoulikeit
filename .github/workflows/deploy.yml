@@ -48,6 +48,9 @@ jobs:
           default-organization-id: 64bf8246-2474-4481-ac41-1733af2f1f45
 
       - run: tofu -chdir=infra init
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SCALEWAY_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SCALEWAY_API_KEY }}
 
       - id: plan
         run: tofu -chdir=infra plan -no-color -var "docker_tag=${{ github.run_number }}-${{ github.sha }}"
