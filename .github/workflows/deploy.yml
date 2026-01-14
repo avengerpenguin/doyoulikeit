@@ -33,7 +33,10 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
-      - name: Use CLI
+      - uses: actions/checkout@v4
+      - uses: opentofu/setup-opentofu@v1
+
+      - name: Install Scaleway CLI
         uses: scaleway/action-scw@v0
         with:
           save-config: true
@@ -43,8 +46,6 @@ jobs:
           secret-key: ${{ secrets.SCALEWAY_API_KEY }}
           default-project-id: 64bf8246-2474-4481-ac41-1733af2f1f45
           default-organization-id: 64bf8246-2474-4481-ac41-1733af2f1f45
-      - uses: actions/checkout@v4
-      - uses: opentofu/setup-opentofu@v1
 
       - run: tofu -chdir=infra init
 
