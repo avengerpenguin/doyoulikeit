@@ -41,8 +41,8 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.SCALEWAY_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SCALEWAY_API_KEY }}
 
-      - id: plan
-        run: tofu -chdir=infra plan -no-color -var "docker_tag=${{ github.run_number }}-${{ github.sha }}"
+      - name: OpenTofu Apply
+        run: tofu -chdir=infra apply -auto-approve -var "docker_tag=${{ github.run_number }}-${{ github.sha }}"
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.SCALEWAY_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SCALEWAY_API_KEY }}
@@ -52,7 +52,3 @@ jobs:
           NEON_API_KEY: ${{ secrets.NEON_API_KEY }}
           SCW_ACCESS_KEY: ${{ secrets.SCALEWAY_ACCESS_KEY }}
           SCW_SECRET_KEY: ${{ secrets.SCALEWAY_API_KEY }}
-
-      - run: echo ${{ steps.plan.outputs.stdout }}
-      - run: echo ${{ steps.plan.outputs.stderr }}
-      - run: echo ${{ steps.plan.outputs.exitcode }}
