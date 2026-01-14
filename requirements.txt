@@ -6,10 +6,6 @@
 #
 aiofiles==24.1.0
     # via quart
-annotated-types==0.7.0
-    # via pydantic
-anyio==4.9.0
-    # via httpx
 asyncpg==0.30.0
     # via quart-db
 authlib==1.5.2
@@ -23,8 +19,6 @@ buildpg==0.4
     # via quart-db
 certifi==2025.1.31
     # via
-    #   httpcore
-    #   httpx
     #   requests
     #   sentry-sdk
 cffi==1.17.1
@@ -38,13 +32,10 @@ click==8.1.8
     #   uvicorn
 cryptography==44.0.2
     # via authlib
-docker==7.1.0
-    # via testcontainers
 flask==3.1.0
     # via quart
 h11==0.14.0
     # via
-    #   httpcore
     #   hypercorn
     #   uvicorn
     #   wsproto
@@ -52,23 +43,12 @@ h2==4.2.0
     # via hypercorn
 hpack==4.1.0
     # via h2
-httpcore==1.0.7
-    # via httpx
-httpx==0.28.1
-    # via
-    #   langsmith
-    #   ollama
 hypercorn==0.17.3
     # via quart
 hyperframe==6.1.0
     # via h2
 idna==3.10
-    # via
-    #   anyio
-    #   httpx
-    #   requests
-invoke==2.2.0
-    # via -r requirements.in
+    # via requests
 itsdangerous==2.2.0
     # via
     #   flask
@@ -81,64 +61,19 @@ jinja2==3.1.6
     #   quart
 jinja2-fragments==1.8.0
     # via -r requirements.in
-jsonpatch==1.33
-    # via langchain-core
-jsonpointer==3.0.0
-    # via jsonpatch
-langchain==0.3.21
-    # via -r requirements.in
-langchain-core==0.3.47
-    # via
-    #   langchain
-    #   langchain-ollama
-    #   langchain-text-splitters
-langchain-ollama==0.3.0
-    # via -r requirements.in
-langchain-text-splitters==0.3.7
-    # via langchain
-langsmith==0.3.18
-    # via
-    #   langchain
-    #   langchain-core
-markdown==3.7
-    # via -r requirements.in
 markupsafe==3.0.2
     # via
     #   jinja2
     #   quart
     #   werkzeug
-ollama==0.4.7
-    # via langchain-ollama
 orjson==3.11.5
-    # via
-    #   -r requirements.in
-    #   langsmith
-packaging==24.2
-    # via
-    #   langchain-core
-    #   langsmith
+    # via -r requirements.in
 priority==2.0.0
     # via hypercorn
 pycparser==2.22
     # via cffi
-pydantic==2.10.6
-    # via
-    #   langchain
-    #   langchain-core
-    #   langsmith
-    #   ollama
-pydantic-core==2.27.2
-    # via pydantic
 pydash==8.0.5
     # via -r requirements.in
-pyparsing==3.2.1
-    # via rdflib
-python-dotenv==1.0.1
-    # via testcontainers
-pyyaml==6.0.2
-    # via
-    #   langchain
-    #   langchain-core
 quart==0.20.0
     # via
     #   -r requirements.in
@@ -149,56 +84,23 @@ quart-authlib==0.0.3
     # via -r requirements.in
 quart-db==0.9.0
     # via -r requirements.in
-rdflib==7.1.3
-    # via -r requirements.in
 requests==2.32.3
-    # via
-    #   docker
-    #   langchain
-    #   langsmith
-    #   quart-authlib
-    #   requests-toolbelt
-requests-toolbelt==1.0.0
-    # via langsmith
+    # via quart-authlib
 sentry-sdk[quart]==2.49.0
-    # via -r requirements.in
-sniffio==1.3.1
-    # via anyio
-sqlalchemy==2.0.39
-    # via langchain
-tenacity==9.0.0
-    # via
-    #   -r requirements.in
-    #   langchain-core
-testcontainers==4.9.2
     # via -r requirements.in
 tqdm==4.67.1
     # via -r requirements.in
 typing-extensions==4.12.2
-    # via
-    #   langchain-core
-    #   pydantic
-    #   pydantic-core
-    #   pydash
-    #   sqlalchemy
-    #   testcontainers
+    # via pydash
 urllib3==2.3.0
     # via
-    #   docker
     #   requests
     #   sentry-sdk
-    #   testcontainers
 uvicorn==0.34.0
     # via -r requirements.in
 werkzeug==3.1.3
     # via
     #   flask
     #   quart
-wikidata==0.8.1
-    # via -r requirements.in
-wrapt==1.17.2
-    # via testcontainers
 wsproto==1.2.0
     # via hypercorn
-zstandard==0.23.0
-    # via langsmith

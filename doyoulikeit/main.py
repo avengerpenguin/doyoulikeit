@@ -18,8 +18,6 @@ from quart import (
 from quart_authlib import OAuth
 from quart_db import QuartDB
 from typing_extensions import TypedDict
-from wikidata.client import Client
-from wikidata.entity import EntityId
 import sentry_sdk
 from sentry_sdk.integrations.quart import QuartIntegration
 
@@ -27,10 +25,8 @@ from sentry_sdk.integrations.quart import QuartIntegration
 app: Quart = Quart(__name__, template_folder="templates")
 app.config["SECRET_KEY"] = os.environ["SECRET_KEY"]
 db: QuartDB = QuartDB(app, url=os.getenv("DATABASE_URL", "sqlite:memory:"))
-wikidata: Client = Client()
-image_prop = wikidata.get(EntityId("P18"))
-
 print(f"Starting version: {os.getenv('VERSION')}")
+
 
 sentry_sdk.init(
     integrations=[QuartIntegration()],
@@ -129,7 +125,7 @@ async def random_thing(user_id: str | None) -> str | None:
     return None
 
 
-async def get_thing(thing_id: EntityId) -> Thing | None:
+async def get_thing(thing_id: str) -> Thing | None:
     result: Thing = await g.connection.fetch_one(
         """
     SELECT thing_id, label, description, image_url FROM things WHERE thing_id = :thing_id
@@ -142,7 +138,7 @@ async def get_thing(thing_id: EntityId) -> Thing | None:
 
 
 @app.get("/<string:thing_id>")
-async def thing_view(thing_id: EntityId):
+async def thing_view(thing_id: str):
     thing = await get_thing(thing_id)
 
     if thing is None:
@@ -155,7 +151,7 @@ async def thing_view(thing_id: EntityId):
 
 
 @app.post("/<string:thing_id>/like")
-async def vote_like(thing_id: EntityId):
+async def vote_like(thing_id: str):
     user_id = pydash.get(session, "user.userinfo.sub")
     if not user_id:
         return redirect(f"/{thing_id}")
@@ -184,7 +180,7 @@ async def vote_like(thing_id: EntityId):
 
 
 @app.post("/<string:thing_id>/skip")
-async def vote_skip(thing_id: EntityId):
+async def vote_skip(thing_id: str):
     user_id = pydash.get(session, "user.userinfo.sub")
     if not user_id:
         return redirect(f"/{thing_id}")

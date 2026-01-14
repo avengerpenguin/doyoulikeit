@@ -2,17 +2,9 @@ quart
 sentry-sdk[quart]
 quart-db
 uvicorn
-invoke
-testcontainers
-Wikidata
 jinja2
 jinja2-fragments
-langchain
-langchain-ollama
-rdflib
-markdown
 tqdm
 pydash
-tenacity
 quart-authlib
 orjson>=3.11.0
