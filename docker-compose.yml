@@ -16,14 +16,12 @@ services:
       options:
         max-size: 10m
         max-file: "3"
-  atlas:
+  app:
     build:
       context: .
-    entrypoint: /atlas
-    command: "migrate apply --url postgres://postgres:1234@db/doyoulikeit?sslmode=disable --dir file:///migrations"
-    volumes:
-      - ./db:/db
-      - ./migrations:/migrations
+    environment:
+      - DATABASE_URL=postgres://postgres:1234@db/doyoulikeit?sslmode=disable
+      - SECRET_KEY=your_secret_key_here
     depends_on:
       db:
         condition: service_healthy

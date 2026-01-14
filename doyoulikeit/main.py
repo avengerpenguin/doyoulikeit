@@ -30,7 +30,8 @@ db: QuartDB = QuartDB(app, url=os.getenv("DATABASE_URL", "sqlite:memory:"))
 wikidata: Client = Client()
 image_prop = wikidata.get(EntityId("P18"))
 
-print(os.getenv("SENTRY_DSN"))
+print(f"Starting version: {os.getenv('VERSION')}")
+
 sentry_sdk.init(
     integrations=[QuartIntegration()],
 )

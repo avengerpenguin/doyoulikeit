@@ -29,7 +29,7 @@ def dev(c: Context):
         ],
         wait=False,
     ) as compose:
-        stdout, stderr = compose.get_logs("atlas")
+        stdout, stderr = compose.get_logs("db")
         print(stdout)
         print(stderr, file=sys.stderr)
 

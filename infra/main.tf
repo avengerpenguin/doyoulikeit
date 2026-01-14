@@ -84,6 +84,10 @@ resource "scaleway_container" "this" {
   min_scale      = 0
   http_option    = "redirected"
 
+  environment_variables = {
+    VERSION = var.docker_tag
+  }
+
   secret_environment_variables = {
     "DATABASE_URL"        = "postgresql://${neon_project.this.database_user}:${neon_project.this.database_password}@${neon_project.this.database_host_pooler}/${neon_project.this.database_name}?sslmode=require"
     "AUTH0_CLIENT_ID"     = local.auth0_client_id
