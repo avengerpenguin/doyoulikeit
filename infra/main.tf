@@ -90,7 +90,7 @@ resource "scaleway_container" "this" {
     "AUTH0_CLIENT_SECRET" = data.auth0_client.this.client_secret
     "AUTH0_DOMAIN"        = "dev-zy4wj5zc3ka4savt.uk.auth0.com"
     "SECRET_KEY"          = random_password.auth0_key.result
-    "SENTRY_DSN" = data.scaleway_secret_version.sentry_dsn.data
+    "SENTRY_DSN" = base64decode(data.scaleway_secret_version.sentry_dsn.data)
   }
 }
 
