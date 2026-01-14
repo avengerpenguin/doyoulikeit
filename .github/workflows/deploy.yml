@@ -53,7 +53,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SCALEWAY_API_KEY }}
 
       - id: plan
-        run: tofu -chdir=infra plan -backend-config="profile=" -no-color -var "docker_tag=${{ github.run_number }}-${{ github.sha }}"
+        run: tofu -chdir=infra plan -no-color -var "docker_tag=${{ github.run_number }}-${{ github.sha }}"
 
       - run: echo ${{ steps.plan.outputs.stdout }}
       - run: echo ${{ steps.plan.outputs.stderr }}
